@@ -5,12 +5,27 @@
 ## Установка
 
 ```sh
-npm install git+https://github.com/nickjavos/nwt-icons.git#v1.1.0
+npm install git+https://github.com/nickjavos/nwt-icons.git#v1.2.0
 ```
 
 Для установки нужен Git с доступом к приватному репозиторию. После входа в GitHub CLI можно настроить Git командой `gh auth setup-git`. Отдельная публикация в npm не требуется.
 
 ## Использование
+
+### React
+
+Для первых девяти значков доступны компоненты: `CalendarIcon`, `BranchIcon`, `BacklogIcon`, `TodoIcon`, `InProgressIcon`, `InReviewIcon`, `DoneIcon`, `CanceledIcon`, `DuplicateIcon`. Требуется React 18 или новее.
+
+```jsx
+import { CalendarIcon, BranchIcon } from '@nwt/icons/react';
+
+<CalendarIcon variant="thin" size={16} color="currentColor" />
+<BranchIcon variant="filled" size={20} title="Ветка" />
+```
+
+`variant` принимает `thin`, `light`, `regular` (по умолчанию) или `filled`. Иконки без `title`, `aria-label` и `aria-labelledby` скрыты от скринридера. Внутренние вырезы залитых значков прозрачны. Остальные значки пакета пока доступны в виде SVG.
+
+### SVG
 
 В Vite и других сборщиках с поддержкой импорта SVG:
 
