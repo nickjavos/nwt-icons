@@ -17,9 +17,12 @@ const shapes = {
     line('M6 7.3v13M18 16.7v-3.2c0-2.5-1.5-4-4-4h-2'),
     line('m13.8 7.3-2.3 2.2 2.3 2.2'),
   ],
-  Backlog: filled => filled
-    ? [circle({ fill: 'currentColor' }), line('M8.5 12h7', { stroke: 'var(--icon-cutout, #fff)' })]
-    : [circle({ strokeDasharray: '1 2.5', strokeLinecap: 'round' })],
+  Backlog: filled => Array.from({ length: 12 }, (_, index) => {
+    const transform = `rotate(${index * 30} 12 12)`;
+    return filled
+      ? h('rect', { x: 10.95, y: 1.5, width: 2.1, height: 3, transform, fill: 'currentColor', stroke: 'none' })
+      : line('M12 1.5v3', { transform, strokeLinecap: 'butt' });
+  }),
   Todo: filled => [circle({ fill: filled ? 'currentColor' : 'none' })],
   InProgress: filled => [circle({ fill: filled ? 'currentColor' : 'none' }), line('M12 7v10a5 5 0 0 0 0-10Z', { fill: filled ? 'var(--icon-cutout, #fff)' : 'currentColor', stroke: 'none' })],
   InReview: filled => [circle({ fill: filled ? 'currentColor' : 'none' }), line('M12 7v5h4.5a4.5 4.5 0 0 1-9 0H12Z', { fill: filled ? 'var(--icon-cutout, #fff)' : 'currentColor', stroke: 'none' })],
