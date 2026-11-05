@@ -1,0 +1,30 @@
+{
+  "greenBase": {
+    "lch": "lch(60% 64.37 141.95)",
+    "hex": "#27a644"
+  },
+  "purpleBase": {
+    "lch": "lch(48% 59.31 288.43)",
+    "hex": "#5e6ad2"
+  },
+  "yellowBase": {
+    "lch": "lch(80% 90 85)",
+    "hex": "#f0bf00"
+  },
+  "redBase": {
+    "lch": "lch(58% 73 29)",
+    "hex": "#f34e52"
+  },
+  "orangeBase": {
+    "lch": "lch(66% 80 48)",
+    "hex": "#ff7235"
+  },
+  "blueBase": {
+    "lch": "lch(80% 70 267)",
+    "hex": "#55cdff"
+  },
+  "labelMuted": {
+    "hex": "#969699",
+    "note": "Neutral preview color; original icon uses currentColor."
+  }
+}

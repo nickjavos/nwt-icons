@@ -1,0 +1,3957 @@
+{
+  "checkedAt": "2026-11-05",
+  "sources": [
+    "https://static.linear.app/client/assets/startup-root.CM6CKvhA.js",
+    "https://static.linear.app/client/assets/startup-entry.BS9zF6nz.js",
+    "https://static.linear.app/client/assets/startup-root.BkecRgyB.js",
+    "https://static.linear.app/client/assets/startup-entry.hKw2OgQ-.js",
+    "https://static.linear.app/client/assets/material-icons-sprite.CLWopcTn.js"
+  ],
+  "counts": {
+    "totalIcons": 2111,
+    "originalIcons": 727,
+    "addedComponentIcons": 228,
+    "addedFileFolderIcons": 1156,
+    "fileFolderSourceSymbols": 1159,
+    "fileFolderAliases": 3,
+    "styles": {
+      "outline": 595,
+      "filled": 1516
+    },
+    "families": 279,
+    "outlineFilledFamilies": 14,
+    "downloadedModules": 1445,
+    "unavailableSyntaxThemeModules": 48,
+    "exportedFiniteStates": 1294,
+    "excludedComponentShapes": 59,
+    "unresolvedContextStates": 280
+  },
+  "families": [
+    {
+      "id": "variant-7bb49d0027a9",
+      "files": [
+        "icons/time/outline/calendar.svg",
+        "icons/time/outline/completed-date.svg",
+        "icons/time/outline/created.svg",
+        "icons/time/outline/crossed-out-calendar.svg",
+        "icons/time/outline/from-date.svg",
+        "icons/time/outline/recurring-issue-calendar.svg",
+        "icons/time/outline/updated.svg",
+        "icons/time/outline/recurring-date.svg",
+        "icons/time/outline/cancel-date.svg",
+        "icons/time/outline/completed-date-interface.svg",
+        "icons/time/outline/created-date.svg",
+        "icons/time/outline/activity-date.svg",
+        "icons/time/outline/calendar-overdue-alternate.svg",
+        "icons/time/outline/calendar-add.svg",
+        "icons/time/outline/calendar-disabled.svg",
+        "icons/time/outline/calendar-edit-alternate.svg",
+        "icons/time/outline/calendar-forward.svg",
+        "icons/time/outline/calendar-completed-alternate.svg",
+        "icons/time/outline/recurring-template-branch.svg",
+        "icons/time/outline/recurring-template-branch-short.svg"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-3b9965460ea3",
+      "files": [
+        "icons/actions/outline/favorite.svg",
+        "icons/actions/filled/starred.svg",
+        "icons/actions/outline/favorite-outline.svg",
+        "icons/actions/filled/favorite-selected.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-308f21cd44c7",
+      "files": [
+        "icons/navigation/filled/home.svg",
+        "icons/navigation/filled/home-decorative.svg",
+        "icons/navigation/outline/home-outline.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-985ee8d88420",
+      "files": [
+        "icons/projects/outline/milestone-none.svg",
+        "icons/projects/filled/milestone-status-done.svg",
+        "icons/projects/outline/milestone-status-planned.svg",
+        "icons/projects/outline/milestone-status-started.svg",
+        "icons/projects/filled/milestone-done-filled.svg",
+        "icons/projects/outline/milestone-planned-outline.svg",
+        "icons/projects/outline/none.svg",
+        "icons/projects/outline/planned.svg",
+        "icons/projects/outline/started.svg",
+        "icons/projects/filled/done.svg",
+        "icons/projects/outline/milestone-none-alternate.svg",
+        "icons/projects/filled/milestone-filled.svg",
+        "icons/projects/outline/timeline-milestone.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-aa7ec5911e7d",
+      "files": [
+        "icons/communication/outline/subscribe.svg",
+        "icons/communication/outline/bell-outline.svg",
+        "icons/communication/filled/bell-filled.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-603584261e95",
+      "files": [
+        "icons/shapes/filled/circle.svg",
+        "icons/shapes/outline/empty-circle.svg",
+        "icons/shapes/outline/empty-circle-interface.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-9bf9f2e864a7",
+      "files": [
+        "icons/time/outline/clock-outline.svg",
+        "icons/time/filled/clock.svg",
+        "icons/time/outline/clock-outline-decorative.svg",
+        "icons/time/outline/clock-alternate.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-1b8208049fcd",
+      "files": [
+        "icons/navigation/filled/pointer.svg",
+        "icons/navigation/outline/pointer-outline.svg",
+        "icons/navigation/filled/pointer-filled.svg",
+        "icons/navigation/outline/pointer-narrow-outline.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-5b8aec71b9e9",
+      "files": [
+        "icons/actions/filled/trash.svg",
+        "icons/actions/outline/trash-outline.svg",
+        "icons/actions/filled/trash-filled.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-ca1c1a8c08a8",
+      "files": [
+        "icons/people/outline/user-outline.svg",
+        "icons/people/outline/current-user-interface.svg",
+        "icons/people/filled/user-filled.svg",
+        "icons/people/filled/user-silhouette-filled.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-585f9062b542",
+      "files": [
+        "icons/navigation/outline/eye.svg",
+        "icons/navigation/outline/eye-hidden.svg",
+        "icons/navigation/outline/eye-hidden-alternate.svg"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-838d25a1eda4",
+      "files": [
+        "icons/files/outline/increase-text-indent.svg",
+        "icons/navigation/outline/sort-ascending-ee2db90e.svg"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-78afbf819e53",
+      "files": [
+        "icons/brands/outline/figma-outline.svg",
+        "icons/brands/filled/figma-color.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-c310824b7f35",
+      "files": [
+        "icons/brands/filled/google-docs.svg",
+        "icons/brands/filled/google-docs-ea03379f.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-ddffcad17af6",
+      "files": [
+        "icons/brands/filled/google-sheets.svg",
+        "icons/brands/filled/google-sheets-942d80da.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-07afaeb9de7e",
+      "files": [
+        "icons/brands/filled/purple-circle-mark.svg",
+        "icons/brands/filled/factory-mark.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-81b834971c6c",
+      "files": [
+        "icons/brands/filled/diamond-mark.svg",
+        "icons/brands/filled/jira-color.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-fc543cacdc54",
+      "files": [
+        "icons/brands/filled/microsoft-teams-interface.svg",
+        "icons/brands/filled/microsoft-teams-alternate.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-cc996098eeab",
+      "files": [
+        "icons/navigation/filled/information-filled.svg",
+        "icons/navigation/outline/information-circle-outline.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-0b0db833c969",
+      "files": [
+        "icons/communication/outline/unsubscribe-outline.svg",
+        "icons/communication/filled/mute-bell-filled.svg",
+        "icons/communication/outline/muted-notification-outline.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-cd303991161a",
+      "files": [
+        "icons/actions/filled/check-circle-filled.svg",
+        "icons/actions/outline/check-circle-outline-alternate.svg",
+        "icons/actions/outline/check-circle-guide.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-f421d6e0e07c",
+      "files": [
+        "icons/navigation/outline/expand-chevron-small.svg",
+        "icons/navigation/outline/expand-chevron-large.svg",
+        "icons/navigation/outline/collapse-chevron-small.svg",
+        "icons/navigation/outline/collapse-chevron-large-source.svg"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-3db9a873c0b8",
+      "files": [
+        "icons/brands/filled/datadog-monochrome.svg",
+        "icons/brands/filled/datadog-color.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-0a07d8fe5e23",
+      "files": [
+        "icons/brands/outline/notion-cube-monochrome.svg",
+        "icons/brands/outline/notion-cube-color.svg"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-53b5ed0f0029",
+      "files": [
+        "icons/brands/filled/slanted-panel-mark.svg",
+        "icons/brands/filled/slanted-panel-mark-color.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-5602707b3879",
+      "files": [
+        "icons/brands/filled/vertical-panel-mark.svg",
+        "icons/brands/filled/vertical-panel-mark-color.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-90c23aacaff9",
+      "files": [
+        "icons/brands/filled/burst-circle-mark.svg",
+        "icons/brands/outline/burst-mark.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-2ca06d8c4d41",
+      "files": [
+        "icons/navigation/outline/sidebar-closed.svg",
+        "icons/navigation/outline/sidebar-with-chevron.svg",
+        "icons/navigation/outline/sidebar-opened.svg",
+        "icons/navigation/outline/sidebar-opened-with-chevron.svg"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-66b7ea52cde3",
+      "files": [
+        "icons/brands/filled/youtube-monochrome.svg",
+        "icons/brands/filled/youtube-color.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-7a6098c1cb2c",
+      "files": [
+        "icons/navigation/outline/arrow-down-alternate.svg",
+        "icons/navigation/outline/arrow-up-alternate.svg"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-32ed09dc2c9b",
+      "files": [
+        "icons/sports/filled/arcade-team-text.svg",
+        "icons/sports/filled/arcade-cards-text.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-c27ad891ed59",
+      "files": [
+        "icons/technology/filled/code-intelligence.svg",
+        "icons/technology/filled/code-intelligence-asterisk.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-80ed58eb0196",
+      "files": [
+        "icons/time/outline/timeline-connector.svg",
+        "icons/time/outline/timeline-connector-source.svg",
+        "icons/time/outline/timeline-connector-first-source.svg",
+        "icons/time/outline/timeline-connector-last-source.svg"
+      ],
+      "styles": [
+        "outline"
+      ],
+      "type": "variants"
+    },
+    {
+      "id": "variant-6bc244ebf5d7",
+      "files": [
+        "icons/file-types/outline/blink.svg",
+        "icons/file-types/filled/blink-light.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "theme"
+    },
+    {
+      "id": "variant-af9a1bda1537",
+      "files": [
+        "icons/file-types/filled/browserlist.svg",
+        "icons/file-types/filled/browserlist-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "theme"
+    },
+    {
+      "id": "variant-4d4729e54c3e",
+      "files": [
+        "icons/file-types/filled/bun.svg",
+        "icons/file-types/filled/bun-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "theme"
+    },
+    {
+      "id": "variant-f9ea4cc37158",
+      "files": [
+        "icons/file-types/filled/deno.svg",
+        "icons/file-types/filled/deno-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "theme"
+    },
+    {
+      "id": "variant-7f5de9685704",
+      "files": [
+        "icons/file-types/filled/drone.svg",
+        "icons/file-types/filled/drone-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "theme"
+    },
+    {
+      "id": "variant-d4959887d345",
+      "files": [
+        "icons/folders/filled/folder-admin.svg",
+        "icons/folders/filled/folder-admin-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-9ae000944eaf",
+      "files": [
+        "icons/folders/filled/folder-android.svg",
+        "icons/folders/filled/folder-android-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-e02afaf1b89a",
+      "files": [
+        "icons/folders/filled/folder-angular.svg",
+        "icons/folders/filled/folder-angular-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-df40a5f7e35e",
+      "files": [
+        "icons/folders/filled/folder-animation.svg",
+        "icons/folders/filled/folder-animation-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-e6bea25c8aa5",
+      "files": [
+        "icons/folders/filled/folder-ansible.svg",
+        "icons/folders/filled/folder-ansible-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-5b75e16d3772",
+      "files": [
+        "icons/folders/filled/folder-api.svg",
+        "icons/folders/filled/folder-api-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-d5aee4d94ec6",
+      "files": [
+        "icons/folders/filled/folder-apollo.svg",
+        "icons/folders/filled/folder-apollo-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-493c8328380d",
+      "files": [
+        "icons/folders/filled/folder-app.svg",
+        "icons/folders/filled/folder-app-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3355c9e9c14f",
+      "files": [
+        "icons/folders/filled/folder-archive.svg",
+        "icons/folders/filled/folder-archive-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-233d433e45d4",
+      "files": [
+        "icons/folders/filled/folder-astro.svg",
+        "icons/folders/filled/folder-astro-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3e0c2230d064",
+      "files": [
+        "icons/folders/filled/folder-atom.svg",
+        "icons/folders/filled/folder-atom-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-9c923e8951a9",
+      "files": [
+        "icons/folders/filled/folder-attachment.svg",
+        "icons/folders/filled/folder-attachment-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0a0859318100",
+      "files": [
+        "icons/folders/filled/folder-audio.svg",
+        "icons/folders/filled/folder-audio-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-1e98071a9bd5",
+      "files": [
+        "icons/folders/filled/folder-aurelia.svg",
+        "icons/folders/filled/folder-aurelia-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-335f188b1565",
+      "files": [
+        "icons/folders/filled/folder-aws.svg",
+        "icons/folders/filled/folder-aws-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ef45b206470b",
+      "files": [
+        "icons/folders/filled/folder-azure-pipelines.svg",
+        "icons/folders/filled/folder-azure-pipelines-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7c7c6901f1e0",
+      "files": [
+        "icons/folders/filled/folder-backup.svg",
+        "icons/folders/filled/folder-backup-open.svg",
+        "icons/folders/filled/folder-temp.svg",
+        "icons/folders/filled/folder-temp-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-c394c40782b3",
+      "files": [
+        "icons/folders/filled/folder-base.svg",
+        "icons/folders/filled/folder-base-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-26666675bb10",
+      "files": [
+        "icons/folders/filled/folder-batch.svg",
+        "icons/folders/filled/folder-batch-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ca17a94c83c7",
+      "files": [
+        "icons/folders/filled/folder-benchmark.svg",
+        "icons/folders/filled/folder-benchmark-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3e5f6b191abd",
+      "files": [
+        "icons/folders/filled/folder-bibliography.svg",
+        "icons/folders/filled/folder-bibliography-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-a0594926bead",
+      "files": [
+        "icons/folders/filled/folder-bicep.svg",
+        "icons/folders/filled/folder-bicep-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-2e18d8a5c409",
+      "files": [
+        "icons/folders/filled/folder-blender.svg",
+        "icons/folders/filled/folder-blender-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7b0f18b2e23f",
+      "files": [
+        "icons/folders/filled/folder-bloc.svg",
+        "icons/folders/filled/folder-bloc-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-056e3ab9d016",
+      "files": [
+        "icons/folders/filled/folder-bower.svg",
+        "icons/folders/filled/folder-bower-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0b4d3f627d4f",
+      "files": [
+        "icons/folders/filled/folder-buildkite.svg",
+        "icons/folders/filled/folder-buildkite-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-88239b813aff",
+      "files": [
+        "icons/folders/filled/folder-cart.svg",
+        "icons/folders/filled/folder-cart-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-1aa95b8f182c",
+      "files": [
+        "icons/folders/filled/folder-changesets.svg",
+        "icons/folders/filled/folder-changesets-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ab631ebede2e",
+      "files": [
+        "icons/folders/filled/folder-ci.svg",
+        "icons/folders/filled/folder-ci-open.svg",
+        "icons/folders/filled/folder-generator.svg",
+        "icons/folders/filled/folder-generator-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-4114f8e2e2f2",
+      "files": [
+        "icons/folders/filled/folder-circleci.svg",
+        "icons/folders/filled/folder-circleci-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ef6569c7cf4f",
+      "files": [
+        "icons/folders/filled/folder-class.svg",
+        "icons/folders/filled/folder-class-open.svg",
+        "icons/folders/filled/folder-enum.svg",
+        "icons/folders/filled/folder-enum-open.svg",
+        "icons/folders/filled/folder-interface.svg",
+        "icons/folders/filled/folder-interface-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f490b535dc8a",
+      "files": [
+        "icons/folders/filled/folder-claude.svg",
+        "icons/folders/filled/folder-claude-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-21e3043f0fa8",
+      "files": [
+        "icons/folders/filled/folder-client.svg",
+        "icons/folders/filled/folder-client-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-5377b4803ced",
+      "files": [
+        "icons/folders/filled/folder-cline.svg",
+        "icons/folders/filled/folder-cline-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-8733ca9c8159",
+      "files": [
+        "icons/folders/filled/folder-cloud-functions.svg",
+        "icons/folders/filled/folder-cloud-functions-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-6fd72e650f28",
+      "files": [
+        "icons/folders/filled/folder-cloudflare.svg",
+        "icons/folders/filled/folder-cloudflare-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-2b3647dd5190",
+      "files": [
+        "icons/folders/filled/folder-cluster.svg",
+        "icons/folders/filled/folder-cluster-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-398142051e70",
+      "files": [
+        "icons/folders/filled/folder-cobol.svg",
+        "icons/folders/filled/folder-cobol-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f9e6e341e089",
+      "files": [
+        "icons/folders/filled/folder-command.svg",
+        "icons/folders/filled/folder-command-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-547c91bcacff",
+      "files": [
+        "icons/folders/filled/folder-components.svg",
+        "icons/folders/filled/folder-components-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-025d1c79ea1d",
+      "files": [
+        "icons/folders/filled/folder-config.svg",
+        "icons/folders/filled/folder-config-open.svg",
+        "icons/folders/filled/folder-controller.svg",
+        "icons/folders/filled/folder-controller-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0d4f8fca6894",
+      "files": [
+        "icons/folders/filled/folder-connection.svg",
+        "icons/folders/filled/folder-connection-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-54d7caa9dcb4",
+      "files": [
+        "icons/folders/filled/folder-console.svg",
+        "icons/folders/filled/folder-console-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-09e62b8f92e3",
+      "files": [
+        "icons/folders/filled/folder-constant.svg",
+        "icons/folders/filled/folder-constant-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-927320dd97ed",
+      "files": [
+        "icons/folders/filled/folder-container.svg",
+        "icons/folders/filled/folder-container-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7e19cc3856eb",
+      "files": [
+        "icons/folders/filled/folder-content.svg",
+        "icons/folders/filled/folder-content-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-4c1b6248318d",
+      "files": [
+        "icons/folders/filled/folder-context.svg",
+        "icons/folders/filled/folder-context-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-53e29bfe9db0",
+      "files": [
+        "icons/folders/filled/folder-contract.svg",
+        "icons/folders/filled/folder-contract-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3d881f7ee05a",
+      "files": [
+        "icons/folders/filled/folder-core.svg",
+        "icons/folders/filled/folder-core-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-4183860af5d0",
+      "files": [
+        "icons/folders/filled/folder-coverage.svg",
+        "icons/folders/filled/folder-coverage-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-edabdbe0de39",
+      "files": [
+        "icons/folders/filled/folder-css.svg",
+        "icons/folders/filled/folder-css-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-5e32ea64815c",
+      "files": [
+        "icons/folders/filled/folder-cursor.svg",
+        "icons/folders/filled/folder-cursor-light.svg",
+        "icons/folders/filled/folder-cursor-open.svg",
+        "icons/folders/filled/folder-cursor-open-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-d250ecc2c155",
+      "files": [
+        "icons/folders/filled/folder-custom.svg",
+        "icons/folders/filled/folder-custom-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-08f3b1c59842",
+      "files": [
+        "icons/folders/filled/folder-cypress.svg",
+        "icons/folders/filled/folder-cypress-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-37c6fe20f5c9",
+      "files": [
+        "icons/folders/filled/folder-dart.svg",
+        "icons/folders/filled/folder-dart-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0b08300536f7",
+      "files": [
+        "icons/folders/filled/folder-database.svg",
+        "icons/folders/filled/folder-database-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-49a8904ce370",
+      "files": [
+        "icons/folders/filled/folder-debug.svg",
+        "icons/folders/filled/folder-debug-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ebec55f9d66b",
+      "files": [
+        "icons/folders/filled/folder-decorators.svg",
+        "icons/folders/filled/folder-decorators-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-9cc7697c71fc",
+      "files": [
+        "icons/folders/filled/folder-delta.svg",
+        "icons/folders/filled/folder-delta-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-8b73728bcef0",
+      "files": [
+        "icons/folders/filled/folder-desktop.svg",
+        "icons/folders/filled/folder-desktop-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3faf5fc73d13",
+      "files": [
+        "icons/folders/filled/folder-development.svg",
+        "icons/folders/filled/folder-development-open.svg",
+        "icons/folders/filled/folder-src.svg",
+        "icons/folders/filled/folder-src-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-57be307ac52d",
+      "files": [
+        "icons/folders/filled/folder-directive.svg",
+        "icons/folders/filled/folder-directive-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7812ccb18cf7",
+      "files": [
+        "icons/folders/filled/folder-dist.svg",
+        "icons/folders/filled/folder-dist-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f0aff8590620",
+      "files": [
+        "icons/folders/filled/folder-docker.svg",
+        "icons/folders/filled/folder-docker-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-8f833ec3a153",
+      "files": [
+        "icons/folders/filled/folder-docs.svg",
+        "icons/folders/filled/folder-docs-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-230d30b3ed18",
+      "files": [
+        "icons/folders/filled/folder-download.svg",
+        "icons/folders/filled/folder-download-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-6320fd7c7336",
+      "files": [
+        "icons/folders/filled/folder-drizzle.svg",
+        "icons/folders/filled/folder-drizzle-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-9d56153d8e3a",
+      "files": [
+        "icons/folders/filled/folder-dump.svg",
+        "icons/folders/filled/folder-dump-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-987e21e96851",
+      "files": [
+        "icons/folders/filled/folder-element.svg",
+        "icons/folders/filled/folder-element-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-b24dbe92748f",
+      "files": [
+        "icons/folders/filled/folder-environment.svg",
+        "icons/folders/filled/folder-environment-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-31aaa1c02cc3",
+      "files": [
+        "icons/folders/filled/folder-error.svg",
+        "icons/folders/filled/folder-error-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-17b02317d638",
+      "files": [
+        "icons/folders/filled/folder-event.svg",
+        "icons/folders/filled/folder-event-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-a78d21a321ac",
+      "files": [
+        "icons/folders/filled/folder-examples.svg",
+        "icons/folders/filled/folder-examples-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-e581ec828a1c",
+      "files": [
+        "icons/folders/filled/folder-expo.svg",
+        "icons/folders/filled/folder-expo-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-afd71318b1c1",
+      "files": [
+        "icons/folders/filled/folder-export.svg",
+        "icons/folders/filled/folder-export-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3536d1a1c8a3",
+      "files": [
+        "icons/folders/filled/folder-fastlane.svg",
+        "icons/folders/filled/folder-fastlane-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-dfd4ec84f887",
+      "files": [
+        "icons/folders/filled/folder-favicon.svg",
+        "icons/folders/filled/folder-favicon-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-74c77952c078",
+      "files": [
+        "icons/folders/filled/folder-filter.svg",
+        "icons/folders/filled/folder-filter-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-8f0f4bfcdc8d",
+      "files": [
+        "icons/folders/filled/folder-firebase.svg",
+        "icons/folders/filled/folder-firebase-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-af3949b71182",
+      "files": [
+        "icons/folders/filled/folder-firestore.svg",
+        "icons/folders/filled/folder-firestore-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-88de4814ef5f",
+      "files": [
+        "icons/folders/filled/folder-flow.svg",
+        "icons/folders/filled/folder-flow-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-9cd1b83c3b0a",
+      "files": [
+        "icons/folders/filled/folder-flutter.svg",
+        "icons/folders/filled/folder-flutter-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-fedd3b50fe8f",
+      "files": [
+        "icons/folders/filled/folder-font.svg",
+        "icons/folders/filled/folder-font-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-034be84f0b77",
+      "files": [
+        "icons/folders/filled/folder-forgejo.svg",
+        "icons/folders/filled/folder-forgejo-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-89e5f1ef064e",
+      "files": [
+        "icons/folders/filled/folder-functions.svg",
+        "icons/folders/filled/folder-functions-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0db2bf34fb8b",
+      "files": [
+        "icons/folders/filled/folder-gamemaker.svg",
+        "icons/folders/filled/folder-gamemaker-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-e1b2b4b96466",
+      "files": [
+        "icons/folders/filled/folder-gh-workflows.svg",
+        "icons/folders/filled/folder-gh-workflows-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ebfde84c2ef5",
+      "files": [
+        "icons/folders/filled/folder-git.svg",
+        "icons/folders/filled/folder-git-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7f5e7e4da502",
+      "files": [
+        "icons/folders/filled/folder-gitea.svg",
+        "icons/folders/filled/folder-gitea-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-2cfdddf90bfb",
+      "files": [
+        "icons/folders/filled/folder-github.svg",
+        "icons/folders/filled/folder-github-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-64551e1a54a7",
+      "files": [
+        "icons/folders/filled/folder-gitlab.svg",
+        "icons/folders/filled/folder-gitlab-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7383e362940b",
+      "files": [
+        "icons/folders/filled/folder-global.svg",
+        "icons/folders/filled/folder-global-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-b6ef945ac82c",
+      "files": [
+        "icons/folders/filled/folder-godot.svg",
+        "icons/folders/filled/folder-godot-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ecb836537269",
+      "files": [
+        "icons/folders/filled/folder-gradle.svg",
+        "icons/folders/filled/folder-gradle-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-e07d833b213a",
+      "files": [
+        "icons/folders/filled/folder-graphql.svg",
+        "icons/folders/filled/folder-graphql-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-6896263cafce",
+      "files": [
+        "icons/folders/filled/folder-guard.svg",
+        "icons/folders/filled/folder-guard-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-bc892f33d488",
+      "files": [
+        "icons/folders/filled/folder-gulp.svg",
+        "icons/folders/filled/folder-gulp-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-06761f211f1f",
+      "files": [
+        "icons/folders/filled/folder-helm.svg",
+        "icons/folders/filled/folder-helm-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-e4bd9858e93a",
+      "files": [
+        "icons/folders/filled/folder-helper.svg",
+        "icons/folders/filled/folder-helper-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-41decf236fb1",
+      "files": [
+        "icons/folders/filled/folder-home.svg",
+        "icons/folders/filled/folder-home-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3d230c2f9968",
+      "files": [
+        "icons/folders/filled/folder-hook.svg",
+        "icons/folders/filled/folder-hook-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-fcc38ce21440",
+      "files": [
+        "icons/folders/filled/folder-husky.svg",
+        "icons/folders/filled/folder-husky-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-2294a0eb7cc0",
+      "files": [
+        "icons/folders/filled/folder-i18n.svg",
+        "icons/folders/filled/folder-i18n-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-4787de85e1b4",
+      "files": [
+        "icons/folders/filled/folder-images.svg",
+        "icons/folders/filled/folder-images-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-d1e08855f291",
+      "files": [
+        "icons/folders/filled/folder-import.svg",
+        "icons/folders/filled/folder-import-open.svg",
+        "icons/folders/filled/folder-include.svg",
+        "icons/folders/filled/folder-include-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3a1f24b2a2ba",
+      "files": [
+        "icons/folders/filled/folder-intellij.svg",
+        "icons/folders/filled/folder-intellij-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-9d3d988f0f96",
+      "files": [
+        "icons/folders/filled/folder-interceptor.svg",
+        "icons/folders/filled/folder-interceptor-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-08f4a9ef60ec",
+      "files": [
+        "icons/folders/filled/folder-ios.svg",
+        "icons/folders/filled/folder-ios-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-4659bd1b3a81",
+      "files": [
+        "icons/folders/filled/folder-java.svg",
+        "icons/folders/filled/folder-java-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-c043026a71eb",
+      "files": [
+        "icons/folders/filled/folder-javascript.svg",
+        "icons/folders/filled/folder-javascript-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-691924fa3fcf",
+      "files": [
+        "icons/folders/filled/folder-jinja.svg",
+        "icons/folders/filled/folder-jinja-light.svg",
+        "icons/folders/filled/folder-jinja-open.svg",
+        "icons/folders/filled/folder-jinja-open-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-daec3ee6a02e",
+      "files": [
+        "icons/folders/filled/folder-job.svg",
+        "icons/folders/filled/folder-job-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-fda28237d69d",
+      "files": [
+        "icons/folders/filled/folder-json.svg",
+        "icons/folders/filled/folder-json-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f59c7b1c8a55",
+      "files": [
+        "icons/folders/filled/folder-jupyter.svg",
+        "icons/folders/filled/folder-jupyter-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-5649184f26a0",
+      "files": [
+        "icons/folders/filled/folder-keys.svg",
+        "icons/folders/filled/folder-keys-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-e2202715df27",
+      "files": [
+        "icons/folders/filled/folder-kubernetes.svg",
+        "icons/folders/filled/folder-kubernetes-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-29e31aee98d8",
+      "files": [
+        "icons/folders/filled/folder-kusto.svg",
+        "icons/folders/filled/folder-kusto-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3e93ca489d5b",
+      "files": [
+        "icons/folders/filled/folder-layout.svg",
+        "icons/folders/filled/folder-layout-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0c02413854c0",
+      "files": [
+        "icons/folders/filled/folder-lefthook.svg",
+        "icons/folders/filled/folder-lefthook-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-60fc21e4dc18",
+      "files": [
+        "icons/folders/filled/folder-less.svg",
+        "icons/folders/filled/folder-less-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-d426e120d9ae",
+      "files": [
+        "icons/folders/filled/folder-lib.svg",
+        "icons/folders/filled/folder-lib-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-42dc5bffb4e5",
+      "files": [
+        "icons/folders/filled/folder-link.svg",
+        "icons/folders/filled/folder-link-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-291f3f42e093",
+      "files": [
+        "icons/folders/filled/folder-linux.svg",
+        "icons/folders/filled/folder-linux-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-a2372c2cfe5c",
+      "files": [
+        "icons/folders/filled/folder-liquibase.svg",
+        "icons/folders/filled/folder-liquibase-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-06d74ea7a926",
+      "files": [
+        "icons/folders/filled/folder-log.svg",
+        "icons/folders/filled/folder-log-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-239da577d836",
+      "files": [
+        "icons/folders/filled/folder-lottie.svg",
+        "icons/folders/filled/folder-lottie-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-c504645255dd",
+      "files": [
+        "icons/folders/filled/folder-lua.svg",
+        "icons/folders/filled/folder-lua-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-749c707b34c6",
+      "files": [
+        "icons/folders/filled/folder-luau.svg",
+        "icons/folders/filled/folder-luau-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-992c946a92cf",
+      "files": [
+        "icons/folders/filled/folder-macos.svg",
+        "icons/folders/filled/folder-macos-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-2ec238c3eed7",
+      "files": [
+        "icons/folders/filled/folder-mail.svg",
+        "icons/folders/filled/folder-mail-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f687465f6173",
+      "files": [
+        "icons/folders/filled/folder-mappings.svg",
+        "icons/folders/filled/folder-mappings-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-46ea4a5a47dd",
+      "files": [
+        "icons/folders/filled/folder-markdown.svg",
+        "icons/folders/filled/folder-markdown-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-e90593cae11c",
+      "files": [
+        "icons/folders/filled/folder-mercurial.svg",
+        "icons/folders/filled/folder-mercurial-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-73510010ce01",
+      "files": [
+        "icons/folders/filled/folder-messages.svg",
+        "icons/folders/filled/folder-messages-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-b78bd82bd843",
+      "files": [
+        "icons/folders/filled/folder-meta.svg",
+        "icons/folders/filled/folder-meta-open.svg",
+        "icons/folders/filled/folder-resource.svg",
+        "icons/folders/filled/folder-resource-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-12262ec80a36",
+      "files": [
+        "icons/folders/filled/folder-metro.svg",
+        "icons/folders/filled/folder-metro-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f7f5ddbe20ea",
+      "files": [
+        "icons/folders/filled/folder-middleware.svg",
+        "icons/folders/filled/folder-middleware-open.svg",
+        "icons/folders/filled/folder-plugin.svg",
+        "icons/folders/filled/folder-plugin-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-66b4ad6467a2",
+      "files": [
+        "icons/folders/filled/folder-mjml.svg",
+        "icons/folders/filled/folder-mjml-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-279cac1b72c2",
+      "files": [
+        "icons/folders/filled/folder-mobile.svg",
+        "icons/folders/filled/folder-mobile-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-35ba9b62709b",
+      "files": [
+        "icons/folders/filled/folder-mock.svg",
+        "icons/folders/filled/folder-mock-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-010296dfac3b",
+      "files": [
+        "icons/folders/filled/folder-mojo.svg",
+        "icons/folders/filled/folder-mojo-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-68183e98b6ac",
+      "files": [
+        "icons/folders/filled/folder-molecule.svg",
+        "icons/folders/filled/folder-molecule-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-a15bfa763143",
+      "files": [
+        "icons/folders/filled/folder-moon.svg",
+        "icons/folders/filled/folder-moon-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-8da8e47a43b8",
+      "files": [
+        "icons/folders/filled/folder-netlify.svg",
+        "icons/folders/filled/folder-netlify-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-cf5bfae66e64",
+      "files": [
+        "icons/folders/filled/folder-next.svg",
+        "icons/folders/filled/folder-next-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ae24d4256ece",
+      "files": [
+        "icons/folders/filled/folder-ngrx-actions.svg",
+        "icons/folders/filled/folder-ngrx-actions-open.svg",
+        "icons/folders/filled/folder-ngrx-effects.svg",
+        "icons/folders/filled/folder-ngrx-effects-open.svg",
+        "icons/folders/filled/folder-ngrx-entities.svg",
+        "icons/folders/filled/folder-ngrx-entities-open.svg",
+        "icons/folders/filled/folder-ngrx-reducer.svg",
+        "icons/folders/filled/folder-ngrx-reducer-open.svg",
+        "icons/folders/filled/folder-ngrx-selectors.svg",
+        "icons/folders/filled/folder-ngrx-selectors-open.svg",
+        "icons/folders/filled/folder-ngrx-state.svg",
+        "icons/folders/filled/folder-ngrx-state-open.svg",
+        "icons/folders/filled/folder-ngrx-store.svg",
+        "icons/folders/filled/folder-ngrx-store-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7b175883fe2f",
+      "files": [
+        "icons/folders/filled/folder-node.svg",
+        "icons/folders/filled/folder-node-open.svg",
+        "icons/folders/filled/folder-taskfile.svg",
+        "icons/folders/filled/folder-taskfile-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-edc32959609d",
+      "files": [
+        "icons/folders/filled/folder-nuxt.svg",
+        "icons/folders/filled/folder-nuxt-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-9a803965a244",
+      "files": [
+        "icons/folders/filled/folder-obsidian.svg",
+        "icons/folders/filled/folder-obsidian-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-538e9b12df48",
+      "files": [
+        "icons/folders/filled/folder-organism.svg",
+        "icons/folders/filled/folder-organism-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0ffa0fff4cd9",
+      "files": [
+        "icons/folders/filled/folder-other.svg",
+        "icons/folders/filled/folder-other-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ba23123d2d91",
+      "files": [
+        "icons/folders/filled/folder-packages.svg",
+        "icons/folders/filled/folder-packages-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-b40062494759",
+      "files": [
+        "icons/folders/filled/folder-pdf.svg",
+        "icons/folders/filled/folder-pdf-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0ec61b87d654",
+      "files": [
+        "icons/folders/filled/folder-pdm.svg",
+        "icons/folders/filled/folder-pdm-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-6bdf21ed9691",
+      "files": [
+        "icons/folders/filled/folder-php.svg",
+        "icons/folders/filled/folder-php-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7c1bd29a9e40",
+      "files": [
+        "icons/folders/filled/folder-phpmailer.svg",
+        "icons/folders/filled/folder-phpmailer-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-a99f27a96068",
+      "files": [
+        "icons/folders/filled/folder-pipe.svg",
+        "icons/folders/filled/folder-pipe-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-650655c84ee9",
+      "files": [
+        "icons/folders/filled/folder-plastic.svg",
+        "icons/folders/filled/folder-plastic-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-061a0e1b8a7f",
+      "files": [
+        "icons/folders/filled/folder-policy.svg",
+        "icons/folders/filled/folder-policy-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-b6dd5cdea0be",
+      "files": [
+        "icons/folders/filled/folder-powershell.svg",
+        "icons/folders/filled/folder-powershell-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-2fefa3141f43",
+      "files": [
+        "icons/folders/filled/folder-prisma.svg",
+        "icons/folders/filled/folder-prisma-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-c33c9eb77c3a",
+      "files": [
+        "icons/folders/filled/folder-private.svg",
+        "icons/folders/filled/folder-private-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-73663559caa7",
+      "files": [
+        "icons/folders/filled/folder-project.svg",
+        "icons/folders/filled/folder-project-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-cc73f158dbb4",
+      "files": [
+        "icons/folders/filled/folder-prompts.svg",
+        "icons/folders/filled/folder-prompts-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-64d49d905aa8",
+      "files": [
+        "icons/folders/filled/folder-proto.svg",
+        "icons/folders/filled/folder-proto-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-d7e4a82034f7",
+      "files": [
+        "icons/folders/filled/folder-public.svg",
+        "icons/folders/filled/folder-public-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3f159b8d1490",
+      "files": [
+        "icons/folders/filled/folder-python.svg",
+        "icons/folders/filled/folder-python-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3f09a64f7476",
+      "files": [
+        "icons/folders/filled/folder-pytorch.svg",
+        "icons/folders/filled/folder-pytorch-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-1fae04b37ffc",
+      "files": [
+        "icons/folders/filled/folder-quasar.svg",
+        "icons/folders/filled/folder-quasar-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-72c8cad4d589",
+      "files": [
+        "icons/folders/filled/folder-queue.svg",
+        "icons/folders/filled/folder-queue-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0a97c89c1961",
+      "files": [
+        "icons/folders/filled/folder-react-components.svg",
+        "icons/folders/filled/folder-react-components-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-71a9e6e6910e",
+      "files": [
+        "icons/folders/filled/folder-redux-actions.svg",
+        "icons/folders/filled/folder-redux-actions-open.svg",
+        "icons/folders/filled/folder-redux-reducer.svg",
+        "icons/folders/filled/folder-redux-reducer-open.svg",
+        "icons/folders/filled/folder-redux-selector.svg",
+        "icons/folders/filled/folder-redux-selector-open.svg",
+        "icons/folders/filled/folder-redux-store.svg",
+        "icons/folders/filled/folder-redux-store-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-62a41b85de22",
+      "files": [
+        "icons/folders/filled/folder-repository.svg",
+        "icons/folders/filled/folder-repository-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-c5c632e12d30",
+      "files": [
+        "icons/folders/filled/folder-resolver.svg",
+        "icons/folders/filled/folder-resolver-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3b915c97eaf5",
+      "files": [
+        "icons/folders/filled/folder-review.svg",
+        "icons/folders/filled/folder-review-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-54e969ed420c",
+      "files": [
+        "icons/folders/filled/folder-robot.svg",
+        "icons/folders/filled/folder-robot-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-1e8343fc72af",
+      "files": [
+        "icons/folders/filled/folder-root.svg",
+        "icons/folders/outline/folder-root-open.svg"
+      ],
+      "styles": [
+        "filled",
+        "outline"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f99f1808a40f",
+      "files": [
+        "icons/folders/filled/folder-routes.svg",
+        "icons/folders/filled/folder-routes-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f726ccacbc98",
+      "files": [
+        "icons/folders/filled/folder-rules.svg",
+        "icons/folders/filled/folder-rules-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-c07266c9bdb5",
+      "files": [
+        "icons/folders/filled/folder-rust.svg",
+        "icons/folders/filled/folder-rust-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-fc14a20894e3",
+      "files": [
+        "icons/folders/filled/folder-sandbox.svg",
+        "icons/folders/filled/folder-sandbox-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-39a12f0dbcb6",
+      "files": [
+        "icons/folders/filled/folder-sass.svg",
+        "icons/folders/filled/folder-sass-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3557e237c2e3",
+      "files": [
+        "icons/folders/filled/folder-scala.svg",
+        "icons/folders/filled/folder-scala-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-1eb391ba971c",
+      "files": [
+        "icons/folders/filled/folder-scons.svg",
+        "icons/folders/filled/folder-scons-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-4bf8117cf6e8",
+      "files": [
+        "icons/folders/filled/folder-scripts.svg",
+        "icons/folders/filled/folder-scripts-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-1842546e5c90",
+      "files": [
+        "icons/folders/filled/folder-secure.svg",
+        "icons/folders/filled/folder-secure-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-eddcbcf326ef",
+      "files": [
+        "icons/folders/filled/folder-seeders.svg",
+        "icons/folders/filled/folder-seeders-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-8d2301997194",
+      "files": [
+        "icons/folders/filled/folder-server.svg",
+        "icons/folders/filled/folder-server-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-461e5f2774a1",
+      "files": [
+        "icons/folders/filled/folder-serverless.svg",
+        "icons/folders/filled/folder-serverless-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-03e1d5c223e0",
+      "files": [
+        "icons/folders/filled/folder-shader.svg",
+        "icons/folders/filled/folder-shader-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7a6faf175db0",
+      "files": [
+        "icons/folders/filled/folder-shared.svg",
+        "icons/folders/filled/folder-shared-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-15507322b86b",
+      "files": [
+        "icons/folders/filled/folder-snapcraft.svg",
+        "icons/folders/filled/folder-snapcraft-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0641b307ce46",
+      "files": [
+        "icons/folders/filled/folder-snippet.svg",
+        "icons/folders/filled/folder-snippet-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-c2b4e5021a8b",
+      "files": [
+        "icons/folders/filled/folder-src-tauri.svg",
+        "icons/folders/filled/folder-src-tauri-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-62f1d4213287",
+      "files": [
+        "icons/folders/filled/folder-stack.svg",
+        "icons/folders/filled/folder-stack-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-c0402c63ddaf",
+      "files": [
+        "icons/folders/filled/folder-stencil.svg",
+        "icons/folders/filled/folder-stencil-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-11d7105702e2",
+      "files": [
+        "icons/folders/filled/folder-store.svg",
+        "icons/folders/filled/folder-store-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-75ebbc7e65cc",
+      "files": [
+        "icons/folders/filled/folder-storybook.svg",
+        "icons/folders/filled/folder-storybook-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-df5bfeda7a60",
+      "files": [
+        "icons/folders/filled/folder-stylus.svg",
+        "icons/folders/filled/folder-stylus-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-95de5bc2fc28",
+      "files": [
+        "icons/folders/filled/folder-sublime.svg",
+        "icons/folders/filled/folder-sublime-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f1f59ddb1c62",
+      "files": [
+        "icons/folders/filled/folder-supabase.svg",
+        "icons/folders/filled/folder-supabase-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-41ba9bebfde6",
+      "files": [
+        "icons/folders/filled/folder-svelte.svg",
+        "icons/folders/filled/folder-svelte-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-0b7dbe78099d",
+      "files": [
+        "icons/folders/filled/folder-svg.svg",
+        "icons/folders/filled/folder-svg-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-b4f7bc516c82",
+      "files": [
+        "icons/folders/filled/folder-syntax.svg",
+        "icons/folders/filled/folder-syntax-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-dab9f19dc6f4",
+      "files": [
+        "icons/folders/filled/folder-target.svg",
+        "icons/folders/filled/folder-target-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-2a2cfc8651e5",
+      "files": [
+        "icons/folders/filled/folder-tasks.svg",
+        "icons/folders/filled/folder-tasks-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-04a9af17ed09",
+      "files": [
+        "icons/folders/filled/folder-television.svg",
+        "icons/folders/filled/folder-television-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-2117fc50d542",
+      "files": [
+        "icons/folders/filled/folder-template.svg",
+        "icons/folders/filled/folder-template-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-019161361f4d",
+      "files": [
+        "icons/folders/filled/folder-terraform.svg",
+        "icons/folders/filled/folder-terraform-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-d9a37a5ba0eb",
+      "files": [
+        "icons/folders/filled/folder-test.svg",
+        "icons/folders/filled/folder-test-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-9b884897f906",
+      "files": [
+        "icons/folders/filled/folder-theme.svg",
+        "icons/folders/filled/folder-theme-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-52bcdf18b361",
+      "files": [
+        "icons/folders/filled/folder-tools.svg",
+        "icons/folders/filled/folder-tools-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-cb97bc10842b",
+      "files": [
+        "icons/folders/filled/folder-trash.svg",
+        "icons/folders/filled/folder-trash-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-b1f5fc714d35",
+      "files": [
+        "icons/folders/filled/folder-trigger.svg",
+        "icons/folders/filled/folder-trigger-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-72545d567dd8",
+      "files": [
+        "icons/folders/filled/folder-turborepo.svg",
+        "icons/folders/filled/folder-turborepo-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-3ba4270dcc07",
+      "files": [
+        "icons/folders/filled/folder-typescript.svg",
+        "icons/folders/filled/folder-typescript-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-5d307c81b9db",
+      "files": [
+        "icons/folders/filled/folder-ui.svg",
+        "icons/folders/filled/folder-ui-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-c23f2e2dadf3",
+      "files": [
+        "icons/folders/filled/folder-unity.svg",
+        "icons/folders/filled/folder-unity-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-a3a0d3d4ec10",
+      "files": [
+        "icons/folders/filled/folder-update.svg",
+        "icons/folders/filled/folder-update-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-f3b06931dce0",
+      "files": [
+        "icons/folders/filled/folder-upload.svg",
+        "icons/folders/filled/folder-upload-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-97b6f03dcff9",
+      "files": [
+        "icons/folders/filled/folder-utils.svg",
+        "icons/folders/filled/folder-utils-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-6998852b543e",
+      "files": [
+        "icons/folders/filled/folder-vercel.svg",
+        "icons/folders/filled/folder-vercel-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-7d9e0ebc7fa8",
+      "files": [
+        "icons/folders/filled/folder-verdaccio.svg",
+        "icons/folders/filled/folder-verdaccio-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-6272800420e8",
+      "files": [
+        "icons/folders/filled/folder-video.svg",
+        "icons/folders/filled/folder-video-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-9f8bd31bd038",
+      "files": [
+        "icons/folders/filled/folder-views.svg",
+        "icons/folders/filled/folder-views-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-d1952296e374",
+      "files": [
+        "icons/folders/filled/folder-vm.svg",
+        "icons/folders/filled/folder-vm-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-229dc29484d9",
+      "files": [
+        "icons/folders/filled/folder-vscode.svg",
+        "icons/folders/filled/folder-vscode-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-53c643093e2b",
+      "files": [
+        "icons/folders/filled/folder-vue.svg",
+        "icons/folders/filled/folder-vue-directives.svg",
+        "icons/folders/filled/folder-vue-directives-open.svg",
+        "icons/folders/filled/folder-vue-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-56b34fa0e757",
+      "files": [
+        "icons/folders/filled/folder-vuepress.svg",
+        "icons/folders/filled/folder-vuepress-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-ceddfada738a",
+      "files": [
+        "icons/folders/filled/folder-vuex-store.svg",
+        "icons/folders/filled/folder-vuex-store-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-4ce732e7b93a",
+      "files": [
+        "icons/folders/filled/folder-wakatime.svg",
+        "icons/folders/filled/folder-wakatime-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-a6113c1554f1",
+      "files": [
+        "icons/folders/filled/folder-webpack.svg",
+        "icons/folders/filled/folder-webpack-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-8210d28ed086",
+      "files": [
+        "icons/folders/filled/folder-windows.svg",
+        "icons/folders/filled/folder-windows-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-d8b54f90295f",
+      "files": [
+        "icons/folders/filled/folder-wordpress.svg",
+        "icons/folders/filled/folder-wordpress-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-35124019417b",
+      "files": [
+        "icons/folders/filled/folder-yarn.svg",
+        "icons/folders/filled/folder-yarn-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-e16c6b6f252c",
+      "files": [
+        "icons/folders/filled/folder-zeabur.svg",
+        "icons/folders/filled/folder-zeabur-open.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "states"
+    },
+    {
+      "id": "variant-fcb0ecdde054",
+      "files": [
+        "icons/file-types/filled/jsr.svg",
+        "icons/file-types/filled/jsr-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "theme"
+    },
+    {
+      "id": "variant-5deea0014ba9",
+      "files": [
+        "icons/file-types/filled/nano-staged.svg",
+        "icons/file-types/filled/nano-staged-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "theme"
+    },
+    {
+      "id": "variant-c2d393973f7b",
+      "files": [
+        "icons/file-types/filled/openapi.svg",
+        "icons/file-types/filled/openapi-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "theme"
+    },
+    {
+      "id": "variant-449eaffad143",
+      "files": [
+        "icons/file-types/filled/opentofu.svg",
+        "icons/file-types/filled/opentofu-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "theme"
+    },
+    {
+      "id": "variant-b9bf483fcc52",
+      "files": [
+        "icons/file-types/filled/uml.svg",
+        "icons/file-types/filled/uml-light.svg"
+      ],
+      "styles": [
+        "filled"
+      ],
+      "type": "theme"
+    }
+  ],
+  "limits": [
+    "No outline or filled counterpart was drawn or synthesized when absent from source.",
+    "Parameterized source paint values are represented by currentColor for reusable monochrome variants.",
+    "Unresolved context states include generic wrappers, animated components, progress widgets and views requiring application records; they are not advertised as standalone icons.",
+    "Large empty-state illustrations and all identified Linear/Linear AI logo forms were excluded.",
+    "Mixed symbols are assigned by predominant visual form."
+  ],
+  "repairs": [
+    {
+      "symbol": "vedic",
+      "change": "Closed the unclosed nested SVG wrapper; original paths and viewBox unchanged."
+    }
+  ],
+  "originalChecksums": {
+    "icons/tasks/filled/add-relation.svg": "28a541276a28a678f9ebf627513d8735ebb679da9b8064641c93efedd151d64a",
+    "icons/technology/outline/agent.svg": "9581f10a79a67f1d6a2a5b6ddd335adeae7cedc6bb3bd5a139a1c5459d4e45dc",
+    "icons/people/outline/app-user.svg": "8e505744ce05999c309c929f9119200c4f658b1528c8883fe3ef6d706fd93448",
+    "icons/people/outline/assign-to.svg": "aa57f8a29ccf1a9df1e4adb01323bc1505fa1e2e5001a3f6d6321b07a53e6ce8",
+    "icons/people/outline/assign-to-me.svg": "f5d47216495f23f4f6a208cbd3e801d02c4e86a2a73774cd57a0b26a797ff592",
+    "icons/files/outline/attachment.svg": "6a1d5154e31ae766e5830892a265eebd86c3f9db9fbbd48032627c5a56c0073d",
+    "icons/people/filled/avatar-empty.svg": "ccaf75b98b2f2432f816121b3264b0d91e51dce9441152448469ff274245c717",
+    "icons/tasks/filled/blocked-by-issue.svg": "88a656b75b65961ec91856b1b98f0f62db3cd6f59d031032f0c26d8dbc748726",
+    "icons/tasks/outline/blocking-issue.svg": "a8f574608e6e221c20ae12d14eeafc805806770e4b43c4f123f352c441bec425",
+    "icons/files/filled/blockquote.svg": "3f8c10a64245f262ef5ef6de1b3ab59410f667a1208213c72280712fc2a3b303",
+    "icons/time/outline/calendar.svg": "758f9133a396c855375a0f0fbdacb3ccabc355ae2be97947ee208a200410b36c",
+    "icons/files/outline/checklist.svg": "ce526dfa23decaf2d9d9e80d44ffd92548969f5b994689f5c142085e034db8bb",
+    "icons/files/outline/code-block.svg": "17afbc01a78765894341bcf46371ddff79f9338458453b21de1c24fe1839ef8b",
+    "icons/communication/outline/comment.svg": "cf466e262b30d74be8be5ae6d34f21b64c64dc7b19d44191f54b522c18f298e3",
+    "icons/time/outline/completed-date.svg": "8eecd05e4b82a1c90a93654ec73b72df24379323cbd862d451bcc530d9bbd217",
+    "icons/time/outline/created.svg": "57ea4cc5477ef186360f7697c8927b0dde45a63d66ea2bb44097831bf4fe3766",
+    "icons/people/outline/creator.svg": "e075b2529359ce04ad3a66184a3067f313871d9a46a62a7a442bfa43dbe4ea89",
+    "icons/finance/filled/credit-card.svg": "19f3bda94af8c831acb859455384397cba82353576db9500d4a1f1aa0f29beae",
+    "icons/time/outline/crossed-out-calendar.svg": "40914f8c593a906fbc10c5630ddc8b1c6922789d6ed6e64befb0bd38481a82ed",
+    "icons/people/outline/current-user.svg": "af4a7f29797062e1d4f0a8213b95713631e0c584db02bc5600d623c6462a20a1",
+    "icons/projects/outline/custom-view.svg": "9a5ae4140c28761ce8ed46f302cb83a6301061ba3cea088fd6ec9f2cb557612a",
+    "icons/projects/outline/cycle.svg": "74fa5a9761bc288dcce760cb82d3be7803469f5eb691d6e9646c2e2c55111b47",
+    "icons/people/outline/deleted-user.svg": "422034ddb4f83b80249c057daea39b682ac5cd8a4d61e9505fb057b2de5a0a0c",
+    "icons/tasks/outline/estimate.svg": "0a7fe8cb5e94c43c355c5209aaabe67242ffaf541f18029378cd9311c749b898",
+    "icons/tasks/outline/estimate-outline.svg": "47526cfb531e3074de4033c784273492c577c6422ad4c1820a8d3dbcaee55feb",
+    "icons/actions/outline/favorite.svg": "65fe724d383f1893bc71082fd35a7d39829f7914223b7e1caa5567ac87ede94a",
+    "icons/files/outline/folder.svg": "285ee5dcbadc52a5a6a532fd5af4a1c16d8578918904264087a08d39f3dd8485",
+    "icons/time/outline/from-date.svg": "c72272c7fa0f411cd5f2482a432b03d9ae837748772db7cc8a3493d0b85d673f",
+    "icons/navigation/filled/home.svg": "fe8a216c95aad6d2a8f53112f53c5f973a52ddcee045e7ff8c8bc67a1aa2e523",
+    "icons/communication/outline/inbox.svg": "9dc2a041bff850157d4593ed24bd270c72b6376cad5f2f6605b8c8b871bcdddf",
+    "icons/projects/outline/initiative.svg": "69881c4258361b02799fcfb7ab4a49ce2310bf2f9eedee1c417702e37c51eba6",
+    "icons/tasks/outline/issue-status-backlog.svg": "04528703f349949835219e07a1ae20d0bea4a29af5f791898fc3603ab7530a5b",
+    "icons/tasks/filled/issue-status-done.svg": "90e891ab358f817568f359e9410bceedeea440e2c1560c57ad565aba4b4e1bcd",
+    "icons/tasks/outline/issue-status-review.svg": "c55462d63fd3df95a8ec06fe7f78ed0d19cf03c0964bd3f6e866a20efe8c7952",
+    "icons/tasks/outline/issue-status-started.svg": "11bc52c0493d43403d7beb4e61293a2fbc4a350cde93dec54b1524d59557746a",
+    "icons/tasks/outline/issue-status-todo.svg": "ced0ff6356377910bbb0f65ed5341b02878d44fd9b434651e08c5c0ecee218bd",
+    "icons/tasks/filled/issue-status-triage.svg": "b99f9ccba605d7fe82d9bef95a69d28940b2bb13a97dc18de6943fe7c0b57f0f",
+    "icons/tasks/outline/label.svg": "a04ac5ea17bb5edf79e8896777f7cd168261ea8b6c187a9f4c19fc1cb43981db",
+    "icons/actions/outline/link.svg": "6361d0a33ca55f6ab36c85590bb4428e140606bd8f01ebc5201aaaa4c2844b85",
+    "icons/people/filled/lock.svg": "3ad73eecadd81c4768b2bcd687634afd431d640a121bdb3fff7ae899dc439e35",
+    "icons/people/outline/members.svg": "ae575a0f436fb35b62cec7d13fb16d0b0c4650261045ec27a474e38bd4f5d15d",
+    "icons/projects/outline/milestone-none.svg": "c3290ac7f2839ce0ceac4d30f854ce1028029b46bdc0f7795afc2b47ea5c64ac",
+    "icons/projects/filled/milestone-status-done.svg": "83285f1d49bb8ff4c9f7220b4de0833bdd7c0f392bd06b3de0bb0790ea1b3f79",
+    "icons/projects/outline/milestone-status-planned.svg": "9d51531ae3856929ea613634ecbe6b87fa2f6de0b12a4f173323499209505376",
+    "icons/projects/outline/milestone-status-started.svg": "96956e70ba591b7e68fda9a70a9c534afa4b3fcce7f4a8acd61c306b85a3cd0a",
+    "icons/people/filled/move-to-team.svg": "7a7a1c6e28aa5c39e09f28358cef821237673a21759f9fc7dd3e2984e8881e9a",
+    "icons/tasks/outline/my-issues.svg": "0624cee48089d8f8a54ac9ac0ba1e73ea726a09548ec6640d13db4f352001c7c",
+    "icons/technology/outline/no-agent.svg": "f87df04ee6072b74809790cc34337d7ef3d4b7c3e37579edfccbac5706a4b368",
+    "icons/tasks/outline/parent-issue.svg": "d0a450f138f3ca5060f0dd2f0ad661adefb69d6e320ed92d1aeb91aebf60a320",
+    "icons/files/filled/pdf-file.svg": "1305079492601df7459b590272313c8c7ba3d6d455c4782a6530f2d5581c6ad6",
+    "icons/tasks/outline/priority0.svg": "42e635038b1555aa8d84b58474c9ef55c0c5e6256fce841442fa81bbac1e744e",
+    "icons/tasks/filled/priority1.svg": "d26f69399eef547871289ff2316c2f6301eaad6d4fded70c63eab5381e2491e2",
+    "icons/tasks/filled/priority2.svg": "b37b1bf222e241766e6da53ea6ec280b60fa294620047c70eefb0a7de986966b",
+    "icons/tasks/filled/priority3.svg": "41ac909d3a7560ca589dd0ab0c424d45bc10f9553f8e4076e8182e42333cc3e2",
+    "icons/tasks/filled/priority4.svg": "fcc947438ce398633d7084ea54cc72a0bb93ffe73f7d6fa20547c64a4b6b533e",
+    "icons/projects/outline/project.svg": "39335126e61709d660d3482b1a4313e733912761c9b6b40899b0d96fa932f4ae",
+    "icons/people/outline/project-lead.svg": "fdb794138aee631eb168298e8107afde922938818e10b8b8fe18dd8c06feeeb7",
+    "icons/time/outline/recurring-issue-calendar.svg": "bb135f9862a4b8fe0d9accfbdace4cd67099d5da2291884c72cff80b075077a7",
+    "icons/actions/outline/refresh.svg": "42911e3bc78a1b6106425cc7b0b8681f7458fb1c0666cff9ef3f7ea4c5d5a9fe",
+    "icons/navigation/outline/search.svg": "2235442f1315b28b26659bf64f3f7d7408785083d5476880a651abef3a3639af",
+    "icons/communication/filled/send.svg": "1939f6f0b836808d6573375673380a69ef0f57ea510ac0b63e8aa69d66ff1453",
+    "icons/tasks/filled/status-canceled.svg": "63472e3ca361d65e16b848cc9d78699ee86635632cfb51bec7b113ec1565f2f9",
+    "icons/tasks/filled/status-duplicate.svg": "350351093cb54299ce4400bc0cb5f76f21bde55ed63683b175775060199a41a9",
+    "icons/tasks/outline/subissue.svg": "890796866507be2349596dfb338213af4cee7a0ef3e4be2064f8086369a12503",
+    "icons/communication/outline/subscribe.svg": "f1150be6b7399a780743e65ed8fecc86b8776087b339e3451d4d73c241fed825",
+    "icons/people/outline/team.svg": "1e1f5bd47b670d203b38e0162316ae23f4f2f16535756ca1cfe9aca731fcf3f2",
+    "icons/people/outline/unassigned-circle.svg": "69a4223208a369938e1dedcfe636425b1b7495e35591c5e1e4d7168951eef17e",
+    "icons/people/outline/unassigned.svg": "d1d90bb9cc23ecf4cd31baacc2fdffc732e2dc286f5ccbc22015b5f50ea21bf2",
+    "icons/time/outline/updated.svg": "bb135f9862a4b8fe0d9accfbdace4cd67099d5da2291884c72cff80b075077a7",
+    "icons/communication/outline/user-feedback.svg": "bcfebe177937aeee2145ea96964095b9dece5707c64d8387c98f268f32c60ca5",
+    "icons/brands/filled/anthropic.svg": "69dca72288526c830a64542580fc0f572f0cbf13ccd2eb6777cae4610d03524c",
+    "icons/brands/filled/claude.svg": "04c9256de521c96967bfbc1c9e24d27bce5e3596123e53b53ea29b42df658a3d",
+    "icons/brands/filled/cursor.svg": "f0447dfa89432a0efd8fb6fef25177829b75c58655f3c5a8c82ba874ac2b207e",
+    "icons/brands/filled/git-hub.svg": "93b8de1c7260b6aab420f9788c2ef78eac82857cdd736c72851b966cab43752b",
+    "icons/brands/filled/git-lab.svg": "16e8e777071392e26e60168518b00e92f629a8a59f8ebd0a2e19d1d38de5c475",
+    "icons/brands/outline/meta.svg": "874d9c3f68c2ce6e0a971dad04c87078bc8691472317bb5dc4a6b99ee82467a4",
+    "icons/brands/outline/open-ai.svg": "4a5fb54ca9d9c3e4236fc76c4d17cfe977502c049b1be24ff756345b9aca33b4",
+    "icons/brands/filled/ramp.svg": "7403b62576ae39bd2756a7a0b2337e4440ac55fe3a8796e32a0d5a2e904a1f69",
+    "icons/people/filled/accessibility.svg": "75352c9f0fcd7b7485da627350b4719bc086788c6dfb03134b0bd877a61bb528",
+    "icons/nature/filled/africa.svg": "6f8a23dc547375712900343fe4c0977f296cc89c9043ecee32e8596a8f71c416",
+    "icons/technology/outline/ai-app.svg": "226beda75ae0d8a561c6982ad32b9a0a68e975219e2a7a4f46a703eae52e12a0",
+    "icons/technology/outline/ai-document.svg": "2488afbd5088d24b51a9c4806d9c2a0c2bc03d1c6ded306125a3b4fef56f20e5",
+    "icons/technology/filled/ai.svg": "07de15843fc7cad44ade64d9b910f34e9d37989e0960c8525512278f4d1894e9",
+    "icons/technology/filled/ai-writing.svg": "a96601ab420ea25632210b4657d4de4421a8c2b078dcd70a27d6afa9791f15f7",
+    "icons/technology/outline/air-tag.svg": "1f2eed754c77ea20e132fced6799af56c50312d1a536bc604f1a6b33b03705c9",
+    "icons/transport/filled/airplane.svg": "936ec145ab181ed0c565963fc4f1e4bf005d1cf9e28f01a43505a328614de342",
+    "icons/time/filled/alarm-clock.svg": "10e06ecb8c0c6c7499ea209cc367b87e3c5566f987a2dc266aa89380bbf42a4b",
+    "icons/time/outline/alarm-delete.svg": "fa5e0c596101b01c274959f02a353830717560e7c408418d5b4dd321061798d8",
+    "icons/time/outline/alarm.svg": "b6e8740206ad9e90bd231876ce00d420c737e3f9e2f1149c30d8b0fbdbd5ed23",
+    "icons/tasks/filled/alert.svg": "2f390144f9dbd6df24ce46ae8e6adff638f0f6859291f71a614af161f3a1df3c",
+    "icons/sports/filled/american-foot-ball.svg": "bb408db19e95b8c975a9d9b82d6b65d045081b1b645c0745ad002e677a26a7d1",
+    "icons/transport/outline/anchor.svg": "32c452558a8a268e66eeef5d19a8f3bbcf2e7b383378dc4c5836676564850c92",
+    "icons/brands/filled/android.svg": "312f592b56328801ddeb0a07f5ed05d90a2b68c8f2cf2b464b6466eca28b520f",
+    "icons/people/filled/anonymous.svg": "784e44eb546ba4fbd2ea11e621d3739f6af90046bb246d509662e77645f17082",
+    "icons/brands/filled/apple.svg": "285ecc6ab6219bf586b8ebf5694132bb12bf0e3f6a19aa8c2a4de7b728888c72",
+    "icons/nature/filled/asia.svg": "22e35cbb598762f8d77c4696cf45fcda92fc55d7b53513271cee2972c4259645",
+    "icons/shapes/filled/asterisk.svg": "eeed0529a372d068895974eb0ddfc8c8528930e48d41c9c56d567e0a1a996c26",
+    "icons/transport/filled/astronaut.svg": "3039def41b63c24f162ec65b3a57adc76843d64a1ef5360388c0ee71255b2fc8",
+    "icons/nature/filled/australia.svg": "928e6ba8de9f3d763db12cd07ce3c489bfc48d8a194362a9c9cd6bb0b47131d7",
+    "icons/brands/filled/auth0.svg": "9690f9a8bc9dc4f7533fdf550b08b66baaae6e18ec3b82cffe011883176cd46a",
+    "icons/technology/outline/automation.svg": "09c2081a6943cad7f34505b25662ba28b070f499922723b2f5bcd56ef247b7dc",
+    "icons/health/filled/bandage.svg": "31266d020fcea4ffd3e90962e072211d1b1d8d64cd61a751a34746ce4cdd172e",
+    "icons/finance/filled/bank.svg": "dff2c45ec1c35fc2fda1adedad3a07884f6636e95d024c826a355ac84961edf9",
+    "icons/analytics/filled/bar-chart.svg": "778b09b98901981f57f209ac99c8d418c0030834ccc4250f13c56798d0ef85dd",
+    "icons/analytics/outline/bar-graph.svg": "7c66c1c1079a31598f6e9e5c935bd6075d8125290dcf977b90b32f46ad112c31",
+    "icons/objects/filled/basket.svg": "ca4ab049dc6575edcf7ac6dae1a00cffb5c4e560cb36b67e2e0c68eb62711673",
+    "icons/sports/filled/basketball.svg": "ba7a13fac28d7a61ee462e9504eec099609a9cbc3577ee4ceb3ec7e77d622398",
+    "icons/technology/outline/battery.svg": "987850ef61cddf9e143ebff7f356a2054b4173c4632b316941c04cecb77b3015",
+    "icons/objects/filled/bed.svg": "eb2fc67c87aa94509a8e932f2598955a7493c728a02925fcba32f00d64cbc9d3",
+    "icons/transport/outline/bike.svg": "647cb2c7697b93934920f3c780f9e0aa1eaac463c18fd76bd412a7240afbce57",
+    "icons/objects/filled/binocular.svg": "9a8c9941ee57feabcc019f9caf46bbf55e16ada26179be42df3b2508c382c0e7",
+    "icons/finance/filled/bitcoin.svg": "194beab1863c0b22aa1bfdb291b672886710325ae4d91db325ca2390ada0dd5d",
+    "icons/technology/filled/bluetooth.svg": "d8aec1ddb812af8ede158e6a77eab04642e0a331cd670c4b82105aa4257b7c5b",
+    "icons/shapes/outline/bolt.svg": "5670954cc47ff8c29a9f8d9e8e28d3e385c517c461291db91cdc74289f18ee21",
+    "icons/nature/filled/bones.svg": "9cbae4cc8a56c5781c08a87d8c738d5eaadbcbc470ed4c4443421d42894bb00a",
+    "icons/files/filled/book.svg": "52be8659b9a4e89571a2a79cb22bab5932e4391069597ed6e8ef76dd45ae13e9",
+    "icons/files/outline/book-open.svg": "b45a3a0abf69649d921224093c3d5f1d1ace41400079d7ae5d698d1a672a30f4",
+    "icons/files/filled/bookmark.svg": "164a6666941d0d180f2e28f45510d00f9dcbf2a719e2fbae4a66b1186ced2c9e",
+    "icons/media/filled/boombox.svg": "01f4bdf6807589166887476303d165c3e4cad0cf21e5fd691c6bf6c65df3ac21",
+    "icons/sports/filled/bowling-ball.svg": "3b114ce79fcdecb45719cd74caac33925c790f78648d02bfeb42635c75e75046",
+    "icons/objects/filled/box.svg": "3636c98e67a9d774f6a34f86a81c833b21bf0df5a58142d973b7276843b5d6ef",
+    "icons/objects/filled/box-open.svg": "030985fdc55ff991820ea41264c7fbbc5dcd229c42d3cf003e56dc0964462675",
+    "icons/health/outline/brain.svg": "c4d60ebde7e092449de26eb1c35b336764f0d815b35cb2f9e2e56e3f913b8188",
+    "icons/objects/outline/brick.svg": "a874cf413cd04cc617e1d8e2304b2586f458c11240905b333ed04beed5cbe463",
+    "icons/objects/filled/briefcase.svg": "288c742c874b6a2028acf5e54fc3c02bac156766bbdad7ccb313eb7f80addfcd",
+    "icons/files/filled/brush.svg": "df3f825419da2596e65db3953c085aee90915118a2ac740a818f85e68e305c3f",
+    "icons/objects/filled/bucket.svg": "b502698bd55dec36cdc683321e29cb124142594073728b3f6597987a11db31c8",
+    "icons/technology/filled/bug.svg": "262b2bca247ceb8b4653f76775a9e6f15915db5a02c4d2a7a8017d22aa317ff0",
+    "icons/objects/filled/burger.svg": "9ed0cded84981da05e22338f21fec3bf93cc69ccbf7e586f64d432f928802d38",
+    "icons/transport/filled/bus.svg": "039e93de80f22cfb5d8900ab5edd105c24ba4a2826b85993b605e36cdb657198",
+    "icons/finance/outline/calculator.svg": "a4adc4875c92a78d0336775af4345e5615985388759b7dfb8aabfbbc7544cb5e",
+    "icons/media/outline/camera-ai.svg": "ec17c327c7c0a5ce44a86b4799fd6c83db025a0400e742c4726bc6b746eb67f0",
+    "icons/media/filled/camera.svg": "8bfc43d95ba1220d32fbba9ee1f3aab4708e230d48a184e77ecfb830a0c87b17",
+    "icons/transport/filled/car.svg": "23b231d85969e3429d3ea1f52bda53e89ef872e8513a1c56d60e024fcf7bce06",
+    "icons/transport/filled/car-pool.svg": "dfde9799a10749a0b2727492305a13b7cf8cd6d9d4fe23bb86f67fd694cc167d",
+    "icons/finance/filled/cart.svg": "274ab455a776d1768052999cb1485b12350dedba260c6b3498d6a38b62d2d9a3",
+    "icons/analytics/filled/chart.svg": "52c53345564a35168ceefd138ab3827491543e3b91bb917ac7a5c59bc24b1b02",
+    "icons/communication/outline/chat.svg": "bca383f48bc7bbd44b556cf5c1505328ff2120219b0b19a627c88b8a717ce62b",
+    "icons/communication/outline/chat-line.svg": "bf1661956adfb474062e42d1740c0e658a48297e1171dae20b14643f8807daea",
+    "icons/health/filled/chemist.svg": "4aa867cc0ef30395761a7c2da149bc0b8342a7dd51976d06c54a0d2a409a449d",
+    "icons/technology/filled/chip.svg": "c2905ebdceaf3fa9300b4fcc16bd116fe9bb19da852abb149ad81585806e0c06",
+    "icons/brands/filled/chrome.svg": "537b165405dfae7b43b4665262e772e32de040770c6c1a5b8710f36718209507",
+    "icons/shapes/filled/circle.svg": "2807a592b3403360a7c0ae890994ae9b9e56661f449a13590a7ac40134c6bc2a",
+    "icons/navigation/outline/click-button.svg": "b74a7c74eafda789bc641a22760f9db59a5971914bf3316b7a0032f8e5d48dce",
+    "icons/time/outline/clock-outline.svg": "616c828ad0e40757fb606745d026013c5055c4e30105500c7792400ca183301e",
+    "icons/time/filled/clock.svg": "5997440946a3713396b0ff86fd831a4f5d62f9e15a3205c132d734eea43cdd2e",
+    "icons/time/outline/clock-outline-decorative.svg": "616c828ad0e40757fb606745d026013c5055c4e30105500c7792400ca183301e",
+    "icons/objects/outline/cloth-hanger.svg": "30a0fcc1ddbbae9542c219f65daa3ee3afaa2ea92f0a0ae5c7f024dacc890689",
+    "icons/nature/filled/cloud.svg": "cd284086252df12928a6b23cd72956582b36b8db3a7d1f6e33bddc67e94a54b4",
+    "icons/objects/filled/coffee.svg": "168bf341ca7c2fd445cff9c82ecd3794accd62772a7848d03928684760524705",
+    "icons/objects/filled/comodore.svg": "3c3e53afe70c2cbe8603b91dcae403af0e5f968cbfb7c24e109372cc825c2123",
+    "icons/nature/filled/compass.svg": "893a7e71a0365b9df7973f516506eb64064eca9d8ba22e0f82570a721b9018f2",
+    "icons/technology/outline/computer.svg": "3f7bf0aa728caea03a3085b01c8f54d4afac8775ec1821a8d9070a1b7fcdbd15",
+    "icons/objects/filled/cone.svg": "05de86e7c8804d260de5d2c508d73f97634e1f7a36d627d2ba0be8839b3699a6",
+    "icons/technology/filled/connected.svg": "0a532f5a4ffcbd2dd017648f933ab87cf70634c527fb7056569fa90f66f4587e",
+    "icons/objects/filled/construction-barrier.svg": "8447b013499e342af8bb18af696bdc47b14f604f3e91b758353906683013213b",
+    "icons/communication/outline/conversation.svg": "d6b1d53a0e1319de2f766ec6c08d5d4a22704103d484604541e33a6845fd2f9f",
+    "icons/objects/filled/biscuit.svg": "d04a35e0a13683fca67f95d34f12df6ba79cf4d2c3f087f7cceaf287036d9862",
+    "icons/objects/filled/crane.svg": "119337d666a15fb7680a33b9a3c7bf350af4d1b8c0736e8121105355226af0fe",
+    "icons/shapes/filled/cross.svg": "44cccb3449437a529c293a5039f5ade1af1a4f15a592fa162aed01d8097357a7",
+    "icons/shapes/filled/crown.svg": "f9ef69c5194a203bfc9c03de4f8ad66c9c69c454cc51ac7ee7bf8f486007a509",
+    "icons/objects/filled/crystal-ball.svg": "35ec7a5d4493365859e3689d82d03b341359adb29b1d26df0dd7eb4c42683523",
+    "icons/shapes/outline/cube.svg": "ac20b70384728cfb1feb6bc94074bbc27e3a44048f564a8cf89f35b7e15a0a09",
+    "icons/analytics/outline/dashboard.svg": "8df7b752d61af290fc68ea45f888a1e2662ed7b2595cf6891ad41cbf7de87f4f",
+    "icons/technology/filled/database.svg": "4c039c8abafab96a220d0564c74d4d766fcae3b9d23c8229a97d25241c553916",
+    "icons/files/filled/design-tools.svg": "00f889fbefc241dbfb48dfa77b9dcf42cd54b1717964f6027332276f627b38b0",
+    "icons/technology/outline/desktop-window.svg": "30727a8b7312b7dd3344ff3cead54cb56124596ec0a7c8e946c1bc1e2d813400",
+    "icons/files/filled/diagram.svg": "d36d8df32ce16cb0230c502987a36a4163a65b3308fd5a7ba494b2d9e1212cc7",
+    "icons/sports/filled/dice.svg": "a9002de28f781d616da6be276b732fc3d5e6f25f414c58eaf54aedd9fd5161e3",
+    "icons/nature/filled/dino.svg": "1dd6d3ec55c0ad6e33b7315ed483d47b6521cb6457989bc4b9cd5705bdf8bca7",
+    "icons/navigation/outline/direction.svg": "74e68876dee1816466a99ac4d7640348198f8e7a31e06a6666f82da90ec5abef",
+    "icons/brands/filled/discord.svg": "a6a7c1f0b68ddd6c9ef33850915b66a1ad20beb78e967ca21f0663bb5cff5bdd",
+    "icons/health/outline/dna.svg": "6e0568c81d869b4499ee6e922b1304c3a315cd2128383c76e17e302a5488359b",
+    "icons/finance/outline/dollar-bill.svg": "bf9fa89d49538d47147dbe470fddfb6e69f3c84cc1a3ec02beecebd4c468c3dd",
+    "icons/finance/filled/dollar.svg": "9be7ee01f9679d41476ef3319c74c27cd3749e98eb26f3101ad0797c0e7df29d",
+    "icons/sports/filled/dumbbell.svg": "4ef285bf058022c5434b3007520d949bf7c52fb1fd6d3414b7428296b5d204b5",
+    "icons/technology/outline/earbuds.svg": "7767418bfc727b68795c42e384cc9c4845c8c938328047fd1f4e37d19acbf0db",
+    "icons/brands/filled/edge.svg": "ce1ffc1f2426b2c8344055dc5a70af1f8fc02e0490b11eadd9fba9dd41f79309",
+    "icons/files/filled/education.svg": "91a211fd364acd9fa6628613ea0cbf806aceb53663c66346ce52331003549480",
+    "icons/technology/filled/electric-plug.svg": "abb58b1bdd0a2bf4d7809a035f4a9ab1a8e164a1584393d33f0c3eaa24f4eba4",
+    "icons/communication/outline/email.svg": "bc6e0281654ed32ff1da3400275edcc534b04b49ad94fb34272e658f59d228d9",
+    "icons/shapes/outline/empty-circle.svg": "a9cce893e718aea1a5af8dc96bd1fe96feb29d9399f7f79298aa9a83d8068c6f",
+    "icons/files/filled/eraser.svg": "099c3b8356f36b00b097fe2431fd42ae0e053cf08e1d6eb24226059bf47f5c70",
+    "icons/finance/filled/ethereum.svg": "2acf22dcaf3712d7385eb9af26c7cbac434ba24b5775a5b5e5eb734086936f34",
+    "icons/finance/filled/euro.svg": "a2a986f033f4e56e65913835dd392c5aaceab08587dff68d3b11d0a1a5340d71",
+    "icons/nature/filled/europe.svg": "359f133a1e243756fbe76eec266ecea2f9b2357c29477e909271226cea13d84f",
+    "icons/tasks/filled/exclamation-mark.svg": "6d1bec2c8a28cfc2e73819ecc0f69ec65c0ba785f1d25c3712a4e487f875cf67",
+    "icons/health/filled/extinguisher.svg": "7335e5432092824af84a5184bd82002fda80efedfaeda2622aeb742e22be7fb0",
+    "icons/people/filled/face-flat-smile.svg": "e77599cfab8093cceee99c68453ba3bab130283d0291b704129974753dcaf82e",
+    "icons/people/filled/face-heart-eyes.svg": "5c47e79f2f4749d58f5862c3618afe51b2eaa56b264d643b1fca235614a8bd04",
+    "icons/people/filled/face.svg": "600b108106e60498c41d41080639d4295f836bb6722cc1d13da167f4d76c7668",
+    "icons/people/outline/face-id.svg": "1d81915a6f3ee36790276bf7b008bdf23e1dbb542ca407fe8dada47ced090a9d",
+    "icons/people/filled/face-mask.svg": "3d6d6b1bc7e6f05ccacf8c0a0127fef8cc745a5388930a4ac2bec0b06072056a",
+    "icons/people/filled/face-monocle.svg": "5f3077a709838f270baaf29911aad4a1596028491c5a379c4703bf02f098809c",
+    "icons/people/filled/face-star-eyes.svg": "5110e790f977b4b82c7bbf94aa6179a830b65736fd6e6a012ba4f3e82a86e6ce",
+    "icons/people/filled/face-sunglasses.svg": "034be252cd1746570f7f6fe62740f35b3113accf8371abb19544d7c2c29f2092",
+    "icons/people/filled/face-surprise.svg": "da2f9bffb48cba9dda7c956a3cf12e2e577643b70884f04e575c55fa44b397ed",
+    "icons/people/filled/face-tired.svg": "82251e603ebd7380608c688da162ac521987d87d09229a03c98bc8e3dbec42d2",
+    "icons/people/filled/face-tongue.svg": "82491a9df61284c24f59c39d0f940964bf0c883eba6599d7ea327c0b4c1fa625",
+    "icons/objects/filled/factory.svg": "901b7987febf02ff92201f029eefccac96ec07ed91a255106178c97c1ef3f760",
+    "icons/nature/filled/feather.svg": "75f7208c7d11396d899395e62df94ce4af574e415339192f053e680ae4912f09",
+    "icons/brands/outline/figma.svg": "d294ac2e173f460b91ecba3e5aa4c2acf9e874d4ae2e2214301120496f1e6bc8",
+    "icons/nature/filled/fire.svg": "765cbc4f0dcff31bb6a9f6ba5466b4dc12ee76348f2f50c809b8166cb19e6d4f",
+    "icons/brands/filled/firefox.svg": "d9ccdfbefbf7f02b30f1acc28ae32d5702e137d11457e80f4ab292ff61b96218",
+    "icons/tasks/filled/flag.svg": "7844588c7ea2c7c8bdd6aff9b177cde400e33d85bb8b3e8274ffaa8955433e4b",
+    "icons/objects/filled/flashlight.svg": "eac9bc8680fd99175e8d0cb0efc3bc5a32519008f6f77b65d382d1c361877ce9",
+    "icons/technology/filled/floppy-disk.svg": "a841a9348a6936c00ce08ade36439a3204c33483e2a51c1f6ab60aae8942ad1b",
+    "icons/nature/filled/flower.svg": "3acf638014194a6ab25a4dd83b444b18dfbc5de942aecc5bf08513fb54d37754",
+    "icons/files/outline/folder-open.svg": "45fe01c763a0e90a05ab62c521aca353ef1655683dbd0034116cd959648f3caa",
+    "icons/nature/filled/foot-print.svg": "ccd6728e48f0be5fed2479744c04d9339f6d248eacf62348090b95de27578c49",
+    "icons/technology/filled/function.svg": "ba172f34c0048ee6733da160f0bf6be36d09cd952f29b5f24458378343541caf",
+    "icons/objects/filled/garage.svg": "abf9840d38f84bc40b7bd10290ebb22794e4c42c96313f6e05b870513425772e",
+    "icons/technology/filled/gears.svg": "6275e9cf025abebebed758b2da5751da5520ae9266b885efb10f55b36dc23ec9",
+    "icons/sports/filled/golf.svg": "9d2f96546d1de07dbf2b31fafcefa6a308c854b4b4a5a1fce4bb25e6eed575d4",
+    "icons/brands/filled/google-play.svg": "4576ed54a09f7e6bb23e7897d32dbd5e45ccfbe2dfc35da5e741b5d218bb9c90",
+    "icons/technology/filled/hack.svg": "97d9401382e72117a8c0331bce81ad76c360b4b47c6a3b9dda852f657cd40a1e",
+    "icons/media/outline/headphones.svg": "11667c0a7ef7b980ab62cd91ee4b89998d77597769f1c909bc335061faad0749",
+    "icons/health/filled/health.svg": "ad1ec96083458902a16baf337fda6c809029dfc652d0b53ee1e580b83785e72b",
+    "icons/health/filled/hear.svg": "7e9a634e658f8a18ccd9960a054b16477bc1a60e649d7a48c75ce02de72dc9fe",
+    "icons/health/filled/heart.svg": "dc88b14d282ce98bde7414b52efddd90c0222b5083740210405fa8e25caedf03",
+    "icons/navigation/filled/home-decorative.svg": "c2f663b647685869d99824457aac4959899efb0e7b188bdaaa57d5466230d70c",
+    "icons/time/outline/hourglass.svg": "7b9987403ab66fab29505f5c4e151e018ee869d0cf507356de905ba5c784dd1f",
+    "icons/media/filled/image.svg": "2241458ea592d061141cf6b1b1a319d317130d4558a772820b7da2e6f69c4b60",
+    "icons/brands/filled/intercom.svg": "270b0dd458e9be601dc6e838d601d1a00bbaaffc72071734a4211ac750bdbbd2",
+    "icons/sports/filled/jersey.svg": "a230b0d0ce96fa78fcfaa32129b566767ca05115cb25ee3db67c9129b752aabc",
+    "icons/sports/filled/joystick.svg": "571ca2367f53832bed70c07d7cc1357e1c6f80248fb91668d06e1b0cc21ed46d",
+    "icons/people/filled/judge.svg": "7d88c181204be941c1d9f0ec53bc9a1be10dc1ed9fd4b7b92a475d98cb984da7",
+    "icons/objects/filled/ladder.svg": "1909f3127d348997c2cf41b18180c29a64160d84159937dc3eefc598b521d2d1",
+    "icons/nature/filled/leaf.svg": "70ad181bc1670f8b75c0043109534dc7a24561b6d7bd40bad4867cfe1421df74",
+    "icons/objects/filled/light-bulb.svg": "57a3e38f1628b9fe1dccd90503971016e3273bfb448a826e6208b212f983a527",
+    "icons/sports/filled/locker-room.svg": "be7fd2402e3f70a9d71e938b41760087fcce1c9bdeec1a4bd2f7bb1e4c50e157",
+    "icons/brands/filled/mac-os.svg": "8b81037915f12931e8f4520976b1d44c73b801bbe163cb8c6d7ced0e7687941c",
+    "icons/technology/filled/mac.svg": "ccf46c8fd0b98979e7f7ee1376faabfdd3d911620c5ae775959089a0007ced7c",
+    "icons/files/filled/magic-wand.svg": "a81f03e0afa72ad21e4915b19f22fced7c1319598ad861860bb2a19486293772",
+    "icons/objects/filled/magnet.svg": "a305f1ab2e48c3d44d2384aa932808d24ac996bee88849686cc4211ad33e369f",
+    "icons/people/filled/mask.svg": "b4b31708bf10bad32548bc719f762078615e0ce3e2aed0c350a794388639c8ac",
+    "icons/technology/filled/math.svg": "4a18f443eeddfae24d0458dfc2bffbf93a5af7a2bb3e99b42a7a174c15aec459",
+    "icons/communication/filled/megaphone.svg": "6e45176504ca0527f849deb3076c49ae95845705ac337cc1a6a8b5b9668363c9",
+    "icons/media/outline/mic.svg": "fbcfd2ee489f41ba6e2c3514a85432fe7f00b33e004c6edebcec3c2a153fa2f8",
+    "icons/brands/filled/microsoft-teams.svg": "44c67612e3cfca2d2e0c5f062f6ab2379832aa7679f239267a9baa2ae7c4826d",
+    "icons/transport/filled/military-truck.svg": "634a894cde9f7cfc608580054c1ff39ded5ed2cf9b10e4417522b55a47fe7c41",
+    "icons/technology/outline/mobile-phone.svg": "e0ec0a58828b12d5ba4c0daf358fc6cddb4f916ab391fdad66b09af6da78b5cb",
+    "icons/technology/filled/modem.svg": "d6080d7261654556c5c1fe2e21d6546eb9de849f3b9a6cf65b7e4acf2d6f8c43",
+    "icons/finance/outline/money-stack.svg": "12abc0fbc058908d026a99e8c58618242beee09c5ff1c90ac6dc448249d87fb2",
+    "icons/nature/filled/moon.svg": "74a38ffa96b21ecf9e38a679a6433f20caa13fea38f785bbb4a1ea8fef9c6234",
+    "icons/nature/filled/mountain.svg": "3b55f56305ef2bb3c3e7123ab2ceb0486bf45c8eacf7e9382fe8c434ad515ba2",
+    "icons/transport/filled/moving-staircase.svg": "0c2a8c1dd684250e9fc726c6ba1aa10749791b1fa8a113fba1804000921f694e",
+    "icons/media/outline/music-key.svg": "35c663497d7c2c8ebd183a69a9897f0247d8f604e1e47a1946e3d944a3b87926",
+    "icons/media/filled/music-tape.svg": "adb0abc3c26799e219ebefee4e383501d9b209b30914c5ade976b6f16948afc8",
+    "icons/technology/outline/network.svg": "cd7f34e1ab6d0cda54eb653f2907cbbc5f46b98e7f9e74a7f13c7f8c44e59cd9",
+    "icons/nature/filled/north-america.svg": "45199a2c0fcccc3587f93ddf91fbe945d870351b715e6d3102b5e8c6aedd104c",
+    "icons/files/outline/note-pad.svg": "4ec39902f916ef733c8420b7eb4a37b1eecdbaa43ca6f5d8db0aaa6ad624b4d2",
+    "icons/communication/filled/notified.svg": "b96a94b6c2795b0bce4778d3cab0c0067caa33e8ef7a9d44a09f24e6df65c7b9",
+    "icons/brands/outline/notion.svg": "8e31f48d84b001f8bbaa032fa505fb1683eb0b848bcf45719bea1988400cf076",
+    "icons/brands/filled/one-password.svg": "32b28f8a7e1c6622a7e3544d3db08fb79e9d7b824bd287fdaf51ce5ce5d562c4",
+    "icons/files/outline/page.svg": "d755d0968bb99eeb6b0b94382132dfe750b54291a634df628b0cb7b3c6bc2816",
+    "icons/files/filled/paint.svg": "e5fbc92d58b143bd720aeb1e84039c3dae2bcae57e136eb7b4afb53c1aa00fc0",
+    "icons/nature/filled/palm-tree.svg": "eacf373d3b35587e8f94a631b624d6f1137ab286de670fa9ef47453e3d8df589",
+    "icons/communication/filled/phone.svg": "54aed9664b677a91a829d7da2eca52cbc90fad3d8bcdb17a6fa5b8f2c7331dc0",
+    "icons/analytics/filled/pie-chart.svg": "5284ec027eebb75e283f315752655546f4ae1f2d097dc7177fa885f9c713f465",
+    "icons/health/outline/pills.svg": "9b4d6c52074ca4cfe41637bbf3ec10e2eb3e39c4a2d9d363d5f08f8e2d53bd1b",
+    "icons/navigation/filled/pin.svg": "491b8ca60aceef363550974cafd488e96fbb2afef77b9d97eb40aa365c41480e",
+    "icons/sports/filled/ping-pong.svg": "f2902fd71b26fb9040f28f7cc2526950e89a1b6e551a78c2d5915c5a7624bf88",
+    "icons/objects/filled/pizza.svg": "55c5148dcb81b56189bb27a380b6d9dfb81fa1068a7d3370c9329b5407dd30fd",
+    "icons/navigation/filled/pointer.svg": "a5ee0e14641f1d7ee4f05bf3ca0a4c972dd6ad0ec04c33e2138b120f9ef1cad5",
+    "icons/sports/filled/poker-card.svg": "80d8f618d54c1d4943e1da4af74075ce32b4afd61b2b4bb1509b9a0ecfc7ce43",
+    "icons/files/outline/policy.svg": "e5b1d00bdc942bee0a384e9b19da3a75f42f52168a66739963103517d1c7b217",
+    "icons/objects/filled/present.svg": "1145c9f4a1133125e9cf23bab087496e5ebfac8c9c17b4678781f2869ab954e6",
+    "icons/technology/filled/process.svg": "397581942e656fdd80eed8f95e2534bee231fd03463403e726514efb9e5a4e3c",
+    "icons/projects/outline/project-decorative.svg": "39335126e61709d660d3482b1a4313e733912761c9b6b40899b0d96fa932f4ae",
+    "icons/navigation/filled/question-mark.svg": "2a17a3d38099d874f88aa3772fc07363255cba67ffe39090154e7eb0181b8f25",
+    "icons/technology/filled/radar.svg": "91365a46f9c71cecbd90ce558eac98e66d359331e6f555ff331ea8b0f44dcb0d",
+    "icons/objects/filled/ramen.svg": "8e23aea73cd5890f70504d0adcfb6081e06eff6b1747ab945436a559cf2b1338",
+    "icons/analytics/filled/rank.svg": "3c4339c860d2b3d53676c48cc9d4c7ed965772e7615fc4655058a207eafaf4ef",
+    "icons/actions/filled/recycle.svg": "c8e0adfe5e9eb7e90b0b6a672bfd40bb21fbf32572d5724645ddf523c1d97f0a",
+    "icons/files/filled/report.svg": "09719f385fe4affb2a26cb6ed7c6913401afd8f83c4a44dfc04e0fea2a3cabd7",
+    "icons/communication/outline/resolved-chat.svg": "f24b060bc7c3ea191f2f957f6c951941f6d54aa0ff8a753348d25d76af9b6610",
+    "icons/tasks/outline/resolved.svg": "37aee655649667de101b6963a3fbd45109b681a93a5cf9c8fa133df52917c1b0",
+    "icons/technology/filled/robot.svg": "e2d952cf2006e21d490f8d3cb69fc66a27354149afa9acf8fd0781758f96b5cd",
+    "icons/transport/filled/rocket.svg": "181d0a0ce965648192c47cda9ed6d4c166eb4077a7667a4cef038a69229367b8",
+    "icons/technology/filled/routing.svg": "54cbd7bc38799241e8cbc6d24dc4749b7340e3d035054f99bcce3aa5e6e26b84",
+    "icons/sports/filled/runner.svg": "0794dd3d53e9857ea453c6376ea630c8360bffa34eca130c70a565ccce2ee750",
+    "icons/health/filled/safety-kit.svg": "e48e80dd1c40fdcaa8648a407da717e10d0ddd76b6b64461e23dd2ba33838d02",
+    "icons/analytics/outline/scatter-plot.svg": "1c28f7048d52ed95bc91ea11f6cce770734d066b6de466cf2db973683327dc66",
+    "icons/files/outline/scissors.svg": "e8f89dcbdb3d3bb5cff9c9c4c9f518d0556d4cb0bfa24b220534aefc6f0668c6",
+    "icons/navigation/outline/search-decorative.svg": "621ee2d8fa9d53e02e42e4780371c600d584fe976fb84d2ceaa28d68c015127f",
+    "icons/brands/outline/sentry.svg": "145b08eef8f935a9b60aec5e26e81b23170c3712de86795f6d6eb8a1d6b1aef9",
+    "icons/technology/filled/server.svg": "bcfaf0189473f533deb0bb046f475fb523ec14bb072e941a3fcf9f911ffde268",
+    "icons/people/filled/shield.svg": "8e1dde72bee61ff4ac09de1d45e2c5fcbe7f311a5858893a14dcbb1071ebeb70",
+    "icons/transport/filled/ship.svg": "e00e648a5ca37a244ccf157372342ab3c8f3d2bf962b2c8f54f1922997fa74a6",
+    "icons/finance/filled/shop.svg": "e9f3771dc3261bdcf90a49777cabacf71583e4f24058d718742c39418f637e72",
+    "icons/people/filled/shrug.svg": "33a1f918a2459fb3839715bd1c556456884b5eb6b80930790cb0996c1742ab0c",
+    "icons/navigation/filled/sign.svg": "08d45ef17dfe01c033c24e48c630e07e091a3888b74d1cd11d2f2841d5988209",
+    "icons/files/outline/signature.svg": "3a4c5996bf2d02a42b8551817140319cd2bf3601842ae2022fef2cb8901bbd7c",
+    "icons/nature/filled/skull.svg": "b86273950d14065800c8a25ebadb59d40aae5f15585650db8935db2ddf94261a",
+    "icons/brands/filled/slack.svg": "67f8361e8eaa5f47c38e80e045d37b83f898e911e583f04357ff0e3669024144",
+    "icons/people/filled/small-lock.svg": "0d02659fe531cd5082774950332ddd54e6f75bb3ceba7899b9e0ce5fa795013d",
+    "icons/sports/filled/soccer-ball.svg": "56aa3f85bc23802544b2c7448266a5a43d97dd1c69156d69f831d04454583058",
+    "icons/finance/filled/solana.svg": "479e7ddb156b9075a4128e3cf7febb22f0639f65b44cede1d11e6eaa86eed29a",
+    "icons/media/filled/sound.svg": "23b5e450f62f34831c99504780c51285444e141749745a19bef5d1775427df4a",
+    "icons/media/filled/sound-muted.svg": "bbeff522ef9945716726af085a724d5a91dad5ad5c467f6294ba09d06b89c98f",
+    "icons/nature/filled/south-america.svg": "2e55e171ba02cacf6c354a2f43e5fca463636e2acf204ec246dd447d7705c7ee",
+    "icons/media/filled/spaces.svg": "b1f276360d9a2133c1edcaaeb14ca5d88bd181281c5d586e8c778f41ff5f5cc0",
+    "icons/media/filled/speaker.svg": "8d10075eb97536c6440d99b0a4de05eb603befdb8a022c4246a07a36e762f3bf",
+    "icons/analytics/outline/speedometer.svg": "05f19249fe7db6b92909c0312b7c713c48423c7d5671a874fdedd01da01da96b",
+    "icons/files/filled/spreadsheet.svg": "b1f940701c955ab1520061a8be48a8f79b1fe8a995563ba3009b094b5dc22582",
+    "icons/sports/filled/stadium.svg": "613611a1d9fcc85a8afb33ad256ad8e7b008015dfd4950d046fffe567f108951",
+    "icons/actions/filled/starred.svg": "c5a004ed6746c379aaa29a286338db87c3d8147ef5fd7e365b410cb64e9b8088",
+    "icons/time/outline/stopwatch.svg": "dcc233373da23d66dc1d5eb5d9309b8ea06160f5400f8e42a4a6528a9a49b4e5",
+    "icons/nature/outline/storm.svg": "18e0102f6839a906a9088a39083ce30ed78af82d9e0ef85899153a3359d87da9",
+    "icons/people/filled/subgroup.svg": "f7550d83545c486c1c8b7c7d7a057b67e26acb4c9521f32c0a6dd1a533ccb425",
+    "icons/communication/filled/subscribe.svg": "a7f5459a89cdffb1cb2c50b6dcb096d5a6dfda5fb2f2dada02a25ab7434272a7",
+    "icons/nature/filled/sun.svg": "affccf8199794048161a94563a6f1d537001fd8d667a1200b64b3863ae44afe1",
+    "icons/sports/filled/surfer.svg": "ed74247188d4273569ea250349be7b920f79ec36d97b503584ee65992b238439",
+    "icons/technology/filled/tablet.svg": "4e3cb91c9a4e9dc8b1da1bb40f717863232680df50fa8a11ae5a6eddc36342d1",
+    "icons/transport/filled/taxi.svg": "8addefb8b7ee879c4fba20865253598cb0a318030a5bbd1a8cc48c96ab18e220",
+    "icons/objects/filled/tee-shirt.svg": "0ac3e49d119e3c166e9106515a7eeba0f86858122c76790b236ac524f3a89763",
+    "icons/sports/filled/tennis-ball.svg": "8880d66663677faa9fd032750d784018264f83a2595fdb4d62c3136001a8b5a7",
+    "icons/technology/filled/terminal.svg": "3effffcf5f10895508a444e08328ad84876e7cd16329499de4f1780507e8dd6e",
+    "icons/files/outline/text-block.svg": "6bedeec430d4df8c1c9bf50567f2465d6f723d2b9f0d298c383503ff988cc0f0",
+    "icons/files/outline/text-paragraph.svg": "a086d033efed50a02603a051084fdd02a3db4674ccfecc77c61583b44383d9e1",
+    "icons/people/outline/thumbs-down.svg": "6172245cfa569c16246913a933bb7c7179f019d58d9b31e2f4dedd497b7d3027",
+    "icons/people/outline/thumbs-up.svg": "0b411a20cfc9fb1283e5133da01b96c979cf9f4738ffe94c9cb90e923ce74664",
+    "icons/objects/filled/tower.svg": "c2c7c9dfde03f541651e728603cdb73bbd92891f5058427c8bdc58001d7333a0",
+    "icons/transport/filled/traffic-light.svg": "e5ac2e3f4792f163671fdde0ea6371bd091631fb58f5cfcfca440e50f752c70b",
+    "icons/transport/filled/train.svg": "4c4ac455e6db8ec8e4269b2db8e177413dadcc2d06dfbf320b1574fa6feaf4f0",
+    "icons/transport/filled/tram.svg": "3233b0c7276e363c84a3d8272efeaac2d1973913b4b822d35e2981f8618f34d1",
+    "icons/actions/filled/trash.svg": "b010bac552780bf3306a0cc7b79668512e1346f6372698e2c8cef26ce0cc2335",
+    "icons/nature/filled/tree.svg": "9c7e057efd8463483e80a9d5df954633c926a7d6b770aedfebdfdd5477b00014",
+    "icons/nature/filled/umbrella.svg": "0b7534e43849c4ff5b4512fb60f2075f7e256322688642d6c8dc5f2baf0dd4f3",
+    "icons/people/filled/unhappy-face.svg": "f58ec9f6791f9494a716cb0e2ef6d01d8ccceb10dea7f76a24b584cdec0c70bd",
+    "icons/people/filled/union.svg": "80e45372cbb3c6e638b2981acda2c52986f794324e5255cba9d095b71f199312",
+    "icons/people/filled/users.svg": "ed4c3cd9130f06e4aaeadf3ff38a82ac0c746d8fc01dee1c9abebb60300b0ee7",
+    "icons/media/filled/video.svg": "f404640fa7dd852bafd167e8cb54b71fb844fa4be21dc98cf58ba8a34d467ed4",
+    "icons/media/outline/view-finder.svg": "fc9135901a562a3364446167c1b9a103dc1f4828de247a18bba786426f9dcce6",
+    "icons/technology/outline/vision-pro.svg": "e037cb4826707ef77de11240185e5678eba0f6edae01617da192df7b7662c343",
+    "icons/objects/filled/wall.svg": "1298d77c68a0e3e7c9c6919e61356324ef3f1703719388a25edeb1cbd212da71",
+    "icons/time/outline/watch.svg": "d372d8167ebc9f4382c4129a2fda0285a084bb16e5304435df98c2f46332158e",
+    "icons/objects/filled/wind-turbine.svg": "73ce29539975022a990b065afb3b3125606ed4533a32fba2ad37ca09ffe262f8",
+    "icons/nature/outline/world.svg": "b2d2373b9dbf287e3d9a664537b3a5f1bbbddbd690a0600788f7bbc165a6779d",
+    "icons/objects/filled/wrench.svg": "8bec4a5975f5b971e3ab6202e869ae7bb563ce7ce3fb6d32a3cd209ef0c09937",
+    "icons/files/filled/write.svg": "1681c90a1bce1667e1bd7e676fb6fc79e5f66e9b7a16d6c95f26a23db6dab550",
+    "icons/technology/filled/writing-ai.svg": "3fa74af3df712371ff19e57b3375b1558fdea35c3ea000a210fdd24a6dc72763",
+    "icons/brands/filled/zapier.svg": "4e8b386159f123b030f127e2500ffa2429e471daadaf1287880303523d733826",
+    "icons/brands/filled/zendesk.svg": "5f28e4055f6605ff75bcd17b6257290ea4c0c5d3dd72b710f37fe6bc4d43e212",
+    "icons/tasks/filled/flag-interface.svg": "288576381f4b5f432c40ad94636daa1096126ae1f604e3dc601ee4779ba15b79",
+    "icons/tasks/filled/remove-flag.svg": "5f53e8764b6765e5db5ab9ea728df9580d8dd61a6e50b62bf79af42cc5f77cb7",
+    "icons/tasks/outline/create-related-issue.svg": "de3dfe2970ba008d3c534223063f5f43dc1741f0d42ea64bb0e5a1179d5bb59b",
+    "icons/tasks/outline/move-to-parent.svg": "2b39f8f246ca67e50aa956deda1cbf0c6941bb68f7276c1de2d473e7e31a55f2",
+    "icons/people/outline/team-card.svg": "67bf2f18f1ffeb18f4d61fa46f9db2e34b2251bfa5715a06dc4eb86d37be482b",
+    "icons/actions/outline/copy-issue-url.svg": "bc39a075716fa96b30251c4cac4f62e20db2345e89ff68c707934dc6c81e5aa2",
+    "icons/actions/outline/edit.svg": "31aa84a1598e95638d6f74e873c5e5b3e7a815b60392f03908ad97a2fbe299b4",
+    "icons/tasks/outline/convert-issue.svg": "5934b54bc52b27e8556d1eb26ab13575efa438f1eafc74d7c4c420539dee4d2f",
+    "icons/tasks/outline/issue-properties.svg": "084519e4194d768d02f6409bab3bbe1567ea14c2a97af56790c8aa1693b60878",
+    "icons/tasks/outline/customer-request.svg": "3c256a68eceefe8f8bfe4944a9bd5dc45439b3ff08ec7744f0759a568971833f",
+    "icons/files/outline/template.svg": "24b22b74c0d1df0670d6fad491ca6c1426b6de984337ffcef834dc8d3901242b",
+    "icons/projects/outline/initiative-interface.svg": "8cca9401dc4077e416e92a67cbe82839496d8006e9268e2c2a057e02cac35626",
+    "icons/projects/outline/initiative-progress.svg": "fe0a0487e3d6e9105ab1dfb108f31d123975aa67521bb66109d047deae2431c8",
+    "icons/projects/outline/initiative-expanded.svg": "1610006b74d6a56cfb67387a229aaf08bda98e056fe14c2f57359e7cc34d4e59",
+    "icons/projects/outline/initiative-active.svg": "2495f69efc1a5eb9d0521c141cd9b2775bd0dcffcab8c10ba3c9d92b57ab6c23",
+    "icons/projects/outline/initiative-canceled.svg": "173dcbcdc6d77c56f09c745415f3a31e25daf0fbf130d7704ea6f5fa21e84a08",
+    "icons/projects/outline/initiative-complete.svg": "6b4ca5ed3389207e0659a2e8f16993b736a0bb6fb3c3355104f09548f2b1d1d7",
+    "icons/projects/outline/target.svg": "ee929ee5d87319207d60f8fd3af62371040c04c3079dfec699f4098fb74bb195",
+    "icons/projects/outline/initiative-backlog.svg": "4d6a53f9e73e970ec22d4fda11e7fab0f4e996c3fefacd72117520539426cc11",
+    "icons/technology/outline/agent-interface.svg": "086f1df7000ac1186c03f6ab1c8620de2b239a2e52564551a7a245634f557f1f",
+    "icons/tasks/outline/add-customer-request.svg": "23740ee80920bd429c5fe6b23267ec7f7ecc84e8279b7b9440aa7e0734d1258e",
+    "icons/actions/outline/favorite-outline.svg": "3e7db456d36a2c056543c9d6017795bed7fa3feac04a4b471b7729bf69432f58",
+    "icons/shapes/outline/empty-circle-interface.svg": "9dd5de51306427fc54440d9c47f413fab59018b9eda46fb8f0593dd4033430e8",
+    "icons/tasks/outline/label-interface.svg": "de9ce4925245b94520f98e475197e562b027ecf2c7c286a8d6c8c6b900ae68e0",
+    "icons/tasks/outline/create-sub-issue.svg": "b84776de54e86a0b73f0b4479e524f0c41a2484f193d820cadbd9d870e9f503c",
+    "icons/time/outline/schedule-forward.svg": "e9bb5470b3554e85177fe13b9ba05853b35c08b0a7aedc6881d165110397df5a",
+    "icons/tasks/outline/sub-issue.svg": "20c79e4aee5af4551307bd421cb96763210fa0d54c72b279c80150291396f867",
+    "icons/actions/outline/duplicate-windows.svg": "097f2507c274d8af8480f94cb1245704b10df89f02be2978810e531a1e53ae34",
+    "icons/tasks/filled/triage.svg": "64cd357ffda5d622eea5dadca8739efc05b48b2a234ac1d482012cd135c45a6b",
+    "icons/projects/outline/cycle-interface.svg": "5e6eca739f6030d5a761a49f718cb30c15a634a16e31165692681ec73033b969",
+    "icons/navigation/outline/settings-gear.svg": "634d1c7ecd07ddfb969f5e9b9168e43e4064bd294591ac0b12112ed8b87f853d",
+    "icons/navigation/outline/expand-view.svg": "f445c23c9e16de364526feea06ab1b4f0a9b9792c8227dc3daae80c541d51adf",
+    "icons/git/outline/pull-request-open.svg": "6de8dd591f94b4e58fa3ba4fc1ac7ff52a18ee0305dbdedebd996bd7c4ea406d",
+    "icons/time/outline/recurring-date.svg": "7b05007e063292e53336ba287b629e22c9890731e3a584e94cc035c246a10ebc",
+    "icons/projects/outline/release.svg": "ff824d3f19b251dfb99c02b3aea0484b2b48f97570a3b0cedcc0c08d0a9ee7b0",
+    "icons/actions/outline/archive.svg": "88eabd7189f951978af51c0aa9dfc3289cdd18a05aa1b60db0b1d2ef10a282b9",
+    "icons/media/filled/play-small.svg": "085614a36fd32673f58b112cc0b1c80fbc81eb7437ca9cf34ff52c371b5a42d7",
+    "icons/navigation/outline/search-interface.svg": "d7cac9b6b3c8c1407e6f5f3adbf06961d75b92d3ae78fcaa926d7685e46ce5b1",
+    "icons/projects/outline/layers.svg": "10e5a5cb7ab4cc0a7827fbea825e45cbb03b334bb863647acd1985195c90e989",
+    "icons/people/outline/user-outline.svg": "2731f8f9abb01161bd332825ff44768b2d0c3c4ee865d6c8b902e4b1e10614f8",
+    "icons/navigation/outline/adjustments.svg": "7567372f09358cdb970d860082f2ed5f1498041fffe6c0923524b5ef6989fe77",
+    "icons/technology/outline/automation-interface.svg": "b46aa6c1591a8a502b200118ed85031b5555da87effa086e52c471bb25127903",
+    "icons/technology/outline/workflow-routing.svg": "afcc6304e4ba7f1cc02b0c4e58eb110944e0d901a16199402a815888a0a33cf7",
+    "icons/people/filled/key.svg": "df22b742073a57d6032b664dc6daeea045df02f439cd2cfc29f499f6ab6e029f",
+    "icons/navigation/outline/chevron-down-bold.svg": "408c6c63a44cf63c61ad840fc346a9932cf187bd46d3fb821389d1e2e32e0fda",
+    "icons/navigation/outline/chevron-down.svg": "cb8c849919d44680719e345fd8f9c7335b5c1004a13c5c1d797f0f1258e2aff4",
+    "icons/navigation/outline/chevron-up.svg": "ac913f1cdc9f8deb05ea3ba521d7feb461acf1299bb92c7df221502b6d96e14a",
+    "icons/actions/outline/checkmark.svg": "3cc6ee20f663f4001aba14855bc199d0e04e55ac13fecd561dcc2142e8ca28fd",
+    "icons/navigation/outline/chevron-down-small.svg": "d9e941e46ec96387fe411b0902e7ca462b341378b2cd2b48fac60c9c68b7881f",
+    "icons/actions/outline/download-tray.svg": "0d84a6c0998b33379b2e399b61e50f85c888d06a9304022d94548d0d543735c0",
+    "icons/files/outline/download-file.svg": "cf7c1ccc7618702c76f1f47e051df9bf70be06b6643a91b9a6de20adaa4113e7",
+    "icons/actions/outline/trash-outline.svg": "07a068acb475d4b92218d6e22a960b5d5fba89a2faf1fb8d26d4e995460d50a6",
+    "icons/actions/outline/close.svg": "53b38f4772faecf764e36a0019e968796a2f59b1263aea5d831675279bf033ab",
+    "icons/files/outline/bulleted-list.svg": "0f5dd1e87f24c301b0517e2b86ac02d71ec45787f1cfb354e267a3cab8ace219",
+    "icons/files/outline/numbered-list.svg": "f9230362dc51384d0d2b1af0136d785db1efbc37c3bc864045c4e556998f97cd",
+    "icons/files/outline/checklist-interface.svg": "897590b78ae5ded6aaebe27d1f2ebfd445829fc174dc408b7032caefadc76622",
+    "icons/files/filled/blockquote-filled.svg": "2969ecbf6d1f7f1faf51be18b0a6f86241d34c9b1b59ab00f9ab6e1e36cdd2e2",
+    "icons/files/outline/code-document.svg": "d160af0566e47683e9cff933d952bb3cc0a1beb9261d67f36e645cadca080f99",
+    "icons/files/filled/file-filled.svg": "39c0547befb50a09b37417c51dde9f5eddbaf356067f6c4b8b8076b0ecf19bf6",
+    "icons/navigation/filled/more-horizontal.svg": "0f1f02429505529f96b76de0350819a0d6247caa84b90670d30537a47365f324",
+    "icons/files/outline/edit-file.svg": "8054fe9605d876a39b2227e10dc5b0bb11943bf0a890c9d10802bad763ceb9dd",
+    "icons/actions/outline/copy.svg": "49d9c846d64e87a6bb079f7705464505ab2bec945dab303a9a4c5659501045f7",
+    "icons/media/outline/crop.svg": "3b4cce14c08c40ba9fe292cd3cec040db49d1ecd7f8e6c3d041f28e9328475a4",
+    "icons/navigation/outline/arrow-down.svg": "9c565ec5fc07abd34f7fe54a99f1af9bae5c0e55902bc8427d7314bdfd33a801",
+    "icons/navigation/outline/arrow-up.svg": "52f91155ac3ef504c618f1a5bd609b26026edeabb5106a712db83ab15c5f3b5c",
+    "icons/actions/outline/copy-selection.svg": "0493db23ab6d59a9b37f710238672c74b78cad0173f38524888c1343c8d027e2",
+    "icons/actions/outline/copy-region.svg": "aaef1e75fc9dd70b9f7965bd8166dbcec6a92a2e188a4d8459bda20f744b0879",
+    "icons/communication/outline/add-comment.svg": "54f64d2fc26a3237e1eb356dda470c2d3132f0efe1810b4e81861620e9fc12f0",
+    "icons/navigation/outline/collapse-view.svg": "c5a69645c6e7962a2b0fce9164ba01708c4b1c7ea1a808d014f15ef8a6a70374",
+    "icons/communication/filled/comment-filled.svg": "a9e808a7c2a9b0ef8b50563b7730053a8fb25b1a559b711313571334e0640e68",
+    "icons/communication/outline/comment-outline.svg": "ddb6e3cb34c35d2ef0b236d4c5d548b4f2d86bfd562fb67c3a21825bf42a71fd",
+    "icons/media/filled/pause.svg": "d0df99f4a7d8ec2db665b67bef176281fdf7462233f1e82164ebb126e162e530",
+    "icons/media/outline/picture-in-picture.svg": "9b56ba4231cd74527e47c3af43a1dfdedd6faefccd6f6b8a998a18dc8726c6e5",
+    "icons/media/filled/play-filled.svg": "431476ad373d164f7e8b7225233542618cd62281b4d030f2c64749fcfcc0cf61",
+    "icons/media/outline/replay.svg": "aa6b7f05fca83d9d89c8d1e73280ad9e6cc19e697d7e557a3d77a49e87104b81",
+    "icons/media/filled/sound-off-filled.svg": "158908c300b632964b93147c5d2780a571fe97dfee172c19124141310a5781bd",
+    "icons/media/filled/sound-low-filled.svg": "9cc33a831a2053a47764bdd111409f21185b418363eeadffda71f964acb643e1",
+    "icons/media/filled/sound-high-filled.svg": "7560b17e89e82e320819ec02e0b2d35ba0062a2488928d009fe8fa645700b2ab",
+    "icons/media/filled/mute-filled.svg": "e00cc3ad58714b2cf47c889aa9b17039f411f3747c14ba7181a4d06fd008f231",
+    "icons/files/filled/diagram-interface.svg": "09b19dfadc7d363ea10580dfaf9644f253ead5108504eae76bc48e2cc0103466",
+    "icons/actions/outline/checkmark-bold.svg": "30431fef981b80bd82c64c82289fd945a67552f90de8d69996519df7cd119145",
+    "icons/files/outline/collapse-section.svg": "443d043622087c4e0757e9d5493827772264d08608113bd434376bf5a6250e5e",
+    "icons/actions/filled/pencil.svg": "8ee70437cc0c0805cd16c50982312fd46e036a3997e286562db91aded117c991",
+    "icons/navigation/outline/eye.svg": "ea12945195eb08a3bbb0009034c39e861557dadcd12c9c3aea9ed7457f3aac7d",
+    "icons/actions/outline/minus-small.svg": "86e50032827330510e08e7983b7d21ff60535fc55bdbe7f9c585d05e2b1a8a6d",
+    "icons/navigation/outline/tree-connector-curved.svg": "152916ae70826a41b6e30b1008e36f85039db75609b9096afdc1a5e4b076af0a",
+    "icons/navigation/outline/tree-connector-angled.svg": "ce7fa8359bbe9b715bb5db21a799ffcfe86f52dd43d9e90ad830602a0ee757a2",
+    "icons/navigation/outline/tree-connector-end.svg": "4fb0e6490df09ac124d8cd017bcb372893c4583197db31a576424932c6a0a129",
+    "icons/navigation/outline/arrow-left.svg": "9b3a620ab0991b50f03229747761a88f9714771ed257d8dbfc398c5961ed756b",
+    "icons/files/filled/bold-text.svg": "bc68cec18a0f6b6e195868ea90d0aa441823515ee7e82e425a74f74376744a64",
+    "icons/files/outline/delete-column.svg": "d8732a7c82573cb459084ddf7fb27e287e98c885cef45c77c945c992b68e3d63",
+    "icons/files/outline/delete-row.svg": "740336824572d9f390b638418b97f11114a1b87196068fed7546f415a1f444e9",
+    "icons/files/outline/insert-column.svg": "156efecd8cfee042f3b9775e2f0142db7c3215da785b2b47920a17ad2dace995",
+    "icons/files/outline/insert-row.svg": "70ebdf3778a734b1278a4a4c4101ce295365303a6e92a3945446301c8973f9c5",
+    "icons/files/filled/italic-text.svg": "af97bfc12cc9437377930c7fb93c89fe57787326b7bc4de85235f619514e6389",
+    "icons/files/outline/increase-text-indent.svg": "ec9f8dfeed7c79dfe51d19a8845f7c574d9b5335f5dad4924a0417b3b25f5fb4",
+    "icons/files/filled/strikethrough-text.svg": "5e7a306ac70fc00a2251cb21c175f6a5dd094ed0f92fb1a6e64b22697bec2819",
+    "icons/files/outline/table.svg": "b4b35edf03ee68ecbedadd2b432dfd915040fc511aa3568803ec2ce7d933a0d1",
+    "icons/files/filled/text.svg": "6b2a2fecfd82e39a3329e22aec5ce142fd9b12f1cba5844f5c1a94691405f124",
+    "icons/files/filled/underline-text.svg": "26166cdcced01e858e65eb72bec5d3eab383d3ca48e153b76a54ddf739c11c4d",
+    "icons/actions/outline/move.svg": "14f4200148607a164678caf7a9074e2a38cb4fdab5f6ff52875c784cbf0feac4",
+    "icons/actions/outline/plus-bold.svg": "e1d38dfff64e3208868be9a61812632998a7901d5f42bb0c037aa95a1f06578b",
+    "icons/navigation/filled/help.svg": "12c5ead552ce0fce61e146138438d522fcbd83a0ff05340752b7f7f5c664b378",
+    "icons/actions/outline/refresh-interface.svg": "a4d79cb1a9f05c1888392a72c0b8a1ab3482718595365c8787d9cdc952f8c187",
+    "icons/brands/filled/messenger.svg": "ba405a5556dffa9a58f297cbd003a470740fc86c88678244e09466390df5ce71",
+    "icons/shapes/filled/lightning-filled.svg": "5e8dfe5fc1d6ebcf081f4f2759be2561bdf07d59d37cf4c270e330c6b6e55730",
+    "icons/files/filled/note-filled.svg": "30c2e9f686dee81aa9a5d41191258c8dd0f246c849bc270234a4055cd85886e1",
+    "icons/git/outline/branch.svg": "6de8dd591f94b4e58fa3ba4fc1ac7ff52a18ee0305dbdedebd996bd7c4ea406d",
+    "icons/actions/outline/clipboard.svg": "608132b4c8316487db929b573eafa65d289dccf038ce41569f8d0c65eb0f7cd3",
+    "icons/git/outline/copy-branch-name.svg": "6a1d58a357799c1029e27096ab173d3990b68e6d64f1fca0f84742fff8915a98",
+    "icons/navigation/outline/cursor-with-line.svg": "c1e926b373fb7cac99328f00a2018deec0b9675a5b030126c1112cf4c7f9f355",
+    "icons/technology/filled/package-filled.svg": "d663087ddc1d7ccc7e131079a3a07d89c592a2d6b732ea552201c1d4707d093b",
+    "icons/brands/filled/app-store.svg": "14ffb757b663439fc6a6289171b2f9052e145c0dcc2f9350e87d9f7d694323bf",
+    "icons/brands/filled/google-drive.svg": "f8d2b4a2fdb8805c76b2c781c72c18ce20c09b3c33955ed3947b47cc2ae80df1",
+    "icons/brands/filled/atlassian.svg": "104322b754335ebebfff3cc2751f75850883afd34862ec5277640eff83344f39",
+    "icons/brands/filled/c-service-mark.svg": "d91b3751f7d842400eb399c3b470e027dac4032d51ac4342a6a9d34107e79e78",
+    "icons/brands/outline/figma-outline.svg": "026e33bb2bf6e6c87568371b8e0deafc277d99c34e6c40b0196229c87798584f",
+    "icons/brands/filled/google-calendar.svg": "03b5d210ae596f79b063096af4020bbe5228f943957237cacf3011ed6e6dfa63",
+    "icons/brands/filled/google-docs.svg": "dcb34b9c5a9fb78b8ee1c3d79bd3685e01b71ea9042a869b7900a8693816cede",
+    "icons/brands/filled/google.svg": "b7a5f03de0ac386f137afa162bf1162890555208f48e864d79ce2454675da209",
+    "icons/brands/filled/google-sheets.svg": "6031bf112d0b13cc307859973493de78cf78304a9cd146fa54be3d13db72fdb8",
+    "icons/brands/filled/hubspot.svg": "c5d681f26fc75dded1e726be8119a379f76712f2f07557b877cf5fef7fb2a859",
+    "icons/brands/filled/slack-multicolor.svg": "c68b8c65161e29dcc077bdabf0d7c228a177c0186dae27c68c6b879ae52376cd",
+    "icons/navigation/outline/loading-spokes.svg": "902123ff140603fb129b911cd8d56360148ffaec10bea6d39cf6ee1975930b6b",
+    "icons/navigation/outline/arrow-top-right.svg": "85d078984e6db0c218274a11d801621319a46b314cc65c98ec3ae374acf3f1bc",
+    "icons/people/filled/lock-filled.svg": "d9530566626536b7d4ecf880546d62c4d80ccb8cd5f50482baa1ee34625d8159",
+    "icons/git/outline/pull-request-draft.svg": "92481d5ddacd32e6f912eaacf433639b0477b70b9326d1f595aeecb0970e549c",
+    "icons/git/outline/pull-request-merged.svg": "fa4bc25f5b0b966dd2f0d902ab02c8729d9a0c5caa3309f51b3b4198a7f16b49",
+    "icons/git/outline/pull-request-closed.svg": "8d76b54e3b75243f0ed1fcadfef600945b145b9dea7b90bbf616dbe6e5c752db",
+    "icons/git/outline/merge-queue.svg": "442789f48731af88c42fdc9fafb45b884f70bd47c438c939c912acfdfd53c0e7",
+    "icons/navigation/outline/dashed-selection.svg": "41259a808a9ea1fc789c1667ed5d654d6ce0f5e70f52ee59681051275fc2d203",
+    "icons/brands/filled/vercel.svg": "3aa23f24c0d1117140c5919744ddd9d8a4a9e8fae1d8c57e5030e989a69d50b9",
+    "icons/actions/outline/close-square.svg": "ec594387c993e2205f348430dd2f822c321668212d63885e589ed190edb52721",
+    "icons/people/outline/unassigned-person.svg": "98168f6335afd0f7bd2f0dbd56133a1002ab88013986edc59d0d81ddaa3804bb",
+    "icons/people/outline/remove-person.svg": "19a52b6a385b6ad5fa461d27ebdfbd9718ece2984988728efbe2ca93967afb0f",
+    "icons/navigation/outline/open-external.svg": "03fde8c51366cf23baefa8d195df87f5f1f2453adaffdf1a8c748c24a7779da2",
+    "icons/tasks/outline/no-priority.svg": "f329ad85dac286a56439a108b5c805ff64f20decc8f2a834bad90092dd69618c",
+    "icons/tasks/filled/urgent-priority.svg": "e07f1622467e6f6bb326f030f8cc79fc9b896f9a25e9e3ccb232ce7c232eef3a",
+    "icons/tasks/filled/high-priority.svg": "1ccf9a4cc8f6a36caaed7d7f3b2f0efffa10089989bf54fbdaa6c272684d32b3",
+    "icons/tasks/filled/medium-priority.svg": "bfcbab56c37ec66579d4fe556598a3dfe0ce9731f9735f929e45469d6a62fe21",
+    "icons/tasks/filled/low-priority.svg": "71badd2ffadd637ee07de88eaa68a0d7e585061009a97b8e18d2024bf2276089",
+    "icons/files/filled/text-square-filled.svg": "7ee90fd3de9c5a3171feee46d687a0f153317ac67b87d2a7163ff2dd2feda079",
+    "icons/files/filled/text-panel-filled.svg": "7e3022582c1a509ff08b2ec68f2f5a464ff313e68bce6ad8c66e7861162a15de",
+    "icons/navigation/outline/sidebar-right.svg": "a39ea52324bffe9a5c10a0c0949a9f2405917adc37ee1fb83172c24f949bd6f1",
+    "icons/files/outline/document-outline.svg": "c7db8cd8e4c66fc33cb563d5e37b81aa29f8c3f7e6de152011e6f274df82aa03",
+    "icons/analytics/outline/chart-square.svg": "fac539a33b5ebb22a089d77f4971a1bbea2a1c24d8d0bb2ede0311d6e2fd873e",
+    "icons/people/outline/members-interface.svg": "051b10b501d60535070075a2fef387e215031cc4918572eeffa16930e15e5b39",
+    "icons/time/outline/cancel-date.svg": "b6690876a7b76648663432323a165865f391d5a261542b2dcc59cfae74e916f1",
+    "icons/tasks/outline/estimate-triangle.svg": "688e413bd15ab2205ac1754d331f0d85040f56988d5fe610a68f75bb6b05f4e5",
+    "icons/tasks/filled/blocked-by-issue-interface.svg": "e13248ca0c86bd842faef04234abd9ba99cd410fb56613cf53b1f0ec12b391f4",
+    "icons/tasks/outline/hexagon-with-minus.svg": "4e3ab8617fdb58cb964ca283125f5cd895af8e0f5f794bc280f405344a7ea551",
+    "icons/git/outline/split-branch.svg": "99db16f2cac9ac300cade95664988ac345953b60c97b19ea7210aaafe012aa06",
+    "icons/navigation/outline/loading-rays.svg": "4ab19f02eabca8ea9d03417771472daf5010aeb87a7297f0173455fe23c78ea8",
+    "icons/brands/outline/fingerprint-mark.svg": "1d98965ba6d9b95fff591224639fd02968ac46278cfd57420db578676b675697",
+    "icons/brands/filled/burst-mark.svg": "175e9bf2862f8edba75cbdff7ae2c1004147573dfe37d633473e16eadf7833fc",
+    "icons/brands/filled/discord-square.svg": "104207e9a2c38ef7bef32527d6480c3df6aad577ffdef65e46c299ff8a337d70",
+    "icons/brands/filled/purple-circle-mark.svg": "73bf33ecf634057edcfdf43fa754bf33c4859b88229ef83715cf795f0f46f582",
+    "icons/brands/filled/cube-mark.svg": "1b9b4181ea99cc63fe448afcfc3027ba235e5809494fcd5e55b2e0ccb00394bc",
+    "icons/brands/filled/intercom-small.svg": "598eb30e8dbffb3f9248984e75632db6fab8c21e3502372f6bd699312fad948c",
+    "icons/brands/filled/jira.svg": "69b15a468e1708013bbbbcfc96eb0d73559df2499698d70df72413331c18cdff",
+    "icons/brands/filled/loom-mark.svg": "9454a6df88d075aa39e515821fa672bd4e3cd0bce08e9bb2d8e044d691593aea",
+    "icons/brands/filled/sentry-square.svg": "c82c7863ad066082cd6d5c62138d5744f162192c9fb212b1a7ba3c42dcb5d834",
+    "icons/brands/filled/zendesk-square.svg": "e635a65989d401bc02f637d06aa186b0444290378ad8ca2276a747c882fe230f",
+    "icons/brands/outline/shortcut-outline.svg": "08b54bf2292cb7b6f6103137ec37bd8aacbe31a26c1c0947b46f2b0e574fd231",
+    "icons/brands/filled/three-circles-mark.svg": "801bde1936dd8bbc3ec636fedd4ab59e643cfcd937f2419f13c808b2fc2c76b9",
+    "icons/brands/filled/diamond-mark.svg": "6db26070818c65e36a4b115aac58df91ad2870a6309afca9bdf0adf341068a9e",
+    "icons/brands/filled/asana.svg": "09281fb00ff4eddfcaed10a02e988f0dda9c350104be764dd8a425670bb0ca30",
+    "icons/brands/filled/shortcut-color.svg": "d926d574dbe6a6efe3a1f6491083c22fa4518d279be44a0a59c414da3fe6d7eb",
+    "icons/people/outline/unassigned-circle-interface.svg": "769fd77f1c0e5ec9be3f3222b9c03485c1a58e5ea8dbbeeb6439ffa78a004c15",
+    "icons/navigation/outline/slider.svg": "dd3d80b6b9a868d6cd2a01c3269bcf6d28bdfde7f4cf7cced6944f242910e1c0",
+    "icons/navigation/outline/loading-ring.svg": "eaddb011121de1f3ad4b1103b89d68491ebbb56dc72a9f0925b2cf63c6dd11ac",
+    "icons/time/outline/completed-date-interface.svg": "5024fbd21e1e724a26540ec606aca9148144ec4bf94f8c83eba7e2523c37b59b",
+    "icons/time/outline/created-date.svg": "72dfd337c8d9aa30a4fb002849c4c800b2dfad25f445803fb725644d2376095b",
+    "icons/tasks/outline/flag-in-square.svg": "b79dc8cdff7a41c53d8c72168b6eb83ba8069637a396b362e5017d6b6b28768f",
+    "icons/git/outline/changes-requested.svg": "8e064f33c6704646288682851ece26c6756b27268279b67b9083db7da2691e4e",
+    "icons/git/outline/merge-conflict.svg": "199ea3aecadc4f63a093293e6587df1c5ed54ad91e1c0e52d691136955e7ea7a",
+    "icons/git/outline/checks-failed.svg": "c74a434bbf1fc52d29198b08281ac5476344c04d708e807dbf5d9bbfd0d80d3d",
+    "icons/git/outline/checks-passed.svg": "33e0d19c632f21a4a926faee718d681e6d484ca4dbaa95fe5b6711a720c3554f",
+    "icons/communication/outline/reply-comment.svg": "52e7fd9faf1a5dd7340e0c27b1058a38cd7776f706d40c366dc3a0cc0bb968b4",
+    "icons/files/outline/edit-clipboard.svg": "568e1b2b41642fd51831506f09179d8d2e7a9aa8e6e070d114101a75e8ab7fc8",
+    "icons/brands/filled/discord-monochrome.svg": "0324de38ff04b1874ec75ba9992db3710fc7c181feeaa4dcaab85170597f1d29",
+    "icons/brands/filled/factory-mark.svg": "a90cb6114b3f664fc10a0dcb45510e4bfb6cb8b4f2676306508b7c11702ee53a",
+    "icons/brands/filled/diagonal-bars-mark.svg": "57f3cf7b5360aa3c48a60fa5b16878a839b4001ccd4996917e7f7c4ea1f5c223",
+    "icons/actions/outline/copy-issue-id.svg": "27b4e573046916509d88ccfb8913dbef3dca62e73e05ec6f5bd9c595dfa5dce5",
+    "icons/actions/filled/copy-text-filled.svg": "555c713de6b46c9a62381ea45587b4964060691356b7729268b7b184c848c872",
+    "icons/actions/filled/copy-all-filled.svg": "4c5093e90f8f6b0916c8fa8374ffe6437f28109c32a3bb0238096a5710200126",
+    "icons/technology/outline/copy-as-prompt.svg": "c8ac6d57ae08dc033fd66df46f1b4b9bf678d8fe64ba7f81636bb3d94f189339",
+    "icons/files/outline/copy-title-as-link.svg": "61bfcdb5e08a29ef0f0c93e80fc9186ebbbf0d252679fd8cb40fc14372919efd",
+    "icons/tasks/outline/blocking-issue-interface.svg": "7de9b8844a08a1b1b49d1f36acd06a6cd3620ee7974190d29ea99a6349ae789d",
+    "icons/tasks/outline/flag-stacked.svg": "eb89bed9ff650d1ed808287020e036f8de31fe42b34d1f2083b1da954a911ba8",
+    "icons/actions/filled/edit-square-filled.svg": "40b0080712f8b75c71bc5994631e4d01885ddce2ae2246c72c40b65336de4806",
+    "icons/actions/outline/plus.svg": "d724b3ff2ce611cc543343fd3fd9530f810d3e4d721ef3d4adc4c1a4cb7976c9",
+    "icons/projects/filled/milestone-done-filled.svg": "6e97600caa9d1837f6edcf2b0aae7f77a961b525debf7c0440603c2613d5dfa2",
+    "icons/projects/outline/milestone-planned-outline.svg": "f9a8410ef11e60cda0c3cb5c4c387fc5706fc19145129a513de128651cc56062",
+    "icons/people/outline/select-user.svg": "57b883caac0f84577800b4d1a598781320638f9e6e3e30cac5ac465c1952b397",
+    "icons/people/outline/edit-user.svg": "a602272ddee8c77733fbc2f31b6db059e47dffe9f604963e0acfe74a040cfed2",
+    "icons/shapes/filled/triangle-filled.svg": "318b46e8a8a13d5022879202e1dadaa1fb7a7af1d015a92ef6141a3163f65cf4",
+    "icons/people/outline/app-user-interface.svg": "efbe1f4aa7600f502965d392274b8462402e0a4fa496b872e71e5d87a8475257",
+    "icons/people/outline/current-user-interface.svg": "2731f8f9abb01161bd332825ff44768b2d0c3c4ee865d6c8b902e4b1e10614f8",
+    "icons/brands/filled/microsoft-teams-interface.svg": "d78e7aec751b5c0fa0326394dabbc629420ab435efb15661a01600272a794877",
+    "icons/objects/outline/buildings.svg": "8807c4d6d7680e73a6281559ad311c5975525ce77b7e942aabd3278abad92b82",
+    "icons/navigation/outline/chevron-right.svg": "6e76e709630ec1d0880468ae1aa6605476d9b300e6870438f6977d3b919bf9e7",
+    "icons/analytics/filled/bar-chart-interface.svg": "ac88c2d9d8bc2a27cfd2faa5e2bc53a2746974597b1182a619f05f98257615c5",
+    "icons/people/outline/assign-person.svg": "1a7796bfd33e72d45bd4fe1efc66f306eda7fb3f4c41a7620f19fe4e60779024",
+    "icons/shapes/outline/overlapping-circles.svg": "f762060b3f9df8778c2cf0b61aa93f924f758655a4a92ba32c6ecd4e43895d98",
+    "icons/navigation/outline/duplicate-spinner.svg": "ead93e34a41c4978354f6a519ad03c2a0d7c64175e11456be616ced3d21c6895",
+    "icons/tasks/filled/canceled-filled.svg": "18d4909c33d55f83d593fa62a4c6f672c48fdb4a8511e6b1783603ffab20f5ac",
+    "icons/files/outline/link-in-window.svg": "b849eb2b3ddee39031e19386033a3e046e9fb6ea822fb576ffb773e260669067",
+    "icons/shapes/outline/hexagon-outline.svg": "7f3d14af235d235267d230d83c0d2dbbba4da6ae84045f48428c6de43c4b2e1c",
+    "icons/communication/outline/bell-outline.svg": "d928f141ea8c3b6c032a85560d9645cbe7cae988a3bc2e981dc2eef9d7c0d190",
+    "icons/tasks/outline/in-progress-alternate.svg": "cf7fedfea3c70317824b1cdd16646b89ab108be425d3a6057a2f5844bbaae510",
+    "icons/technology/outline/no-agent-interface.svg": "4cbe6311f3f404a5d35090a1fbbf1098e51e0069082e73dede5e54cab6e12381",
+    "icons/technology/filled/automation-failed.svg": "a2bc30523020484c67399b99618b371df5866118676219eb4cad37dc04a5fb42",
+    "icons/technology/filled/automation-complete.svg": "6fabd87764413cfa309d846f914e86f91b3f22f17caa8f9069a22cc0fe9c5f9e",
+    "icons/technology/filled/automation-flame.svg": "d2a3313bc4735a30af77ac61b7e96d5e442dbb3266505078f111547469f36e09",
+    "icons/technology/filled/automation-warning.svg": "be626f7f0449934519d69031e33393e3ee234b50fa5ca6a3f9ec1a95ec7662ab",
+    "icons/actions/outline/share-selection.svg": "fbdc59a098556c7d2b55b7a85f59bc073c9920908d6bdda2897c1f6821cd90fa",
+    "icons/actions/outline/redo-outline.svg": "bad01b064135dd245a1713581bb546954ad00b86bd5084dceb9fac08a561b3ab",
+    "icons/actions/outline/undo-outline.svg": "0fbafca2b538c2cc0aada1b8b35e4400f45e9e2457c5bf09e12bf3bfdea85da9",
+    "icons/navigation/outline/chevron-left.svg": "4effef5a1de84c8e680ae9940ddf4c909130a9f81d6118f90784808e541af29a",
+    "icons/navigation/filled/information-filled.svg": "dd0374bb141a74998beb0b1f70c8665688d33a9503df95fad58498677b5df20c",
+    "icons/time/outline/activity-date.svg": "1f0f8a219a1e8216371e2fb9857a90a30dd6ae1459c51c30a7d170693005b632",
+    "icons/tasks/filled/warning-triangle-filled.svg": "c38db16c9aea245900b9779acb2752cb10a7794293b591bd000a50282db48978",
+    "icons/tasks/filled/completed-filled.svg": "05d6eba8a5e17e34ae6623e4991ee9abb5e3d44c382f74c58d759f77392db909",
+    "icons/technology/filled/terminal-cloud.svg": "b6267c2a9733fcd4a44ca192dc1af4b9815e143fef0b264c7515546162a72881",
+    "icons/technology/outline/keyboard.svg": "97fe69b1e5444054e7e95f8fa955e747575dcaf7c9f5e5973162c2a61eb97629",
+    "icons/analytics/filled/chart-bars-alternate.svg": "4ffcc19a9f47e28811cbfcac6a70bcce7392b38e327229dce4f4f1e6fdcf6eda",
+    "icons/technology/outline/laptop-and-phone.svg": "89abb39dbeb4e70f21ab0f4a35ff8893d6179c0930b50aa5b503276ed3d43f09",
+    "icons/actions/outline/paste.svg": "23545993aa07d560c7349ca5965670847f9de0493d854850936d44d8f09e7593",
+    "icons/files/outline/attachment-large.svg": "e578566d37b44dc792f784d9c61fb24bc7a1051d222a1f0fef870509ec40c890",
+    "icons/actions/outline/checkmark-alternate.svg": "3cc6ee20f663f4001aba14855bc199d0e04e55ac13fecd561dcc2142e8ca28fd",
+    "icons/navigation/outline/arrow-up-circle.svg": "2de20e8aa102b45229736c2391e229b85c0a1de355bb52e0c20afcc25db96324",
+    "icons/navigation/filled/swap-arrows-filled.svg": "32091fa662d82efe0e23f478b92211aa2cca91b3514634012c36637ff3d8ffc8",
+    "icons/tasks/filled/ticket.svg": "5e612eb3bb3fd7e947bf803a931b43a2307f45b9ea0058ec994e42ff1cd4e265",
+    "icons/navigation/outline/sort-ascending.svg": "aa67f0b7dd7ea73df98f5514bad9478acc403b794752d116d0f5cbfe3a9167c3",
+    "icons/navigation/filled/app-grid.svg": "f07521c8c0d1f2c10647d159399f319f26c5d997786f217e3bc19493748dfabe",
+    "icons/navigation/outline/toggle-off.svg": "02239ce2545089aa2136a0a3e697fb2818dd4eb3ddb62986d311f99881195be1",
+    "icons/communication/filled/at-sign.svg": "2434b5652e199dc20e1c1092636107754895296ebb6d91e0595531b8c7584b06",
+    "icons/navigation/outline/window-dot.svg": "34bf8344ed9ca7fe7d58476f6dd0ac657eaee3aa67118aeeb2d7c0bb4d9f36b4",
+    "icons/files/outline/text-align-left.svg": "401d75a9ef1408fabd57879569b29b5e2e51d524a4a582ef3179a9f62687fedf",
+    "icons/time/outline/history.svg": "47d13cd87757d6e9fd376699ae84f9083c444cf732bc7842fdfdc441f5396b04",
+    "icons/navigation/outline/search-in-selection.svg": "dcbe2f94d226e3197f399331af5e10a3417c51b4f20b2131d688de6adbf3b2c5",
+    "icons/brands/filled/storybook.svg": "e20a8e897636ac8c832d993a2d01ed7123de0d9283fb9e63c72e831991a5c3ec",
+    "icons/tasks/outline/estimate-dashed-triangle.svg": "de34ec11b9c760c7c688a674f171388e5f51533c7286814e5e7fce28bf7335d1",
+    "icons/actions/outline/duplicate-squares-outline.svg": "6efe365d470e3cb8c6b961dd06b4e9b723e5554ac81026b117085ad819e168b8",
+    "icons/people/filled/move-to-team-interface.svg": "52289e1414acc9839e156ec384776e6c63a9b60d2581ea224e5feb4f68a6bf17",
+    "icons/files/outline/add-template.svg": "405f44e9a2df7cd43476b335911ec6d17b0ed095d72e14c5d71cbc27312ffb0c",
+    "icons/tasks/outline/my-issues-frame.svg": "e4db90e110d2b49a68fdb49c10d9d37e27e96f9a9c8303bbff5db2adb971c8d7",
+    "icons/tasks/outline/backlog-spinner.svg": "e6dcaccea3f276f90c356e1b4d8733152084d3957c2c519531d4aeb33e299bd0",
+    "icons/shapes/outline/intersect-squares.svg": "580a4173783ee306ddc89c7ca91608391ffea8cd5fe106202a9cbc4817120c4d",
+    "icons/brands/filled/diagonal-bars-disabled.svg": "ba709195e3d9637f2c0b94fc082a0610a14d18419c26ae552e4f2dea4f30c2a2",
+    "icons/navigation/filled/more-vertical.svg": "5d0efc24e1fa0f9bcb173f608dac6435645ba7bc558b5b009d79700b029535c2",
+    "icons/navigation/outline/switch-arrows.svg": "f5814a0d127b067c5cec94d84c4188cf6a610115bde94b7f78b9469319b70155",
+    "icons/communication/outline/inbox-unread.svg": "b4ff997218b7d116375c5eed02fee482e276f8349f33a5dd71bd969d78c62e83",
+    "icons/communication/outline/inbox-failed.svg": "8016e20e58c094750535a4f59c8d10024cdc217ee699b4bb64a0de05f15eabf6",
+    "icons/actions/outline/move-list.svg": "e3af17006879a3c1fd8ac5b699bbdf9958c158f71e0f6bf621b5edde3e93cb28",
+    "icons/communication/outline/unsubscribe-outline.svg": "f9b3ac3b530277f61021daddb1858be319308135fc6493c03fbd2db633368189",
+    "icons/communication/outline/subscribed-outline.svg": "c6f98d8038970a524888fb0795ad1285f40ed78dd0caa45186ba76be8c48f890",
+    "icons/people/outline/assign-to-me-interface.svg": "57f22a4a82c0c68c52430798fae5aa78178c831336e477dd80feae4676b25ad4",
+    "icons/communication/filled/send-filled.svg": "23fefd60f0664886bfedeaf0b931bfc6a2a01256ba5a6eda82d3b1103c67f787",
+    "icons/media/outline/stop-circle.svg": "37a9de03554abcb22482eed072373db495ae94f8d89ad421d837bd2ff26b1b4f",
+    "icons/navigation/outline/open-link.svg": "1b800037d2ad8dc6062e53eeedb9324f774fd1837a16a2bb83753df114767d96",
+    "icons/technology/outline/code-brackets.svg": "3e88a4e081c79d977d71224643ca5627bac8c709758a0e01e33007ba74a17aa0",
+    "icons/navigation/filled/stacked-arrows.svg": "037616ede1d00f9a1d257af5d89da27aae4664e9a31790a2c227e379c50b1c32",
+    "icons/brands/filled/segmented-i-mark.svg": "034284c230fb5e6ebf081cb4ca6e28624a97fc907bf6b7f0b06792e7c5b48a53",
+    "icons/brands/filled/netlify-mark.svg": "09a965f2726c6af2a6b12c2a9bc152a3ee2dbf52994cbfb80779821893121f67",
+    "icons/technology/filled/device-rectangle-filled.svg": "c480a03e9353884d79c9f094a4a81b2ba20afcdfccf8a026e69b370f50fd1230",
+    "icons/brands/filled/block-mark.svg": "6959ed259df17d6d2584e6fef445e35809cd25d10c9bf1f3b4a3d9b3ba4060c5",
+    "icons/brands/filled/t3.svg": "861f5f9129b8792c80ee3aad9f4920b03d2991508e1cdd3d38cb0415afddc33f",
+    "icons/brands/filled/v0.svg": "708ae46faa542a958a700bef8a73c8324960f38cebf2606ea83e95f2192032db",
+    "icons/files/outline/preview-disabled.svg": "2e843c897e27a9eae2d923706cb7bd4cb3b2fc9d8ad6fadb974def842bc2fcc0",
+    "icons/brands/filled/hexagon-cluster-mark.svg": "88411a89c83c040b5fef4621623a759225eebbb7398144e774c41e9e0205774e",
+    "icons/brands/outline/petal-mark.svg": "d898c22a0c846c518f08810aa438cc2fba66d47236916bbdb5a8701da8321b89",
+    "icons/brands/filled/lovable-mark.svg": "647778957e8c4676cd5f971223f08e535805e8155f7d176df2cbdadb9b6af089",
+    "icons/brands/filled/code-panels-mark.svg": "065f4e471fadf0bc5c4a90a6d368fff360e30f00c600647d83268c1560d76a6a",
+    "icons/actions/filled/add-app-grid.svg": "90677285f7df40c1ca98a5cd2ed64b10c849bedacaa101ebce0ed04c0cc623e4",
+    "icons/navigation/outline/external-link-bold.svg": "76508b954c0352a6020457dd273a3a83b168d7fd5f4a239ec7254d3145b3ac5f",
+    "icons/git/outline/git-branch-sync.svg": "3460c8c25c56879d63fbbdeec9c6a31dce1e257cc17691a84cc36cf8804f4f25",
+    "icons/actions/outline/minus-circle.svg": "cebe19df6ea32ba4de847d610f347d50be2f19641cbf5266b0e0854ec8f07bf7",
+    "icons/files/outline/bulleted-list-outline.svg": "15cee0d59546004ffa94a3b1ca8be21241dac2c4e80654f01339668d7aae6147",
+    "icons/navigation/outline/chevrons-vertical.svg": "37e8946d7bdd1d2cbb636d69b5c8baee5f8f64d2be6786ffbde5337b44193ad5",
+    "icons/communication/outline/chat-bubble-outline.svg": "e7f5653880280b1dc4ee3ffe432c5a72c7ba4cea626d02d6a820f86983548e79",
+    "icons/shapes/filled/dot-filled.svg": "fc63111a26e53c96f5402700dce1eb4b046ac50a562810d1230d1fc44ed71d37",
+    "icons/tasks/outline/duplicate-outline.svg": "b83416f759fc96395d179e0e10be55d1148b7ce130f35729f3c708b811ba8556",
+    "icons/git/outline/compare-branches.svg": "11ddc0e33b185bb31f7bc03598808b55485ff9f7a4e0576ed1e9c6b57bf03df2",
+    "icons/git/outline/git-fork.svg": "e2dbab13bd0e9bd0be8fafd056e44e704827c1b6a56192016d58b77e34110ba8",
+    "icons/actions/filled/undo-filled.svg": "b2d8e03eba8ac928a6c0f5f50efe17eaeac2f2ed6010525aac64e821f141bab3",
+    "icons/files/outline/text-spacing.svg": "50f0c4d8fcfcb8209ecf9d0f94a986b3c61c3cdea50f82105e3684b31df4aa2f",
+    "icons/technology/outline/battery-charge.svg": "6d35e597bb673d94b56b8556775344ac7bc843acd5cb79a09846d7e72bdd2c4d",
+    "icons/communication/outline/inbox-tray.svg": "6d6b0ed06aec9e4eb2edb2d58417ce071a5e14a50ed33fd99433191f29c457f9",
+    "icons/navigation/outline/focus-dot.svg": "ef2ccf8df5d2e7284671e287753e9e4f45197c619910bda79b7f1daf6a264f05",
+    "icons/files/outline/text-arrow-right.svg": "9d05af1efbbb463534c72d8615a57f8b03812fa82ff413c1f70d14e47bdb9c8e",
+    "icons/navigation/outline/repeat-arrows.svg": "2c4622c62f8c19a06956734615c5e73d1c6289e4eb9f4ba8e98c91e89df6396e",
+    "icons/technology/outline/code-variables.svg": "02dc24072907d7169f825f3e0a2f72c52b53f201eca8b0d1f42add89e259dfc7",
+    "icons/projects/filled/stacked-milestones.svg": "ab379abac75e4763694da4b64ee096a0d410000bd5ae40e59449a747d819a8a9",
+    "icons/navigation/filled/block-grid.svg": "9f1098699d09522dc3eea481c6b6135c20ea3671ed52f78e5b83c426850fe8b7",
+    "icons/files/filled/text-disabled.svg": "9c4f8a4555d4ae2e59e9f3a6a773f6681c5aef011fb7efdeed4df4cab1d5dd82",
+    "icons/people/outline/project-lead-interface.svg": "00b8541b0683d352d570e707531b6631cd075b955051f9844bce8c0c99485e81",
+    "icons/navigation/outline/toggle-on.svg": "574d98c6257aedefa2f1866df519eee2673e01eb8e2ac668a5aac78110000aca",
+    "icons/navigation/outline/smart-search.svg": "95ae4cc6993afb35a437ce1e42fb30d77ae8802b9854b26733d3c667c0f5176d",
+    "icons/communication/filled/mention.svg": "68071478a07cbb6a15475aba5f98b40fbd5d9e56668cfb5d0a50612c800a4f98",
+    "icons/communication/outline/inbox-error-alternate.svg": "8016e20e58c094750535a4f59c8d10024cdc217ee699b4bb64a0de05f15eabf6",
+    "icons/communication/outline/inbox-complete.svg": "00a027b73902c5fcd0fe3dd005825e2edae7745fa8c848be8f67b245ee88e3fb",
+    "icons/communication/outline/inbox-notification.svg": "6ba363a84c4d151f925826a1fcf74b222bfd93a6cbfe0bf729a3ba5abdbf798d",
+    "icons/files/filled/quote-small-filled.svg": "38027057ee15cc6e64367d7f6106ebde6de07c75733aae9cab742637f4529fe1",
+    "icons/technology/outline/code-chevrons.svg": "b96c456ca2f01259d6efd2c28c47338237ed2de7c47cbf196b46da6c49e60e5c",
+    "icons/navigation/outline/turn-left-arrow.svg": "2cbbdd3f3afeb3e545df0a7f057ca132db2234a47f21844d8dbe2a9316f24aef",
+    "icons/navigation/outline/turn-right-arrow.svg": "8509b9b57257b19a831385f1e93961783aa1d185f9122e30b82914741b1ff03a",
+    "icons/people/filled/user-filled.svg": "d6e7c0c3d5fe446033a3099f3eaddfc5a03d70f44b9e4769b2a3904f4c25f964",
+    "icons/actions/filled/trash-filled.svg": "7e4cd2f9df83039b207e3747e137aa97e068207439671cb95315d322890c0a6b",
+    "icons/actions/filled/undo-arrow-bold.svg": "a546d719835019cdc7d1f6b50da7c28e536b3badb94d86996b2c75249655575d",
+    "icons/actions/filled/pencil-small-filled.svg": "62a1ebed27717559535c96d21057dc60a68af3eb270eea136addaca6fde77a98",
+    "icons/navigation/outline/move-all-directions.svg": "034c5792e1cc74a694dc6eed3a1cb6a6f312b340383acc829e8d039b523cb5f4",
+    "icons/actions/outline/plus-small.svg": "d4b8f40c89cb9644132eefa4d650e7d2ee77c90213b11afdc79e22c57ac9faee",
+    "icons/communication/filled/bell-filled.svg": "4304826565f626899d1f2152360c9df84958b7d6bfeb3b0a2d94e89e42dfc7f2",
+    "icons/communication/filled/mute-bell-filled.svg": "e1455cc6b74abaf20ec044629d02a1bea13ad46ac07f0169aeeeece450f72bce",
+    "icons/actions/outline/minus-thick.svg": "0b364b6c50411ef828ad3c12897f723566c79ca52a8bfe9d58c74ae1929ff35c",
+    "icons/actions/filled/close-circle-filled.svg": "64aab0d5039faaffca34428ff90d34b491b2919d73dc89c9dec114c379272d7b",
+    "icons/actions/filled/redo-filled.svg": "7cc39fee9e0ae51968afc3139cfc126266ce73e40727b19067e59e25fe06b848",
+    "icons/navigation/filled/drag-handle.svg": "087a9619e1e8449946afd6fe46e0c52209c02f7d6deeda091425ba65fc3d92d1",
+    "icons/navigation/outline/focus-center.svg": "26dd61d71281a516dcbe4709f316369a55d9736561236941c6563cd4d8e37f7b",
+    "icons/files/outline/edit-document.svg": "41af811836b8dcbfe09a61d0bbf383d31cc3acdff682194bf6b33ac330db1730",
+    "icons/files/outline/remove-document.svg": "da41de9060a989b39e1996dd1057a52784e53d31dcbb21888244fa8e9d55fd3a",
+    "icons/files/outline/add-file.svg": "611c36f980ca9f9200d1f22d4b549c670a906e4b6bbe03a7564182f53d5ee8b6",
+    "icons/actions/outline/add-link.svg": "03b8ae77bacb462ba90173088deffece10f43ac87e74599e7c93481a63a4f966",
+    "icons/files/outline/add-folder.svg": "8fb3bd3a6228d015969afa2a2c2aa95bb8aa51168773a07a65f3dfdec171ef7e",
+    "icons/finance/filled/credit-card-interface.svg": "8514431473aa4dafcdf225529d4a82d2a191ea6ebc00d20a1d5c57c5f2a52d3a",
+    "icons/files/outline/search-document.svg": "f8ef323b73fb323ae4ad72eeaaccbc49e57f1fc8daa41b74e9f8f0500fbc936f",
+    "icons/people/filled/user-key.svg": "b4b99d64e79a9e95787cce95db0e9ca83f8cb0dfb97e02a214b811e2f689d8d4",
+    "icons/navigation/outline/loading-segmented.svg": "aa996ee7c5715e7a068eefeb7db3f3342b520ff3fad3ead9c77f79b01005175b",
+    "icons/navigation/outline/selection-frame.svg": "aa2af56bd533a92fc7b35afe82feef18f36d1cfc365593e4ad7eb24b72bcec38",
+    "icons/communication/filled/rss-circle.svg": "7860a21230262ffb2f70bf53b32172f05c18652f7301982b056a48cd13baf5ad",
+    "icons/actions/outline/remove-link.svg": "6542d0e2254e654c1ea88881b3a5da4e587d60b3acdf227ebc668590c018977d",
+    "icons/navigation/outline/close-tabs.svg": "629f79ec7294467d4baea2acc0e0dccb118b8d85a249f92813ad680015faeb0e",
+    "icons/navigation/outline/close-all-tabs.svg": "b121efac2d79c59456c73ce5ce2bc7b68b5eae96bd79a779eacfa596d3867a98",
+    "icons/navigation/outline/exit-window-right.svg": "ac7282e7148ac2a7d60c581081cf7ac02a01d42af922d1b19341d2fab57ea514",
+    "icons/navigation/outline/exit-window-left.svg": "45b1df1b8d6bfb20f08c33eab3f3709c656bd96fa888276c87b0ad0e13ef3bb1",
+    "icons/navigation/outline/search-window.svg": "130b0410d1d9087a8baae33d492c5ba975c311c26c11bc694f7ccdd6fa444d50",
+    "icons/navigation/outline/pin-window.svg": "4d6a34abca00335ddc090bc34094882a2f00bfc0e97151d6b7bd00a082935451",
+    "icons/navigation/outline/add-window.svg": "2fe387df09697552308518825474318a03f1676e4a2bc9d568915604cd1539bc",
+    "icons/files/outline/folder-with-dot.svg": "d27cfd970f20ebc6b3a6c61376c57bf910d76ef20be03b7fd8664896cda389ae",
+    "icons/files/filled/document-stack-filled.svg": "1c7c53f5d649b4f9f166ecc2bb8366a3eb4da25ef6dab73de40369dcd23b0d2b",
+    "icons/files/outline/document-rounded-outline.svg": "b25be6c1eee78b9ba53c452fea42c78d73b3c0c88f078e783ffe9b3d9ac26839",
+    "icons/projects/outline/add-view.svg": "5cdc21f4545fd5c3351278720cc1957d5559964bc84be56e134c5edff297a1bc",
+    "icons/navigation/outline/home-outline.svg": "10f4498ebbb21ff8f8d8121c48a62dcdb34f5ca18056773ae396111fee54eb54",
+    "icons/files/filled/text-stack-filled.svg": "4e8244841a6857382618cf6c124da47e18efaef1e4bc81a8ce6354a96bac38ac",
+    "icons/shapes/filled/sparkles-filled.svg": "aa40b9d7a4eb87fc4fc4bec59948f89e1833e7c77ebc81db6be3c35dbfde1739",
+    "icons/media/filled/eyedropper.svg": "4bc5e0f4a28a0f62004df3853749e1a0d969738988040ff400861182691c020f",
+    "icons/actions/outline/minus-line.svg": "67943c0a281b8548a7eecc6f47712897d64cc9dd5fd607a5afbb5b4ece32cb02",
+    "icons/navigation/outline/window-underline.svg": "da551c3ced136f835d19698a881379f6f6f85976315e87e840c1317215ea3347",
+    "icons/people/filled/thumb-down-filled.svg": "80c27220fb6e7e07c7d21cca7b4b71e737eb2f42e55d06eb99d5914cd48ef321",
+    "icons/people/filled/thumb-up-filled.svg": "5cfc66f0e389b1bb2f542cdf6a641f1743b07aee80c4cfd461e181b598bc46d6",
+    "icons/navigation/outline/close-window.svg": "b668ed5c5328570de4700580892f5b723e6ecadb61d847a863a26e4495264ebf",
+    "icons/actions/outline/upload.svg": "8dd7604aa701b14d5dbb7cbd2f5d17a5e707bec5678933b906cceb504754c721",
+    "icons/actions/filled/check-circle-filled.svg": "14363c53be6ba10ff4dc203731541b504c0f5fdee136e823c9788d6907939345",
+    "icons/actions/outline/upload-to-top.svg": "db4018a1bca92d4ea8d9e857008d26658620b943ae20daa6530de4eead96d0c5",
+    "icons/actions/outline/download-to-bottom.svg": "e754a410fba9f70d8be00b0926e60ceaf47c4f98fc4b3963167c4f678fb44d72",
+    "icons/media/filled/image-file.svg": "ca4dbeefde264bddd4b7c0821cb3e00f15d8875a60efaa347b2d0b32e1a9587b",
+    "icons/media/filled/download-image.svg": "5c4f399f5dc38e6c3ae91c93c6d0a35ebd13b70084b6bcc7f9e1f83968e45439",
+    "icons/people/outline/sign-out.svg": "3aff2cf2ade5e3ac7740bebe3d67f7d2a0d98a6d4dcb8b29de5fa04635e8811f",
+    "icons/shapes/filled/square-filled.svg": "8e205adcc2cf883957e7cb463c45058dfb165caa4508a4e5e7487402c2bfa85c",
+    "icons/actions/outline/dash-line.svg": "1877cea021a8903615f9fdfdb653c7c1eb2d364498cc75a33d761fda8edcb1ed",
+    "icons/git/outline/branch-git.svg": "3ef373c11fe543fdf5596ea035e0f12dfd1aa72ef62b1ac14b30423714e55aef",
+    "icons/git/outline/open.svg": "58cbb71eb70960df678b1161fbff659dda041d98eae484ec771b5377e7de4b2c",
+    "icons/git/outline/in-review.svg": "58cbb71eb70960df678b1161fbff659dda041d98eae484ec771b5377e7de4b2c",
+    "icons/git/outline/approved.svg": "58cbb71eb70960df678b1161fbff659dda041d98eae484ec771b5377e7de4b2c",
+    "icons/git/outline/draft.svg": "aaf87f566d546dc744f99b87229ed922feed63da96ec2ee14aa6dd450b3a353c",
+    "icons/git/outline/closed.svg": "239e8a9370ddd9c8de1af6ed9a9d997395f6fa33f2eadd0825883a4bfacc5083",
+    "icons/git/outline/merged.svg": "70e6401af9ee5c6790f345ae39e476e1468886fc9bce7704b6ec0bf5668cf6aa",
+    "icons/git/outline/merge-queue-git.svg": "8cb390987fd3a45fd759e9df3c0ca9326b6bd152785915b20b3639e4772dd57f",
+    "icons/tasks/outline/backlog.svg": "405cb97400b51b7147448af43fb839ca9ba1c4271071307d06940558c805274e",
+    "icons/tasks/outline/todo.svg": "8efb049388e5f22fe66f27e950d41d13ea7ba520a2bc1ba1f9d32a416f40cfcf",
+    "icons/tasks/outline/in-progress.svg": "7c42c08fa1f6d6672e7777e6d4c52ca4dd8f9533a30e988ad35c88871f36fac8",
+    "icons/tasks/outline/in-review.svg": "5dd8cf176a5a7fc810b90446f7ee282322ef7c0449e5625361751fa3d997427a",
+    "icons/tasks/filled/done.svg": "889fd2ccdf6249b2a76df931a09b35056170a5adaa20520121215f0e2e5fd1fd",
+    "icons/tasks/filled/canceled.svg": "bf0a19e6778d9af302cd63fe0b0fae54a89eec79d9aa5b54b11e60ee7f9cf340",
+    "icons/tasks/filled/duplicate.svg": "f4cb3dcac24e47cd4c2bebd80931fc679d55b789bf2e2739d2f7c866f502c96a",
+    "icons/tasks/filled/triage-status.svg": "67a23d1b46b55ad5659dd0b389848a63d93d4c84b11ab0a08c7a44ad28841a71",
+    "icons/projects/outline/none.svg": "4a2bcdfebd98b5c27da20257c639e01aa1652ca1d9b6d33da0749d31c8960bf1",
+    "icons/projects/outline/planned.svg": "fe03f686a7c117d37565000de316c49a78da882b77b733e0eca9729623d66afd",
+    "icons/projects/outline/started.svg": "a989905047ee972d171122bba851a770f15d4a83ea6ddfc2606abfe036421cf1",
+    "icons/projects/filled/done.svg": "4b321220c97d62339754ffd9009f272f4216a7cadba1091e22e1ad61d9afa6cf"
+  },
+  "excludedLogoGeometryHashes": [
+    "360264ded1a7964f8534ede4e3d2714e8a80604fd51e4fc261fb261ae8988288",
+    "5b286302ed347ddc882dccdf9ab641c51ad3fd901e57bda279ae22dd456ad31a",
+    "d60ae7a139b14b422dc112d56128dd68fb24b4c146685034a99a2d0dcb545515"
+  ]
+}

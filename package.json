@@ -1,0 +1,11 @@
+{
+  "name": "@nwt/linear-icons",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SVG icons organized by category and visual style",
+  "files": ["icons", "manifest.json", "categories.json", "palette.json", "variant-audit.json"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickjavos/linear-icons-package.git"
+  }
+}
