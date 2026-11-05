@@ -1,37 +1,27 @@
-# @nwt/linear-icons
+# @nwt/icons
 
-Приватный пакет с 2 111 SVG из [каталога иконок](https://github.com/nickjavos/linear-icons): 595 контурных и 1 516 залитых. Иконки лежат в `icons/<категория>/<outline|filled>/<имя>.svg`.
+Приватный пакет с 2 111 SVG: 595 контурных и 1 516 залитых. Иконки лежат в `icons/<категория>/<outline|filled>/<имя>.svg`.
 
 ## Установка
 
 ```sh
-npm install git+https://github.com/nickjavos/linear-icons-package.git#v1.0.0
+npm install git+https://github.com/nickjavos/nwt-icons.git#v1.1.0
 ```
 
-Для установки нужен Git с доступом к приватному репозиторию. Например, после входа в GitHub CLI можно настроить Git командой `gh auth setup-git`. Пакет устанавливается непосредственно из GitHub; отдельная публикация в npm не требуется.
+Для установки нужен Git с доступом к приватному репозиторию. После входа в GitHub CLI можно настроить Git командой `gh auth setup-git`. Отдельная публикация в npm не требуется.
 
 ## Использование
 
-Путь к SVG зависит от категории и вида. В Vite и других сборщиках с поддержкой импорта SVG:
+В Vite и других сборщиках с поддержкой импорта SVG:
 
 ```jsx
-import branchIcon from '@nwt/linear-icons/icons/git/outline/branch.svg';
+import icon from '@nwt/icons/icons/git/outline/branch.svg';
 
 export function Branch() {
-  return <img src={branchIcon} alt="Ветка" width={16} height={16} />;
+  return <img src={icon} alt="Ветка" width={16} height={16} />;
 }
 ```
 
-В CSS-сборщике с поддержкой ресурсов пакетов:
+Найдите иконку в [каталоге](https://github.com/nickjavos/nwt-icons-catalog) и скопируйте готовую строку импорта из превью. Пути, названия и варианты также есть в `manifest.json`. Имя файла само по себе не является React-компонентом. `currentColor` наследует цвет при использовании SVG инлайном; возможности импорта зависят от сборщика проекта.
 
-```css
-.branch { background-image: url('@nwt/linear-icons/icons/git/outline/branch.svg'); }
-```
-
-Пути, названия, варианты и ключевые слова есть в `manifest.json`, категории — в `categories.json`, палитра статусов — в `palette.json`. Просматривать и искать иконки удобно в [каталоге](https://github.com/nickjavos/linear-icons).
-
-`currentColor` наследует цвет при использовании SVG инлайном; в отдельном `<img>` применяется цвет самого SVG. Возможности импорта SVG и настройки внешнего вида зависят от сборщика проекта.
-
-## Происхождение
-
-SVG извлечены из публичных сборок Linear; сведения об источниках и ограничениях находятся в `variant-audit.json` и [описании каталога](https://github.com/nickjavos/linear-icons). Логотипы Linear и Linear AI исключены. Права на исходные значки этим пакетом не передаются; условия повторного использования не проверены.
+Права на сторонние значки этим пакетом не передаются; условия повторного использования не проверены.

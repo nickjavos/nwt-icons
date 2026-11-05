@@ -1,12 +1,6 @@
 {
   "checkedAt": "2026-11-05",
-  "sources": [
-    "https://static.linear.app/client/assets/startup-root.CM6CKvhA.js",
-    "https://static.linear.app/client/assets/startup-entry.BS9zF6nz.js",
-    "https://static.linear.app/client/assets/startup-root.BkecRgyB.js",
-    "https://static.linear.app/client/assets/startup-entry.hKw2OgQ-.js",
-    "https://static.linear.app/client/assets/material-icons-sprite.CLWopcTn.js"
-  ],
+  "sources": [],
   "counts": {
     "totalIcons": 2111,
     "originalIcons": 727,
@@ -3211,7 +3205,7 @@
     "No outline or filled counterpart was drawn or synthesized when absent from source.",
     "Parameterized source paint values are represented by currentColor for reusable monochrome variants.",
     "Unresolved context states include generic wrappers, animated components, progress widgets and views requiring application records; they are not advertised as standalone icons.",
-    "Large empty-state illustrations and all identified Linear/Linear AI logo forms were excluded.",
+    "Large empty-state illustrations and all identified original/original AI logo forms were excluded.",
     "Mixed symbols are assigned by predominant visual form."
   ],
   "repairs": [
