@@ -1,6 +1,6 @@
 {
   "name": "@nwt/icons",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "description": "SVG icons organized by category and visual style",
   "files": [
@@ -16,6 +16,13 @@
   },
   "peerDependenciesMeta": {
     "react": { "optional": true }
+  },
+  "exports": {
+    "./react": {
+      "types": "./react/index.d.ts",
+      "default": "./react/index.js"
+    },
+    "./*": "./*"
   },
   "repository": {
     "type": "git",
