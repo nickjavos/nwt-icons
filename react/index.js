@@ -23,10 +23,18 @@ const shapes = {
       ? h('rect', { x: 10.95, y: 1.5, width: 2.1, height: 3, transform, fill: 'currentColor', stroke: 'none' })
       : line('M12 1.5v3', { transform, strokeLinecap: 'butt' });
   }),
-  Todo: filled => [circle({ fill: filled ? 'currentColor' : 'none' })],
-  InProgress: filled => [circle({ fill: filled ? 'currentColor' : 'none' }), line('M12 7v10a5 5 0 0 0 0-10Z', { fill: filled ? 'var(--icon-cutout, #fff)' : 'currentColor', stroke: 'none' })],
-  InReview: filled => [circle({ fill: filled ? 'currentColor' : 'none' }), line('M12 7v5h4.5a4.5 4.5 0 0 1-9 0H12Z', { fill: filled ? 'var(--icon-cutout, #fff)' : 'currentColor', stroke: 'none' })],
-  Done: filled => [circle({ fill: filled ? 'currentColor' : 'none' }), line('m8.3 12 2.5 2.5 4.9-5', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {})],
+  Todo: filled => [circle({ r: 9.375, strokeWidth: filled ? 2.5 : undefined })],
+  InProgress: filled => [
+    circle({ r: 9.375, strokeWidth: filled ? 2.5 : undefined }),
+    line('M12 6a6 6 0 0 1 0 12Z', { fill: 'currentColor', stroke: 'none' }),
+  ],
+  InReview: filled => [
+    circle({ r: 9.375, strokeWidth: filled ? 2.5 : undefined }),
+    line('M12 6a6 6 0 1 1-6 6h6Z', { fill: 'currentColor', stroke: 'none' }),
+  ],
+  Done: filled => filled
+    ? [line('M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1m4.101 5.101a.85.85 0 1 0-1.202-1.202L6.5 9.298 5.101 7.899a.85.85 0 1 0-1.202 1.202l2 2a.85.85 0 0 0 1.202 0z', { transform: 'scale(1.5)', fill: 'currentColor', fillRule: 'evenodd', stroke: 'none' })]
+    : [circle({ r: 9.375 }), line('m7.65 12.75 2.1 2.1L17.25 7.35')],
   Canceled: filled => [circle({ fill: filled ? 'currentColor' : 'none' }), line('m9 9 6 6m0-6-6 6', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {})],
   Duplicate: filled => [circle({ fill: filled ? 'currentColor' : 'none' }), line('m8.3 13.7 5.4-5.4m-2.5 7.4 4.5-4.5', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {})],
 };

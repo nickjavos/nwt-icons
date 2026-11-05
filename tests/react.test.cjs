@@ -22,8 +22,8 @@ test('each component renders all four variants with accessible labels and dimens
 
 test('filled icons use separate transparent cutouts when rendered more than once', () => {
   const svg = renderToStaticMarkup(React.createElement(React.Fragment, null,
-    React.createElement(icons.DoneIcon, { variant: 'filled' }),
-    React.createElement(icons.DoneIcon, { variant: 'filled' })));
+    React.createElement(icons.CanceledIcon, { variant: 'filled' }),
+    React.createElement(icons.CanceledIcon, { variant: 'filled' })));
   const masks = [...svg.matchAll(/<mask id="([^"]+)"/g)].map(match => match[1]);
   assert.equal(masks.length, 2);
   assert.notEqual(masks[0], masks[1]);

@@ -5,7 +5,7 @@
 ## Установка
 
 ```sh
-npm install git+https://github.com/nickjavos/nwt-icons.git#v1.2.2
+npm install git+https://github.com/nickjavos/nwt-icons.git#v1.2.3
 ```
 
 Для установки нужен Git с доступом к приватному репозиторию. После входа в GitHub CLI можно настроить Git командой `gh auth setup-git`. Отдельная публикация в npm не требуется.
