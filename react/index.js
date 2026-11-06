@@ -6,11 +6,10 @@ const weights = { thin: 0.9, light: 1.2, regular: 1.6, filled: 1.6 };
 const circle = (props = {}) => h('circle', { cx: 12, cy: 12, r: 8, ...props });
 const line = (d, props = {}) => h('path', { d, ...props });
 
-function priorityChevrons(count, filled) {
-  const start = 12 - (count - 1) * 3;
-  return Array.from({ length: count }, (_, index) =>
-    line(`M6 ${start + index * 6 + 2.5} 12 ${start + index * 6 - 2.5} 18 ${start + index * 6 + 2.5}`,
-      { key: index, strokeWidth: filled ? 3 : undefined }));
+function priorityRing(count, filled) {
+  const points = Array.from({ length: count }, (_, index) =>
+    h('circle', { key: index, cx: 12 + (index - (count - 1) / 2) * 4.2, cy: 12, r: 1.15, fill: 'currentColor', stroke: 'none' }));
+  return [circle({ r: 9, strokeWidth: filled ? 2.8 : undefined }), ...points];
 }
 
 const shapes = {
@@ -77,9 +76,9 @@ const shapes = {
   PriorityNone: filled => [
     line('M2.75 12h3.5m4 0h3.5m4 0h3.5', { strokeWidth: filled ? 2.8 : undefined }),
   ],
-  PriorityLow: filled => priorityChevrons(1, filled),
-  PriorityMedium: filled => priorityChevrons(2, filled),
-  PriorityHigh: filled => priorityChevrons(3, filled),
+  PriorityLow: filled => priorityRing(1, filled),
+  PriorityMedium: filled => priorityRing(2, filled),
+  PriorityHigh: filled => priorityRing(3, filled),
 
   PriorityUrgent: filled => [
     h('rect', { x: 3, y: 3, width: 18, height: 18, rx: 3.5, fill: filled ? 'currentColor' : 'none' }),

@@ -30,3 +30,13 @@ test('filled icons use separate transparent cutouts when rendered more than once
   for (const id of masks) assert(svg.includes(`mask="url(#${id})"`));
   assert(!svg.includes('--icon-cutout'));
 });
+
+test('priority rings use the same outer circle and one, two or three dots', () => {
+  for (const [name, count] of [['PriorityLowIcon', 1], ['PriorityMediumIcon', 2], ['PriorityHighIcon', 3]]) {
+    for (const variant of ['thin', 'light', 'regular', 'filled']) {
+      const svg = renderToStaticMarkup(React.createElement(icons[name], { variant }));
+      assert.match(svg, /<circle cx="12" cy="12" r="9"/);
+      assert.equal((svg.match(/r="1\.15"/g) || []).length, count);
+    }
+  }
+});
