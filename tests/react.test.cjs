@@ -48,3 +48,15 @@ test('milestone variants progressively fill faces within one outline', () => {
     assert(svg.includes('stroke-width="1.6"'));
   });
 });
+
+test('link and attachment weights keep the same path and separate mask IDs', () => {
+  for (const name of ['LinkIcon', 'AttachmentIcon']) {
+    const outputs = ['thin', 'regular', 'filled'].map(variant =>
+      renderToStaticMarkup(React.createElement(icons[name], { variant })));
+    const paths = outputs.map(svg => svg.match(/<g[^>]*><path d="([^"]+)"/)[1]);
+    assert.equal(new Set(paths).size, 1);
+    assert.match(outputs[0], /stroke-width="0\.8"/);
+    assert.match(outputs[1], /stroke-width="0\.25"/);
+    assert.doesNotMatch(outputs[2], /<mask/);
+  }
+});

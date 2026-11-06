@@ -100,7 +100,7 @@ const shapes = {
     ],
   Clock: filled => [
     circle({ r: 9, fill: filled ? 'currentColor' : 'none' }),
-    line('M12 6v6h5', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+    line('M12 6.5V12h4.5', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
   ],
   Link: filled => [line('M9.306 10.206a.745.745 0 0 1 .066.977l-.066.076-2.458 2.458a3.228 3.228 0 0 1-4.691-4.431l.126-.133L4.74 6.694a.745.745 0 0 1 1.12.978l-.067.076-2.458 2.458a1.738 1.738 0 0 0 2.353 2.555l.105-.097 2.458-2.458a.745.745 0 0 1 1.054 0M9.83 6.17c.29.291.29.763 0 1.054l-2.48 2.48a.745.745 0 1 1-1.054-1.053l2.48-2.48a.745.745 0 0 1 1.054 0m3.887-3.887a3.23 3.23 0 0 1 .126 4.431l-.126.133-2.458 2.459a.745.745 0 0 1-1.12-.978l.067-.076 2.458-2.458a1.738 1.738 0 0 0-2.353-2.555l-.105.097-2.458 2.458a.745.745 0 0 1-1.12-.977l.066-.076 2.459-2.458a3.23 3.23 0 0 1 4.564 0', { transform: 'scale(1.5)', fill: 'currentColor', stroke: filled ? 'currentColor' : 'none', strokeWidth: filled ? 0.35 : undefined })],
   Attachment: filled => [line('m12.643 7.69-3.714 3.714c-1.447 1.448-3.586 1.606-4.762.43-1.18-1.18-1.023-3.312.425-4.76l3.41-3.41c.934-.933 2.296-1.033 3.031-.297.735.734.633 2.1-.297 3.03L7.324 9.81c-.422.421-1.002.464-1.3.166-.297-.297-.255-.879.175-1.308L9.29 5.576a.707.707 0 0 0-1-1L5.2 7.668c-.952.951-1.06 2.423-.175 3.308.886.886 2.356.777 3.3-.166l3.412-3.413c1.452-1.451 1.62-3.707.297-5.03s-3.575-1.158-5.03.298l-3.41 3.41c-1.97 1.97-2.193 4.991-.426 6.758 1.764 1.765 4.793 1.54 6.762-.429l3.714-3.714a.707.707 0 0 0-1-1', { transform: 'scale(1.5)', fill: 'currentColor', stroke: filled ? 'currentColor' : 'none', strokeWidth: filled ? 0.35 : undefined })],
@@ -127,6 +127,11 @@ function makeIcon(name) {
     const parts = shapes[name](filled, variant);
     const cutouts = parts.filter(part => part.props.fill === 'var(--icon-cutout, #fff)' || part.props.stroke === 'var(--icon-cutout, #fff)');
     const visible = parts.filter(part => !cutouts.includes(part));
+    const erosion = { thin: 0.8, light: 0.5, regular: 0.25 }[variant];
+    const eroded = (name === 'Link' || name === 'Attachment') && erosion;
+    const erosionMask = eroded && h('mask', { id: `${maskId}-weight`, maskUnits: 'userSpaceOnUse', x: 0, y: 0, width: 24, height: 24 },
+      h('rect', { width: 24, height: 24, fill: '#fff', stroke: 'none' }),
+      React.cloneElement(parts[0], { fill: 'none', stroke: '#000', strokeWidth: erosion }));
     const mask = cutouts.length > 0 && h('mask', { id: maskId, maskUnits: 'userSpaceOnUse', x: 0, y: 0, width: 24, height: 24 },
       h('rect', { width: 24, height: 24, fill: '#fff', stroke: 'none' }),
       ...cutouts.map((part, i) => React.cloneElement(part, {
@@ -139,8 +144,8 @@ function makeIcon(name) {
       fill: 'none', stroke: color, color, strokeWidth: weights[variant] || weights.regular,
       strokeLinecap: 'round', strokeLinejoin: 'round',
       ...(accessible ? { role: 'img' } : { 'aria-hidden': true }), ...props, ref,
-    }, title && h('title', null, title), mask && h('defs', null, mask),
-    h('g', cutouts.length ? { mask: `url(#${maskId})` } : null, ...visible.map((child, i) => React.cloneElement(child, { key: i }))));
+    }, title && h('title', null, title), (mask || erosionMask) && h('defs', null, mask, erosionMask),
+    h('g', mask ? { mask: `url(#${maskId})` } : eroded ? { mask: `url(#${maskId}-weight)` } : null, ...visible.map((child, i) => React.cloneElement(child, { key: i }))));
   });
   Component.displayName = `${name}Icon`;
   return Component;
