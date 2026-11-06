@@ -6,6 +6,13 @@ const weights = { thin: 0.9, light: 1.2, regular: 1.6, filled: 1.6 };
 const circle = (props = {}) => h('circle', { cx: 12, cy: 12, r: 8, ...props });
 const line = (d, props = {}) => h('path', { d, ...props });
 
+function priorityChevrons(count, filled) {
+  const start = 12 - (count - 1) * 3;
+  return Array.from({ length: count }, (_, index) =>
+    line(`M6 ${start + index * 6 + 2.5} 12 ${start + index * 6 - 2.5} 18 ${start + index * 6 + 2.5}`,
+      { key: index, strokeWidth: filled ? 3 : undefined }));
+}
+
 const shapes = {
   Calendar: filled => [
     h('rect', { x: 3.5, y: 5.5, width: 17, height: 15, rx: 3, fill: filled ? 'currentColor' : 'none' }),
@@ -45,43 +52,35 @@ const shapes = {
     line('M6 7.3v9.4M18 16.7V9c0-2-1-3-3-3h-3m2-2-2 2 2 2', { strokeWidth: filled ? 2.5 : undefined }),
   ],
   PullRequestMerged: filled => [
-    h('circle', { cx: 6, cy: 5, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
-    h('circle', { cx: 6, cy: 19, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
-    h('circle', { cx: 18, cy: 5, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
-    line('M6 7.3v9.4M18 7.3v2.2c0 3-2 4.5-5 4.5H6', { strokeWidth: filled ? 2.5 : undefined }),
+    h('circle', { cx: 5.25, cy: 5.25, r: 2.625, fill: 'currentColor', stroke: 'none' }),
+    h('circle', { cx: 18.75, cy: 18.75, r: 2.625, fill: 'currentColor', stroke: 'none' }),
+    line('M5.25 7.8v13.5M12 5.25h3a3.75 3.75 0 0 1 3.75 3.75v7.2', { strokeWidth: filled ? 2.8 : undefined }),
   ],
   Commit: filled => [
-    h('circle', { cx: 12, cy: 12, r: 4, fill: filled ? 'currentColor' : 'none' }),
-    line('M2 12h6m8 0h6', { strokeWidth: filled ? 2.6 : undefined }),
+    h('circle', { cx: 12, cy: 12, r: 3, fill: filled ? 'currentColor' : 'none' }),
+    line('M3 12h6m6 0h6', { strokeWidth: filled ? 2.5 : undefined }),
   ],
   Fork: filled => [
-    h('circle', { cx: 6, cy: 5, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
-    h('circle', { cx: 18, cy: 5, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
-    h('circle', { cx: 12, cy: 19, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
-    line('M6 7.3v2.2c0 2 1 3 3 3h6c2 0 3-1 3-3V7.3M12 12.5v4.2', { strokeWidth: filled ? 2.5 : undefined }),
+    ...[[5.25,5.25],[5.25,18.75],[18.75,18.75]].map(([cx,cy], index) =>
+      h('circle', { key: index, cx, cy, r: 2.4, fill: filled ? 'currentColor' : 'none' })),
+    line('M5.25 7.7v8.6M12 5.25h3a3.75 3.75 0 0 1 3.75 3.75v7.3', { strokeWidth: filled ? 2.5 : undefined }),
   ],
   Repository: filled => [
-    h('rect', { x: 4, y: 3, width: 16, height: 18, rx: 2.5, fill: filled ? 'currentColor' : 'none' }),
-    line('M8 3v18m0-4h12', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+    line('M6 3.5h12a2 2 0 0 1 2 2v15H7a3 3 0 0 1-3-3v-11a3 3 0 0 1 2-3Z', { fill: filled ? 'currentColor' : 'none' }),
+    line('M7 3.5v14h13M7 17.5a3 3 0 0 0-3 3', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
   ],
-  Code: filled => [line('m8.5 6-6 6 6 6M15.5 6l6 6-6 6M14 3l-4 18', { strokeWidth: filled ? 3 : undefined })],
+  Code: filled => [line('m8 8-3.2 4L8 16m8-8 3.2 4-3.2 4M13.5 5l-3 14', { strokeWidth: filled ? 2.7 : undefined })],
   CheckCircle: filled => [
     circle({ r: 9, fill: filled ? 'currentColor' : 'none' }),
     line('m7.7 12 2.8 2.8 5.8-6', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
   ],
-  PriorityNone: filled => [line('M5 12h1m5 0h1m5 0h1', { strokeWidth: filled ? 3 : undefined })],
-  PriorityLow: filled => [
-    line('M5 19v-4M10 19v-8M15 19V7M20 19V3', { opacity: .25, strokeWidth: filled ? 3 : undefined }),
-    line('M5 19v-4', { strokeWidth: filled ? 3 : undefined }),
+  PriorityNone: filled => [
+    line('M2.75 12h3.5m4 0h3.5m4 0h3.5', { strokeWidth: filled ? 2.8 : undefined }),
   ],
-  PriorityMedium: filled => [
-    line('M5 19v-4M10 19v-8M15 19V7M20 19V3', { opacity: .25, strokeWidth: filled ? 3 : undefined }),
-    line('M5 19v-4M10 19v-8', { strokeWidth: filled ? 3 : undefined }),
-  ],
-  PriorityHigh: filled => [
-    line('M5 19v-4M10 19v-8M15 19V7M20 19V3', { opacity: .25, strokeWidth: filled ? 3 : undefined }),
-    line('M5 19v-4M10 19v-8M15 19V7', { strokeWidth: filled ? 3 : undefined }),
-  ],
+  PriorityLow: filled => priorityChevrons(1, filled),
+  PriorityMedium: filled => priorityChevrons(2, filled),
+  PriorityHigh: filled => priorityChevrons(3, filled),
+
   PriorityUrgent: filled => [
     h('rect', { x: 3, y: 3, width: 18, height: 18, rx: 3.5, fill: filled ? 'currentColor' : 'none' }),
     line('M12 7v6m0 4h.01', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
@@ -102,13 +101,13 @@ const shapes = {
     circle({ r: 9, fill: filled ? 'currentColor' : 'none' }),
     line('M12 6.5v5.8l4 2.3', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
   ],
-  Link: filled => [line('m10 14 4-4M8.5 16.5l-1 1a4 4 0 0 1-5.7-5.7l3-3a4 4 0 0 1 5.7 0m5-1 1-1a4 4 0 1 1 5.7 5.7l-3 3a4 4 0 0 1-5.7 0', { strokeWidth: filled ? 3 : undefined })],
-  Attachment: filled => [line('m8 12 5.8-5.8a3.5 3.5 0 0 1 5 5l-7.7 7.7a5 5 0 0 1-7.1-7.1l8-8', { strokeWidth: filled ? 3 : undefined })],
+  Link: filled => [line('M10.3 13.7l3.4-3.4M9.5 17l-1.8 1.8a3.8 3.8 0 0 1-5.4-5.4l3.3-3.3a3.8 3.8 0 0 1 5.3-.1M14.5 7l1.8-1.8a3.8 3.8 0 0 1 5.4 5.4l-3.3 3.3a3.8 3.8 0 0 1-5.3.1', { strokeWidth: filled ? 2.8 : undefined })],
+  Attachment: filled => [line('m18.5 11-5.6 5.6c-2.2 2.2-5.4 2.4-7.1.7-1.8-1.8-1.5-5 .6-7.2l5.1-5.1c1.4-1.4 3.5-1.5 4.6-.4 1.1 1.1.9 3.1-.5 4.5l-5.1 5.1c-.6.6-1.5.7-2 .2-.4-.4-.3-1.3.3-1.9l4.6-4.6', { strokeWidth: filled ? 2.7 : undefined })],
   Label: filled => [
-    line('M3 5h9l9 7-9 7H3Z', { fill: filled ? 'currentColor' : 'none' }),
-    h('circle', { cx: 8, cy: 12, r: 1.2, fill: filled ? 'var(--icon-cutout, #fff)' : 'currentColor', stroke: 'none' }),
+    line('M7.7 4.5H18a4.5 4.5 0 0 1 4.5 4.5v6a4.5 4.5 0 0 1-4.5 4.5H7.7a3 3 0 0 1-2.3-1.1L1.8 14a3 3 0 0 1 0-4l3.6-4.4a3 3 0 0 1 2.3-1.1Z', { fill: filled ? 'currentColor' : 'none' }),
+    h('circle', { cx: 9.75, cy: 12, r: 1.5, fill: filled ? 'var(--icon-cutout, #fff)' : 'currentColor', stroke: 'none' }),
   ],
-  Milestone: filled => [line('M12 2.5 20 12l-8 9.5L4 12Z', { fill: filled ? 'currentColor' : 'none' })],
+  Milestone: filled => [line('M10.1 2.5a2.5 2.5 0 0 1 3.8 0l7.2 8.6a1.4 1.4 0 0 1 0 1.8l-7.2 8.6a2.5 2.5 0 0 1-3.8 0l-7.2-8.6a1.4 1.4 0 0 1 0-1.8Z', { strokeWidth: filled ? 2.8 : undefined })],
 
 };
 
