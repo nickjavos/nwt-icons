@@ -5,7 +5,7 @@ const { renderToStaticMarkup } = require('react-dom/server');
 const icons = require('../react');
 
 test('each component renders all four variants with accessible labels and dimensions', () => {
-  assert.equal(Object.keys(icons).length, 29);
+  assert.equal(Object.keys(icons).length, 69);
   for (const [name, Icon] of Object.entries(icons)) {
     const rendered = ['thin', 'light', 'regular', 'filled'].map(variant =>
       renderToStaticMarkup(React.createElement(Icon, { variant, size: 16, title: name })));
