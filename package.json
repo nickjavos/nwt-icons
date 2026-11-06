@@ -1,6 +1,6 @@
 {
   "name": "@nwt/icons",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "private": true,
   "description": "SVG icons organized by category and visual style",
   "files": [

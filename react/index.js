@@ -98,15 +98,22 @@ const shapes = {
   ],
   Clock: filled => [
     circle({ r: 9, fill: filled ? 'currentColor' : 'none' }),
-    line('M12 6.5v5.8l4 2.3', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+    line('M12 6v6h5', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
   ],
-  Link: filled => [line('M10.3 13.7l3.4-3.4M9.5 17l-1.8 1.8a3.8 3.8 0 0 1-5.4-5.4l3.3-3.3a3.8 3.8 0 0 1 5.3-.1M14.5 7l1.8-1.8a3.8 3.8 0 0 1 5.4 5.4l-3.3 3.3a3.8 3.8 0 0 1-5.3.1', { strokeWidth: filled ? 2.8 : undefined })],
-  Attachment: filled => [line('m18.5 11-5.6 5.6c-2.2 2.2-5.4 2.4-7.1.7-1.8-1.8-1.5-5 .6-7.2l5.1-5.1c1.4-1.4 3.5-1.5 4.6-.4 1.1 1.1.9 3.1-.5 4.5l-5.1 5.1c-.6.6-1.5.7-2 .2-.4-.4-.3-1.3.3-1.9l4.6-4.6', { strokeWidth: filled ? 2.7 : undefined })],
+  Link: filled => [line('M10 13.5 14 9.5M8 16.5l-1 1a3.5 3.5 0 0 1-5-5l3-3a3.5 3.5 0 0 1 5 0M16 7.5l1-1a3.5 3.5 0 0 1 5 5l-3 3a3.5 3.5 0 0 1-5 0', { transform: 'translate(1.2 1.2) scale(.9)', strokeWidth: filled ? 2.8 : undefined })],
+  Attachment: filled => [line('m18.5 11-5.6 5.6c-2.2 2.2-5.4 2.4-7.1.7-1.8-1.8-1.5-5 .6-7.2l5.1-5.1c1.4-1.4 3.5-1.5 4.6-.4 1.1 1.1.9 3.1-.5 4.5l-5.1 5.1c-.6.6-1.5.7-2 .2-.4-.4-.3-1.3.3-1.9l4.6-4.6', { transform: 'translate(2.4 2.4) scale(.8)', strokeWidth: filled ? 2.7 : undefined })],
   Label: filled => [
     line('M7.7 4.5H18a4.5 4.5 0 0 1 4.5 4.5v6a4.5 4.5 0 0 1-4.5 4.5H7.7a3 3 0 0 1-2.3-1.1L1.8 14a3 3 0 0 1 0-4l3.6-4.4a3 3 0 0 1 2.3-1.1Z', { fill: filled ? 'currentColor' : 'none' }),
     h('circle', { cx: 9.75, cy: 12, r: 1.5, fill: filled ? 'var(--icon-cutout, #fff)' : 'currentColor', stroke: 'none' }),
   ],
-  Milestone: filled => [line('M10.1 2.5a2.5 2.5 0 0 1 3.8 0l7.2 8.6a1.4 1.4 0 0 1 0 1.8l-7.2 8.6a2.5 2.5 0 0 1-3.8 0l-7.2-8.6a1.4 1.4 0 0 1 0-1.8Z', { strokeWidth: filled ? 2.8 : undefined })],
+  Milestone: (filled, variant) => {
+    const count = { thin: 0, light: 1, regular: 2, filled: 3 }[variant] ?? 2;
+    const faces = ['M12 12 12 4 18 12Z', 'M12 12 18 12 12 20Z', 'M12 12 12 20 6 12Z'];
+    return [
+      line('M10.1 2.5a2.5 2.5 0 0 1 3.8 0l7.2 8.6a1.4 1.4 0 0 1 0 1.8l-7.2 8.6a2.5 2.5 0 0 1-3.8 0l-7.2-8.6a1.4 1.4 0 0 1 0-1.8Z', { strokeWidth: 1.6 }),
+      ...faces.slice(0, count).map(d => line(d, { fill: 'currentColor', stroke: 'none' })),
+    ];
+  },
 
 };
 
@@ -115,7 +122,7 @@ function makeIcon(name) {
     const maskId = `nwt-icon-${React.useId()}`;
     const filled = variant === 'filled';
     const accessible = Boolean(title || props['aria-label'] || props['aria-labelledby']);
-    const parts = shapes[name](filled);
+    const parts = shapes[name](filled, variant);
     const cutouts = parts.filter(part => part.props.fill === 'var(--icon-cutout, #fff)' || part.props.stroke === 'var(--icon-cutout, #fff)');
     const visible = parts.filter(part => !cutouts.includes(part));
     const mask = cutouts.length > 0 && h('mask', { id: maskId, maskUnits: 'userSpaceOnUse', x: 0, y: 0, width: 24, height: 24 },
