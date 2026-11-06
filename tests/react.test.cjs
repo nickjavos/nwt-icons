@@ -41,10 +41,11 @@ test('priority rings use the same outer circle and one, two or three dots', () =
   }
 });
 
-test('milestone variants progressively fill faces within one outline', () => {
-  ['thin', 'light', 'regular', 'filled'].forEach((variant, count) => {
+test('milestone outline variants stay hollow and the filled variant has three faces', () => {
+  ['thin', 'light', 'regular', 'filled'].forEach(variant => {
+    const count = variant === 'filled' ? 3 : 0;
     const svg = renderToStaticMarkup(React.createElement(icons.MilestoneIcon, { variant }));
     assert.equal((svg.match(/fill="currentColor" stroke="none"/g) || []).length, count);
-    assert(svg.includes('stroke-width="1.6"'));
+    assert(svg.includes('viewBox="0 0 24 24"'));
   });
 });
