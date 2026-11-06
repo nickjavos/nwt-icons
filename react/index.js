@@ -92,10 +92,12 @@ const shapes = {
     h('rect', { x: 3, y: 5, width: 18, height: 16, rx: 3, fill: filled ? 'currentColor' : 'none' }),
     line('M7 3v4m10-4v4M3 9h18m-9 6 2 2 3.5-4', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
   ],
-  CalendarOverdue: filled => [
-    h('rect', { x: 3, y: 5, width: 18, height: 16, rx: 3, fill: filled ? 'currentColor' : 'none' }),
-    line('M7 3v4m10-4v4M3 9h18M9 12l5 5m0-5-5 5', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
-  ],
+  CalendarOverdue: filled => filled
+    ? [line('M15 5a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v6a4 4 0 0 0 4 4h1.25a.75.75 0 0 0 0-1.5H5A2.5 2.5 0 0 1 2.5 11V6h11v.25a.75.75 0 0 0 1.5 0zm-1.016 4.034a.75.75 0 0 1-.004 1.06l-1.42 1.41 1.41 1.42a.75.75 0 0 1-1.065 1.056l-1.409-1.42-1.42 1.41a.75.75 0 0 1-1.056-1.065l1.42-1.409-1.41-1.42a.75.75 0 1 1 1.065-1.056l1.409 1.42 1.42-1.41a.75.75 0 0 1 1.06.004', { transform: 'scale(1.5)', fill: 'currentColor', fillRule: 'evenodd', stroke: 'none' })]
+    : [
+      line('M21.4 9.4V7.5a4.9 4.9 0 0 0-4.9-4.9h-9a4.9 4.9 0 0 0-4.9 4.9v9a4.9 4.9 0 0 0 4.9 4.9h1.9M2.6 7.8h18.8'),
+      line('m14.5 14.5 6.1 6.1m0-6.1-6.1 6.1'),
+    ],
   Clock: filled => [
     circle({ r: 9, fill: filled ? 'currentColor' : 'none' }),
     line('M12 6v6h5', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
