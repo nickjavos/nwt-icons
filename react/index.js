@@ -37,6 +37,79 @@ const shapes = {
     : [circle({ r: 9.375 }), line('m7.65 12.75 2.1 2.1L17.25 7.35')],
   Canceled: filled => [circle({ fill: filled ? 'currentColor' : 'none' }), line('m9 9 6 6m0-6-6 6', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {})],
   Duplicate: filled => [circle({ fill: filled ? 'currentColor' : 'none' }), line('m8.3 13.7 5.4-5.4m-2.5 7.4 4.5-4.5', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {})],
+
+  PullRequest: filled => [
+    h('circle', { cx: 6, cy: 5, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
+    h('circle', { cx: 6, cy: 19, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
+    h('circle', { cx: 18, cy: 19, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
+    line('M6 7.3v9.4M18 16.7V9c0-2-1-3-3-3h-3m2-2-2 2 2 2', { strokeWidth: filled ? 2.5 : undefined }),
+  ],
+  PullRequestMerged: filled => [
+    h('circle', { cx: 6, cy: 5, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
+    h('circle', { cx: 6, cy: 19, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
+    h('circle', { cx: 18, cy: 5, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
+    line('M6 7.3v9.4M18 7.3v2.2c0 3-2 4.5-5 4.5H6', { strokeWidth: filled ? 2.5 : undefined }),
+  ],
+  Commit: filled => [
+    h('circle', { cx: 12, cy: 12, r: 4, fill: filled ? 'currentColor' : 'none' }),
+    line('M2 12h6m8 0h6', { strokeWidth: filled ? 2.6 : undefined }),
+  ],
+  Fork: filled => [
+    h('circle', { cx: 6, cy: 5, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
+    h('circle', { cx: 18, cy: 5, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
+    h('circle', { cx: 12, cy: 19, r: 2.3, fill: filled ? 'currentColor' : 'none' }),
+    line('M6 7.3v2.2c0 2 1 3 3 3h6c2 0 3-1 3-3V7.3M12 12.5v4.2', { strokeWidth: filled ? 2.5 : undefined }),
+  ],
+  Repository: filled => [
+    h('rect', { x: 4, y: 3, width: 16, height: 18, rx: 2.5, fill: filled ? 'currentColor' : 'none' }),
+    line('M8 3v18m0-4h12', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+  ],
+  Code: filled => [line('m8.5 6-6 6 6 6M15.5 6l6 6-6 6M14 3l-4 18', { strokeWidth: filled ? 3 : undefined })],
+  CheckCircle: filled => [
+    circle({ r: 9, fill: filled ? 'currentColor' : 'none' }),
+    line('m7.7 12 2.8 2.8 5.8-6', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+  ],
+  PriorityNone: filled => [line('M5 12h1m5 0h1m5 0h1', { strokeWidth: filled ? 3 : undefined })],
+  PriorityLow: filled => [
+    line('M5 19v-4M10 19v-8M15 19V7M20 19V3', { opacity: .25, strokeWidth: filled ? 3 : undefined }),
+    line('M5 19v-4', { strokeWidth: filled ? 3 : undefined }),
+  ],
+  PriorityMedium: filled => [
+    line('M5 19v-4M10 19v-8M15 19V7M20 19V3', { opacity: .25, strokeWidth: filled ? 3 : undefined }),
+    line('M5 19v-4M10 19v-8', { strokeWidth: filled ? 3 : undefined }),
+  ],
+  PriorityHigh: filled => [
+    line('M5 19v-4M10 19v-8M15 19V7M20 19V3', { opacity: .25, strokeWidth: filled ? 3 : undefined }),
+    line('M5 19v-4M10 19v-8M15 19V7', { strokeWidth: filled ? 3 : undefined }),
+  ],
+  PriorityUrgent: filled => [
+    h('rect', { x: 3, y: 3, width: 18, height: 18, rx: 3.5, fill: filled ? 'currentColor' : 'none' }),
+    line('M12 7v6m0 4h.01', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+  ],
+  CalendarAdd: filled => [
+    h('rect', { x: 3, y: 5, width: 18, height: 16, rx: 3, fill: filled ? 'currentColor' : 'none' }),
+    line('M7 3v4m10-4v4M3 9h18M12 12v6m-3-3h6', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+  ],
+  CalendarDone: filled => [
+    h('rect', { x: 3, y: 5, width: 18, height: 16, rx: 3, fill: filled ? 'currentColor' : 'none' }),
+    line('M7 3v4m10-4v4M3 9h18m-9 6 2 2 3.5-4', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+  ],
+  CalendarOverdue: filled => [
+    h('rect', { x: 3, y: 5, width: 18, height: 16, rx: 3, fill: filled ? 'currentColor' : 'none' }),
+    line('M7 3v4m10-4v4M3 9h18M9 12l5 5m0-5-5 5', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+  ],
+  Clock: filled => [
+    circle({ r: 9, fill: filled ? 'currentColor' : 'none' }),
+    line('M12 6.5v5.8l4 2.3', filled ? { stroke: 'var(--icon-cutout, #fff)' } : {}),
+  ],
+  Link: filled => [line('m10 14 4-4M8.5 16.5l-1 1a4 4 0 0 1-5.7-5.7l3-3a4 4 0 0 1 5.7 0m5-1 1-1a4 4 0 1 1 5.7 5.7l-3 3a4 4 0 0 1-5.7 0', { strokeWidth: filled ? 3 : undefined })],
+  Attachment: filled => [line('m8 12 5.8-5.8a3.5 3.5 0 0 1 5 5l-7.7 7.7a5 5 0 0 1-7.1-7.1l8-8', { strokeWidth: filled ? 3 : undefined })],
+  Label: filled => [
+    line('M3 5h9l9 7-9 7H3Z', { fill: filled ? 'currentColor' : 'none' }),
+    h('circle', { cx: 8, cy: 12, r: 1.2, fill: filled ? 'var(--icon-cutout, #fff)' : 'currentColor', stroke: 'none' }),
+  ],
+  Milestone: filled => [line('M12 2.5 20 12l-8 9.5L4 12Z', { fill: filled ? 'currentColor' : 'none' })],
+
 };
 
 function makeIcon(name) {
@@ -47,7 +120,7 @@ function makeIcon(name) {
     const parts = shapes[name](filled);
     const cutouts = parts.filter(part => part.props.fill === 'var(--icon-cutout, #fff)' || part.props.stroke === 'var(--icon-cutout, #fff)');
     const visible = parts.filter(part => !cutouts.includes(part));
-    const mask = cutouts.length && h('mask', { id: maskId, maskUnits: 'userSpaceOnUse', x: 0, y: 0, width: 24, height: 24 },
+    const mask = cutouts.length > 0 && h('mask', { id: maskId, maskUnits: 'userSpaceOnUse', x: 0, y: 0, width: 24, height: 24 },
       h('rect', { width: 24, height: 24, fill: '#fff', stroke: 'none' }),
       ...cutouts.map((part, i) => React.cloneElement(part, {
         key: i,
@@ -75,3 +148,24 @@ exports.InReviewIcon = makeIcon('InReview');
 exports.DoneIcon = makeIcon('Done');
 exports.CanceledIcon = makeIcon('Canceled');
 exports.DuplicateIcon = makeIcon('Duplicate');
+
+exports.PullRequestIcon = makeIcon('PullRequest');
+exports.PullRequestMergedIcon = makeIcon('PullRequestMerged');
+exports.CommitIcon = makeIcon('Commit');
+exports.ForkIcon = makeIcon('Fork');
+exports.RepositoryIcon = makeIcon('Repository');
+exports.CodeIcon = makeIcon('Code');
+exports.CheckCircleIcon = makeIcon('CheckCircle');
+exports.PriorityNoneIcon = makeIcon('PriorityNone');
+exports.PriorityLowIcon = makeIcon('PriorityLow');
+exports.PriorityMediumIcon = makeIcon('PriorityMedium');
+exports.PriorityHighIcon = makeIcon('PriorityHigh');
+exports.PriorityUrgentIcon = makeIcon('PriorityUrgent');
+exports.CalendarAddIcon = makeIcon('CalendarAdd');
+exports.CalendarDoneIcon = makeIcon('CalendarDone');
+exports.CalendarOverdueIcon = makeIcon('CalendarOverdue');
+exports.ClockIcon = makeIcon('Clock');
+exports.LinkIcon = makeIcon('Link');
+exports.AttachmentIcon = makeIcon('Attachment');
+exports.LabelIcon = makeIcon('Label');
+exports.MilestoneIcon = makeIcon('Milestone');
